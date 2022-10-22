@@ -1920,11 +1920,13 @@ __attribute__((swift_name("KottageListOptions.Builder")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KottageListPage")))
 @interface KottageKottageListPage : KottageBase
-- (instancetype)initWithItems:(NSArray<KottageKottageListEntry *> *)items previousPositionId:(NSString * _Nullable)previousPositionId nextPositionId:(NSString * _Nullable)nextPositionId __attribute__((swift_name("init(items:previousPositionId:nextPositionId:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithItems:(NSArray<KottageKottageListEntry *> *)items previousPositionId:(NSString * _Nullable)previousPositionId nextPositionId:(NSString * _Nullable)nextPositionId hasPrevious:(BOOL)hasPrevious hasNext:(BOOL)hasNext __attribute__((swift_name("init(items:previousPositionId:nextPositionId:hasPrevious:hasNext:)"))) __attribute__((objc_designated_initializer));
 - (NSArray<KottageKottageListEntry *> *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KottageKottageListPage *)doCopyItems:(NSArray<KottageKottageListEntry *> *)items previousPositionId:(NSString * _Nullable)previousPositionId nextPositionId:(NSString * _Nullable)nextPositionId __attribute__((swift_name("doCopy(items:previousPositionId:nextPositionId:)")));
+- (BOOL)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KottageKottageListPage *)doCopyItems:(NSArray<KottageKottageListEntry *> *)items previousPositionId:(NSString * _Nullable)previousPositionId nextPositionId:(NSString * _Nullable)nextPositionId hasPrevious:(BOOL)hasPrevious hasNext:(BOOL)hasNext __attribute__((swift_name("doCopy(items:previousPositionId:nextPositionId:hasPrevious:hasNext:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
