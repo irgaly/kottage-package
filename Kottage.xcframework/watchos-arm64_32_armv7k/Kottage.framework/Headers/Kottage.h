@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class KottageKotlinCancellationException, KottageKotlinThrowable, KottageJobSupport, KottageCoroutineStart, KottageCoroutineDispatcher, KottageKotlinAbstractCoroutineContextElement, KottageCoroutineDispatcherKey, KottageKotlinArray<T>, KottageKotlinException, KottageKotlinRuntimeException, KottageKotlinAbstractCoroutineContextKey<B, E>, KottageCoroutineExceptionHandlerKey, KottageCoroutineNameKey, KottageCoroutineName, KottageKotlinEnumCompanion, KottageKotlinEnum<E>, KottageDispatchers, KottageMainCoroutineDispatcher, KottageGlobalScope, KottageJobKey, KottageNonCancellable, KottageNonDisposableHandle, KottageKotlinIllegalStateException, KottageTimeoutCancellationException, KottageBufferOverflow, KottageChannelFactory, KottageKotlinNoSuchElementException, KottageSharingCommand, KottageSharingStartedCompanion, KottageChannelFlow<T>, KottageAtomicDesc, KottageLockFreeLinkedListNodePrepareOp, KottageAtomicOp<__contravariant T>, KottageOpDescriptor, KottageLockFreeLinkedListNode, KottageLockFreeLinkedListNodeAddLastDesc<T>, KottageLockFreeLinkedListNodeRemoveFirstDesc<T>, KottageLockFreeLinkedListNodeAbstractAtomicDesc, KottageAtomicfuSynchronizedObjectLockState, KottageKotlinAtomicReference<T>, KottageAtomicfuSynchronizedObject, KottageThreadSafeHeap<T>, KottageDecodeSequenceMode, KottageKotlinx_serialization_coreSerializersModule, KottageJsonDefault, KottageJsonElement, KottageJsonConfiguration, KottageJson, KottageKotlinNothing, KottageJsonElementCompanion, KottageJsonPrimitiveCompanion, KottageJsonPrimitive, KottageJsonNull, KottageKottageEnvironment, KottageKottageOptionsBuilder, KottageKottageCompanion, KottageKottageStorageOptionsBuilder, KottageKottageEventFlow, KottageKottageOptions, KottageKottageDatabaseFiles, KottageKottageEntry<T>, KottageKottageContext, KottageKottageEventType, KottageKottageEventCompanion, KottageKottageEvent, KottageKottageEventTypeCompanion, KottageKottageListMetaData, KottageKottageListEntry, KottageKottageListValue<T>, KottageKottageListDirection, KottageKottageListPage, KottageKottageListOptions, KottageKottageListEntryCompanion, KottageKottageListOptionsBuilder, KottageKottageStorageOptions, KottageCoreContext, KottageKotlinByteArray, KottageItemListStats, KottageItemStats, KottageKotlinIntIterator, KottageKotlinIntArray, KottageKotlinLongIterator, KottageKotlinLongArray, KottageKotlinIntProgressionCompanion, KottageKotlinIntProgression, KottageKotlinIntRangeCompanion, KottageKotlinIntRange, KottageKotlinLongProgressionCompanion, KottageKotlinLongProgression, KottageKotlinLongRangeCompanion, KottageKotlinLongRange, KottageJsonArrayBuilder, KottageJsonObjectBuilder, KottageCloseableCoroutineDispatcher, KottageJsonBuilder, KottageAtomicfuSynchronizedObjectStatus, KottageKotlinx_serialization_coreSerialKind, KottageKotlinIllegalArgumentException, KottageKotlinKTypeProjection, KottageKotlinByteIterator, KottageKotlinKVariance, KottageKotlinKTypeProjectionCompanion;
+@class KottageKotlinCancellationException, KottageKotlinThrowable, KottageJobSupport, KottageCoroutineStart, KottageCoroutineDispatcher, KottageKotlinAbstractCoroutineContextElement, KottageCoroutineDispatcherKey, KottageKotlinArray<T>, KottageKotlinException, KottageKotlinRuntimeException, KottageKotlinAbstractCoroutineContextKey<B, E>, KottageCoroutineExceptionHandlerKey, KottageCoroutineNameKey, KottageCoroutineName, KottageKotlinEnumCompanion, KottageKotlinEnum<E>, KottageDispatchers, KottageMainCoroutineDispatcher, KottageGlobalScope, KottageJobKey, KottageNonCancellable, KottageNonDisposableHandle, KottageKotlinIllegalStateException, KottageTimeoutCancellationException, KottageBufferOverflow, KottageChannelFactory, KottageKotlinNoSuchElementException, KottageSharingCommand, KottageSharingStartedCompanion, KottageChannelFlow<T>, KottageAtomicDesc, KottageLockFreeLinkedListNodePrepareOp, KottageAtomicOp<__contravariant T>, KottageOpDescriptor, KottageLockFreeLinkedListNode, KottageLockFreeLinkedListNodeAddLastDesc<T>, KottageLockFreeLinkedListNodeRemoveFirstDesc<T>, KottageLockFreeLinkedListNodeAbstractAtomicDesc, KottageAtomicfuSynchronizedObjectLockState, KottageKotlinAtomicReference<T>, KottageAtomicfuSynchronizedObject, KottageThreadSafeHeap<T>, KottageDecodeSequenceMode, KottageKotlinx_serialization_coreSerializersModule, KottageJsonDefault, KottageJsonElement, KottageJsonConfiguration, KottageJson, KottageKotlinNothing, KottageJsonElementCompanion, KottageJsonPrimitiveCompanion, KottageJsonPrimitive, KottageJsonNull, KottageKottageEnvironment, KottageKottageOptionsBuilder, KottageKottageCompanion, KottageKottageStorageOptionsBuilder, KottageKottageEventFlow, KottageKottageOptions, KottageKottageDatabaseFiles, KottageKottageEntry<T>, KottageKottageContext, KottageKottageEventType, KottageKottageEventCompanion, KottageKottageEvent, KottageKottageEventTypeCompanion, KottageKottageListMetaData, KottageKottageListEntry, KottageKottageListValue<T>, KottageKottageListDirection, KottageKottageListPage, KottageKottageListOptions, KottageKottageListEntryCompanion, KottageKottageListOptionsBuilder, KottageKottageStorageOptions, KottageCoreContext, KottageKotlinByteArray, KottageKotlinIntIterator, KottageKotlinIntArray, KottageKotlinLongIterator, KottageKotlinLongArray, KottageKotlinIntProgressionCompanion, KottageKotlinIntProgression, KottageKotlinIntRangeCompanion, KottageKotlinIntRange, KottageKotlinLongProgressionCompanion, KottageKotlinLongProgression, KottageKotlinLongRangeCompanion, KottageKotlinLongRange, KottageJsonArrayBuilder, KottageJsonObjectBuilder, KottageCloseableCoroutineDispatcher, KottageJsonBuilder, KottageAtomicfuSynchronizedObjectStatus, KottageKotlinx_serialization_coreSerialKind, KottageKotlinIllegalArgumentException, KottageKotlinKTypeProjection, KottageKotlinByteIterator, KottageKotlinKVariance, KottageKotlinKTypeProjectionCompanion;
 
 @protocol KottageChildHandle, KottageChildJob, KottageDisposableHandle, KottageJob, KottageKotlinSequence, KottageSelectClause0, KottageKotlinCoroutineContextKey, KottageKotlinCoroutineContextElement, KottageKotlinCoroutineContext, KottageParentJob, KottageSelectInstance, KottageKotlinSuspendFunction0, KottageKotlinContinuation, KottageCoroutineScope, KottageKotlinSuspendFunction1, KottageKotlinContinuationInterceptor, KottageRunnable, KottageSelectClause1, KottageDeferred, KottageKotlinComparable, KottageCancellableContinuation, KottageCopyableThrowable, KottageReceiveChannel, KottageSelectClause2, KottageSendChannel, KottageChannelIterator, KottageBroadcastChannel, KottageFlowCollector, KottageFlow, KottageStateFlow, KottageSharedFlow, KottageMutableSharedFlow, KottageSharingStarted, KottageFusibleFlow, KottageProducerScope, KottageMainDispatcherFactory, KottageKotlinx_serialization_coreDeserializationStrategy, KottageKotlinx_serialization_coreSerializationStrategy, KottageKotlinx_serialization_coreSerialFormat, KottageKotlinx_serialization_coreStringFormat, KottageKotlinx_serialization_coreEncoder, KottageKotlinx_serialization_coreSerialDescriptor, KottageKotlinx_serialization_coreDecoder, KottageKotlinx_serialization_coreKSerializer, KottageKotlinKClass, KottageKotlinx_serialization_coreCompositeDecoder, KottageKotlinx_serialization_coreCompositeEncoder, KottageKottageStorage, KottageKotlinKType, KottageKottageCalendar, KottageKottageList, KottageKotlinReadOnlyProperty, KottageKottageStrategy, KottageKottageEncoder, KottageKottageStrategyOperator, KottageKotlinIterator, KottageKotlinIterable, KottageKotlinClosedRange, KottageCompletableJob, KottageCompletableDeferred, KottageCoroutineExceptionHandler, KottageChannel, KottageKotlinSuspendFunction2, KottageKotlinSuspendFunction3, KottageMutableStateFlow, KottageKotlinSuspendFunction5, KottageKotlinSuspendFunction4, KottageKotlinSuspendFunction6, KottageSelectBuilder, KottageMutex, KottageSemaphore, KottageKotlinFunction, KottageKotlinx_serialization_coreSerializersModuleCollector, KottageKotlinAnnotation, KottageKotlinKDeclarationContainer, KottageKotlinKAnnotatedElement, KottageKotlinKClassifier, KottageKotlinKProperty, KottageKotlinKCallable;
 
@@ -2166,16 +2166,36 @@ __attribute__((swift_name("KottageStore")))
 __attribute__((swift_name("KottageStrategy")))
 @protocol KottageKottageStrategy
 @required
-- (void)onItemReadKey:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ __attribute__((swift_name("onItemRead(key:itemType:now:operator:)")));
-- (void)onPostItemCreateKey:(NSString *)key itemType:(NSString *)itemType itemCount:(int64_t)itemCount now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ __attribute__((swift_name("onPostItemCreate(key:itemType:itemCount:now:operator:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onItemReadTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onItemRead(transaction:key:itemType:now:operator:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onPostItemCreateTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType itemCount:(int64_t)itemCount now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onPostItemCreate(transaction:key:itemType:itemCount:now:operator:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KottageFifoStrategy")))
 @interface KottageKottageFifoStrategy : KottageBase <KottageKottageStrategy>
 - (instancetype)initWithMaxEntryCount:(int64_t)maxEntryCount reduceCount:(KottageLong * _Nullable)reduceCount __attribute__((swift_name("init(maxEntryCount:reduceCount:)"))) __attribute__((objc_designated_initializer));
-- (void)onItemReadKey:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ __attribute__((swift_name("onItemRead(key:itemType:now:operator:)")));
-- (void)onPostItemCreateKey:(NSString *)key itemType:(NSString *)itemType itemCount:(int64_t)itemCount now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ __attribute__((swift_name("onPostItemCreate(key:itemType:itemCount:now:operator:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onItemReadTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onItemRead(transaction:key:itemType:now:operator:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onPostItemCreateTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType itemCount:(int64_t)itemCount now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onPostItemCreate(transaction:key:itemType:itemCount:now:operator:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -2183,25 +2203,65 @@ __attribute__((swift_name("KottageKvsStrategy")))
 @interface KottageKottageKvsStrategy : KottageBase <KottageKottageStrategy>
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)onItemReadKey:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ __attribute__((swift_name("onItemRead(key:itemType:now:operator:)")));
-- (void)onPostItemCreateKey:(NSString *)key itemType:(NSString *)itemType itemCount:(int64_t)itemCount now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ __attribute__((swift_name("onPostItemCreate(key:itemType:itemCount:now:operator:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onItemReadTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onItemRead(transaction:key:itemType:now:operator:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onPostItemCreateTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType itemCount:(int64_t)itemCount now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onPostItemCreate(transaction:key:itemType:itemCount:now:operator:completionHandler:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KottageLruStrategy")))
 @interface KottageKottageLruStrategy : KottageBase <KottageKottageStrategy>
 - (instancetype)initWithMaxEntryCount:(int64_t)maxEntryCount reduceCount:(KottageLong * _Nullable)reduceCount __attribute__((swift_name("init(maxEntryCount:reduceCount:)"))) __attribute__((objc_designated_initializer));
-- (void)onItemReadKey:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ __attribute__((swift_name("onItemRead(key:itemType:now:operator:)")));
-- (void)onPostItemCreateKey:(NSString *)key itemType:(NSString *)itemType itemCount:(int64_t)itemCount now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ __attribute__((swift_name("onPostItemCreate(key:itemType:itemCount:now:operator:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onItemReadTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onItemRead(transaction:key:itemType:now:operator:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)onPostItemCreateTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType itemCount:(int64_t)itemCount now:(int64_t)now operator:(id<KottageKottageStrategyOperator>)operator_ completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("onPostItemCreate(transaction:key:itemType:itemCount:now:operator:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("KottageStrategyOperator")))
 @protocol KottageKottageStrategyOperator
 @required
-- (int64_t)deleteExpiredItemsItemType:(NSString *)itemType now:(int64_t)now __attribute__((swift_name("deleteExpiredItems(itemType:now:)")));
-- (void)deleteLeastRecentlyUsedItemType:(NSString *)itemType limit:(int64_t)limit __attribute__((swift_name("deleteLeastRecentlyUsed(itemType:limit:)")));
-- (void)deleteOlderItemsItemType:(NSString *)itemType limit:(int64_t)limit __attribute__((swift_name("deleteOlderItems(itemType:limit:)")));
-- (void)updateItemLastReadKey:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now __attribute__((swift_name("updateItemLastRead(key:itemType:now:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)deleteExpiredItemsTransaction:(id)transaction itemType:(NSString *)itemType now:(int64_t)now completionHandler:(void (^)(KottageLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("deleteExpiredItems(transaction:itemType:now:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)deleteLeastRecentlyUsedTransaction:(id)transaction itemType:(NSString *)itemType limit:(int64_t)limit completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("deleteLeastRecentlyUsed(transaction:itemType:limit:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)deleteOlderItemsTransaction:(id)transaction itemType:(NSString *)itemType limit:(int64_t)limit completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("deleteOlderItems(transaction:itemType:limit:completionHandler:)")));
+
+/**
+ @note This method converts instances of CancellationException to errors.
+ Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)updateItemLastReadTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("updateItemLastRead(transaction:key:itemType:now:completionHandler:)")));
 @end;
 
 __attribute__((swift_name("KottageEncoder")))
@@ -2215,40 +2275,6 @@ __attribute__((swift_name("KottageEncoder")))
 - (KottageKotlinByteArray *)encodeValue_:(double)value __attribute__((swift_name("encode(value_:)")));
 - (KottageKotlinByteArray *)encodeValue__:(int64_t)value __attribute__((swift_name("encode(value__:)")));
 - (KottageKotlinByteArray *)encodeValue___:(NSString *)value __attribute__((swift_name("encode(value___:)")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ItemListStats")))
-@interface KottageItemListStats : KottageBase
-- (instancetype)initWithListType:(NSString *)listType count:(int64_t)count firstItemPositionId:(NSString *)firstItemPositionId lastItemPositionId:(NSString *)lastItemPositionId __attribute__((swift_name("init(listType:count:firstItemPositionId:lastItemPositionId:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int64_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KottageItemListStats *)doCopyListType:(NSString *)listType count:(int64_t)count firstItemPositionId:(NSString *)firstItemPositionId lastItemPositionId:(NSString *)lastItemPositionId __attribute__((swift_name("doCopy(listType:count:firstItemPositionId:lastItemPositionId:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int64_t count __attribute__((swift_name("count")));
-@property (readonly) NSString *firstItemPositionId __attribute__((swift_name("firstItemPositionId")));
-@property (readonly) NSString *lastItemPositionId __attribute__((swift_name("lastItemPositionId")));
-@property (readonly) NSString *listType __attribute__((swift_name("listType")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ItemStats")))
-@interface KottageItemStats : KottageBase
-- (instancetype)initWithItemType:(NSString *)itemType count:(int64_t)count eventCount:(int64_t)eventCount __attribute__((swift_name("init(itemType:count:eventCount:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int64_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int64_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KottageItemStats *)doCopyItemType:(NSString *)itemType count:(int64_t)count eventCount:(int64_t)eventCount __attribute__((swift_name("doCopy(itemType:count:eventCount:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int64_t count __attribute__((swift_name("count")));
-@property (readonly) int64_t eventCount __attribute__((swift_name("eventCount")));
-@property (readonly) NSString *itemType __attribute__((swift_name("itemType")));
 @end;
 
 @interface KottageCoroutineDispatcher (Extensions)
