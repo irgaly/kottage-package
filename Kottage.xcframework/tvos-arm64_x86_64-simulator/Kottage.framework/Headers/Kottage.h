@@ -1556,14 +1556,14 @@ __attribute__((swift_name("KottageEntry")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KottageEnvironment")))
 @interface KottageKottageEnvironment : KottageBase
-- (instancetype)initWithContext:(KottageKottageContext *)context calendar:(id<KottageKottageCalendar>)calendar __attribute__((swift_name("init(context:calendar:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithContext:(KottageKottageContext *)context calendar:(id<KottageKottageCalendar> _Nullable)calendar __attribute__((swift_name("init(context:calendar:)"))) __attribute__((objc_designated_initializer));
 - (KottageKottageContext *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (id<KottageKottageCalendar>)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (KottageKottageEnvironment *)doCopyContext:(KottageKottageContext *)context calendar:(id<KottageKottageCalendar>)calendar __attribute__((swift_name("doCopy(context:calendar:)")));
+- (id<KottageKottageCalendar> _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (KottageKottageEnvironment *)doCopyContext:(KottageKottageContext *)context calendar:(id<KottageKottageCalendar> _Nullable)calendar __attribute__((swift_name("doCopy(context:calendar:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<KottageKottageCalendar> calendar __attribute__((swift_name("calendar")));
+@property (readonly) id<KottageKottageCalendar> _Nullable calendar __attribute__((swift_name("calendar")));
 @property (readonly) KottageKottageContext *context __attribute__((swift_name("context")));
 @end;
 
@@ -2132,6 +2132,14 @@ __attribute__((swift_name("KottageContext")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KottageSystemCalendar")))
+@interface KottageKottageSystemCalendar : KottageBase <KottageKottageCalendar>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (int64_t)nowUnixTimeMillis __attribute__((swift_name("nowUnixTimeMillis()")));
 @end;
 
 __attribute__((swift_name("KottageStore")))
