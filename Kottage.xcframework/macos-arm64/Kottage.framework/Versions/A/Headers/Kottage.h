@@ -2151,11 +2151,14 @@ __attribute__((swift_name("KottageCalendar")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KottageContext")))
 @interface KottageKottageContext : KottageBase
-- (instancetype)initWithContext:(KottageCoreContext *)context __attribute__((swift_name("init(context:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (KottageCoreContext *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (KottageKottageContext *)doCopyContext:(KottageCoreContext *)context __attribute__((swift_name("doCopy(context:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KottageCoreContext *context __attribute__((swift_name("context")));
 @end;
 
 __attribute__((swift_name("KottageLogger")))
