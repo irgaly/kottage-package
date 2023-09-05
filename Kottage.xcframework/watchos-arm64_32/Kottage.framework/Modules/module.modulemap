@@ -1,0 +1,8 @@
+framework module Kottage {
+    umbrella header "Kottage.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
