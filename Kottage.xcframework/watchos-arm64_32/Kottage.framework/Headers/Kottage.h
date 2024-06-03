@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class KottageKotlinCancellationException, KottageKotlinThrowable, KottageJobSupport, KottageCoroutineStart, KottageCoroutineDispatcher, KottageKotlinAbstractCoroutineContextElement, KottageCoroutineDispatcherKey, KottageKotlinArray<T>, KottageKotlinException, KottageKotlinRuntimeException, KottageKotlinAbstractCoroutineContextKey<B, E>, KottageCoroutineExceptionHandlerKey, KottageCoroutineNameKey, KottageCoroutineName, KottageKotlinEnumCompanion, KottageKotlinEnum<E>, KottageDispatchers, KottageMainCoroutineDispatcher, KottageGlobalScope, KottageJobKey, KottageNonCancellable, KottageNonDisposableHandle, KottageKotlinIllegalStateException, KottageTimeoutCancellationException, KottageBufferOverflow, KottageChannelFactory, KottageKotlinNoSuchElementException, KottageSharingCommand, KottageSharingStartedCompanion, KottageChannelFlow<T>, KottageKotlinUnit, KottageAtomicOp<__contravariant T>, KottageOpDescriptor, KottageLockFreeLinkedListNode, KottageAtomicfuSynchronizedObjectLockState, KottageKotlinAtomicReference<T>, KottageAtomicfuSynchronizedObject, KottageThreadSafeHeap<T>, KottageDecodeSequenceMode, KottageKotlinx_serialization_coreSerializersModule, KottageJsonDefault, KottageJsonElement, KottageJsonConfiguration, KottageJson, KottageKotlinNothing, KottageJsonElementCompanion, KottageJsonNamingStrategyBuiltins, KottageJsonPrimitiveCompanion, KottageJsonPrimitive, KottageJsonNull, KottageKottageEnvironment, KottageKottageOptionsBuilder, KottageKottageCompanion, KottageKottageStorageOptionsBuilder, KottageKottageEventFlow, KottageKottageOptions, KottageKottageDatabaseFiles, KottageKottageEntry<T>, KottageKottageContext, KottageKottageEventType, KottageKottageEventCompanion, KottageKottageEvent, KottageKottageEventTypeCompanion, KottageKottageListMetaData, KottageKottageListEntry, KottageKottageListValue<T>, KottageKottageListDirection, KottageKottageListPage, KottageKottageListOptions, KottageKottageListEntryCompanion, KottageKottageListOptionsBuilder, KottageKottageStorageOptions, KottageCoreContext, KottageKotlinByteArray, KottageKotlinIntIterator, KottageKotlinIntArray, KottageKotlinLongIterator, KottageKotlinLongArray, KottageKotlinIntProgressionCompanion, KottageKotlinIntProgression, KottageKotlinIntRangeCompanion, KottageKotlinIntRange, KottageKotlinLongProgressionCompanion, KottageKotlinLongProgression, KottageKotlinLongRangeCompanion, KottageKotlinLongRange, KottageJsonArrayBuilder, KottageJsonObjectBuilder, KottageCloseableCoroutineDispatcher, KottageJsonBuilder, KottageAtomicfuSynchronizedObjectStatus, KottageKotlinx_serialization_coreSerialKind, KottageKotlinIllegalArgumentException, KottageKotlinKTypeProjection, KottageKotlinByteIterator, KottageKotlinKVariance, KottageKotlinKTypeProjectionCompanion;
+@class KottageKottageEnvironment, KottageJson, KottageCoroutineDispatcher, KottageKottageOptionsBuilder, KottageKottageCompanion, KottageKottageStorageOptionsBuilder, KottageKottageEventFlow, KottageKottageOptions, KottageKottageDatabaseFiles, KottageKottageEntry<T>, KottageKottageContext, KottageKottageEventType, KottageKottageEventCompanion, KottageKottageEvent, KottageKotlinEnumCompanion, KottageKotlinEnum<E>, KottageKottageEventTypeCompanion, KottageKotlinArray<T>, KottageKottageListMetaData, KottageKottageListEntry, KottageKottageListValue<T>, KottageKottageListDirection, KottageKottageListPage, KottageKottageListOptions, KottageKottageListEntryCompanion, KottageKottageListOptionsBuilder, KottageKottageStorageOptions, KottageKotlinByteArray, KottageCoreContext, KottageKotlinCancellationException, KottageKotlinThrowable, KottageJobSupport, KottageCoroutineStart, KottageKotlinAbstractCoroutineContextElement, KottageCoroutineDispatcherKey, KottageKotlinException, KottageKotlinRuntimeException, KottageKotlinAbstractCoroutineContextKey<B, E>, KottageCoroutineExceptionHandlerKey, KottageCoroutineNameKey, KottageCoroutineName, KottageDispatchers, KottageMainCoroutineDispatcher, KottageGlobalScope, KottageJobKey, KottageNonCancellable, KottageNonDisposableHandle, KottageKotlinIllegalStateException, KottageTimeoutCancellationException, KottageBufferOverflow, KottageChannelFactory, KottageKotlinNoSuchElementException, KottageSharingCommand, KottageSharingStartedCompanion, KottageChannelFlow<T>, KottageAtomicOp<__contravariant T>, KottageOpDescriptor, KottageLockFreeLinkedListNode, KottageAtomicfuSynchronizedObjectLockState, KottageKotlinAtomicReference<T>, KottageAtomicfuSynchronizedObject, KottageThreadSafeHeap<T>, KottageKotlinUnit, KottageDecodeSequenceMode, KottageKotlinx_serialization_coreSerializersModule, KottageJsonDefault, KottageJsonElement, KottageJsonConfiguration, KottageKotlinNothing, KottageJsonElementCompanion, KottageJsonNamingStrategyBuiltins, KottageJsonPrimitiveCompanion, KottageJsonPrimitive, KottageJsonNull, KottageKotlinIntIterator, KottageKotlinIntArray, KottageKotlinLongIterator, KottageKotlinLongArray, KottageKotlinIntProgressionCompanion, KottageKotlinIntProgression, KottageKotlinIntRangeCompanion, KottageKotlinIntRange, KottageKotlinLongProgressionCompanion, KottageKotlinLongProgression, KottageKotlinLongRangeCompanion, KottageKotlinLongRange, KottageJsonArrayBuilder, KottageJsonObjectBuilder, KottageJsonBuilder, KottageCloseableCoroutineDispatcher, KottageKotlinIllegalArgumentException, KottageKotlinKTypeProjection, KottageKotlinByteIterator, KottageAtomicfuSynchronizedObjectStatus, KottageKotlinx_serialization_coreSerialKind, KottageKotlinKVariance, KottageKotlinKTypeProjectionCompanion;
 
-@protocol KottageChildHandle, KottageChildJob, KottageDisposableHandle, KottageJob, KottageKotlinSequence, KottageSelectClause0, KottageKotlinCoroutineContextKey, KottageKotlinCoroutineContextElement, KottageKotlinCoroutineContext, KottageParentJob, KottageSelectClause1, KottageKotlinContinuation, KottageCoroutineScope, KottageKotlinSuspendFunction1, KottageKotlinContinuationInterceptor, KottageRunnable, KottageDeferred, KottageKotlinComparable, KottageKotlinSuspendFunction0, KottageCancellableContinuation, KottageCopyableThrowable, KottageReceiveChannel, KottageSelectClause2, KottageSendChannel, KottageChannelIterator, KottageBroadcastChannel, KottageFlowCollector, KottageFlow, KottageStateFlow, KottageSharedFlow, KottageMutableSharedFlow, KottageSharingStarted, KottageFusibleFlow, KottageProducerScope, KottageSelectInstance, KottageSelectClause, KottageMainDispatcherFactory, KottageKotlinx_serialization_coreDeserializationStrategy, KottageKotlinx_serialization_coreSerializationStrategy, KottageKotlinx_serialization_coreSerialFormat, KottageKotlinx_serialization_coreStringFormat, KottageJsonNamingStrategy, KottageKotlinx_serialization_coreEncoder, KottageKotlinx_serialization_coreSerialDescriptor, KottageKotlinx_serialization_coreDecoder, KottageKotlinx_serialization_coreKSerializer, KottageKotlinKClass, KottageKotlinx_serialization_coreCompositeDecoder, KottageKotlinx_serialization_coreCompositeEncoder, KottageKottageStorage, KottageKotlinKType, KottageKottageCalendar, KottageKottageLogger, KottageKottageList, KottageKotlinReadOnlyProperty, KottageKottageStrategy, KottageKottageEncoder, KottageKottageStrategyOperator, KottageKotlinIterator, KottageKotlinIterable, KottageKotlinClosedRange, KottageKotlinOpenEndRange, KottageCompletableJob, KottageCompletableDeferred, KottageCoroutineExceptionHandler, KottageChannel, KottageKotlinSuspendFunction2, KottageKotlinSuspendFunction3, KottageMutableStateFlow, KottageKotlinSuspendFunction5, KottageKotlinSuspendFunction4, KottageKotlinSuspendFunction6, KottageSelectBuilder, KottageMutex, KottageSemaphore, KottageKotlinFunction, KottageKotlinx_serialization_coreSerializersModuleCollector, KottageKotlinAnnotation, KottageKotlinKDeclarationContainer, KottageKotlinKAnnotatedElement, KottageKotlinKClassifier, KottageKotlinKProperty, KottageKotlinKCallable;
+@protocol KottageCoroutineScope, KottageKottageStorage, KottageFlow, KottageKotlinKType, KottageKottageCalendar, KottageKottageLogger, KottageKotlinx_serialization_coreKSerializer, KottageFlowCollector, KottageKotlinComparable, KottageKottageList, KottageKotlinReadOnlyProperty, KottageKottageStrategy, KottageKottageEncoder, KottageKottageStrategyOperator, KottageChildHandle, KottageChildJob, KottageDisposableHandle, KottageJob, KottageKotlinSequence, KottageSelectClause0, KottageKotlinCoroutineContextKey, KottageKotlinCoroutineContextElement, KottageKotlinCoroutineContext, KottageParentJob, KottageSelectClause1, KottageKotlinContinuation, KottageKotlinSuspendFunction1, KottageKotlinContinuationInterceptor, KottageRunnable, KottageDeferred, KottageCancellableContinuation, KottageCopyableThrowable, KottageReceiveChannel, KottageSelectClause2, KottageSendChannel, KottageChannelIterator, KottageBroadcastChannel, KottageStateFlow, KottageSharedFlow, KottageMutableSharedFlow, KottageSharingStarted, KottageFusibleFlow, KottageProducerScope, KottageMainDispatcherFactory, KottageKotlinSuspendFunction0, KottageSelectInstance, KottageSelectClause, KottageKotlinx_serialization_coreDeserializationStrategy, KottageKotlinx_serialization_coreSerializationStrategy, KottageKotlinx_serialization_coreSerialFormat, KottageKotlinx_serialization_coreStringFormat, KottageJsonNamingStrategy, KottageKotlinx_serialization_coreEncoder, KottageKotlinx_serialization_coreSerialDescriptor, KottageKotlinx_serialization_coreDecoder, KottageKotlinKClass, KottageKotlinx_serialization_coreCompositeDecoder, KottageKotlinx_serialization_coreCompositeEncoder, KottageKotlinIterator, KottageKotlinIterable, KottageKotlinClosedRange, KottageKotlinOpenEndRange, KottageChannel, KottageKotlinSuspendFunction2, KottageCompletableDeferred, KottageCoroutineExceptionHandler, KottageKotlinSuspendFunction3, KottageCompletableJob, KottageKotlinSuspendFunction4, KottageKotlinSuspendFunction5, KottageMutex, KottageSelectBuilder, KottageSemaphore, KottageMutableStateFlow, KottageKotlinSuspendFunction6, KottageKotlinKClassifier, KottageKotlinKProperty, KottageKotlinFunction, KottageKotlinx_serialization_coreSerializersModuleCollector, KottageKotlinAnnotation, KottageKotlinKDeclarationContainer, KottageKotlinKAnnotatedElement, KottageKotlinKCallable;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -142,1639 +142,6 @@ __attribute__((swift_name("KotlinBoolean")))
 @interface KottageBoolean : KottageNumber
 - (instancetype)initWithBool:(BOOL)value;
 + (instancetype)numberWithBool:(BOOL)value;
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol KottageKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<KottageKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<KottageKotlinCoroutineContextElement> _Nullable)getKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
-- (id<KottageKotlinCoroutineContext>)minusKeyKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<KottageKotlinCoroutineContext>)plusContext:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
-@end
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol KottageKotlinCoroutineContextElement <KottageKotlinCoroutineContext>
-@required
-@property (readonly) id<KottageKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end
-
-__attribute__((swift_name("Job")))
-@protocol KottageJob <KottageKotlinCoroutineContextElement>
-@required
-- (id<KottageChildHandle>)attachChildChild:(id<KottageChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (KottageKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<KottageDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<KottageDisposableHandle>)invokeOnCompletionHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<KottageJob>)plusOther:(id<KottageJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
-- (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<KottageKotlinSequence> children __attribute__((swift_name("children")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<KottageSelectClause0> onJoin __attribute__((swift_name("onJoin")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-__attribute__((swift_name("ChildJob")))
-@protocol KottageChildJob <KottageJob>
-@required
-- (void)parentCancelledParentJob:(id<KottageParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end
-
-__attribute__((swift_name("ParentJob")))
-@protocol KottageParentJob <KottageJob>
-@required
-- (KottageKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
-@end
-
-__attribute__((swift_name("JobSupport")))
-@interface KottageJobSupport : KottageBase <KottageJob, KottageChildJob, KottageParentJob>
-- (instancetype)initWithActive:(BOOL)active __attribute__((swift_name("init(active:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable("This is internal API and may be removed in the future releases")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)afterCompletionState:(id _Nullable)state __attribute__((swift_name("afterCompletion(state:)")));
-- (id<KottageChildHandle>)attachChildChild:(id<KottageChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)awaitInternalWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitInternal(completionHandler:)")));
-- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (BOOL)cancelCoroutineCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancelCoroutine(cause:)")));
-- (void)cancelInternalCause:(KottageKotlinThrowable *)cause __attribute__((swift_name("cancelInternal(cause:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (NSString *)cancellationExceptionMessage __attribute__((swift_name("cancellationExceptionMessage()")));
-- (BOOL)childCancelledCause:(KottageKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-- (KottageKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (KottageKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
-- (KottageKotlinThrowable * _Nullable)getCompletionExceptionOrNull __attribute__((swift_name("getCompletionExceptionOrNull()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BOOL)handleJobExceptionException:(KottageKotlinThrowable *)exception __attribute__((swift_name("handleJobException(exception:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)doInitParentJobParent:(id<KottageJob> _Nullable)parent __attribute__((swift_name("doInitParentJob(parent:)")));
-- (id<KottageDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<KottageDisposableHandle>)invokeOnCompletionHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onCancellingCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("onCancelling(cause:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onCompletionInternalState:(id _Nullable)state __attribute__((swift_name("onCompletionInternal(state:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onStart __attribute__((swift_name("onStart()")));
-- (void)parentCancelledParentJob:(id<KottageParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-- (BOOL)start __attribute__((swift_name("start()")));
-- (NSString *)toDebugString __attribute__((swift_name("toDebugString()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (KottageKotlinCancellationException *)toCancellationException:(KottageKotlinThrowable *)receiver message:(NSString * _Nullable)message __attribute__((swift_name("toCancellationException(_:message:)")));
-@property (readonly) id<KottageKotlinSequence> children __attribute__((swift_name("children")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) KottageKotlinThrowable * _Nullable completionCause __attribute__((swift_name("completionCause")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BOOL completionCauseHandled __attribute__((swift_name("completionCauseHandled")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) BOOL isCompletedExceptionally __attribute__((swift_name("isCompletedExceptionally")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BOOL isScopedCoroutine __attribute__((swift_name("isScopedCoroutine")));
-@property (readonly) id<KottageKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) id<KottageSelectClause1> onAwaitInternal __attribute__((swift_name("onAwaitInternal")));
-@property (readonly) id<KottageSelectClause0> onJoin __attribute__((swift_name("onJoin")));
-@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinContinuation")))
-@protocol KottageKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<KottageKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end
-
-__attribute__((swift_name("CoroutineScope")))
-@protocol KottageCoroutineScope
-@required
-@property (readonly) id<KottageKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@end
-
-__attribute__((swift_name("AbstractCoroutine")))
-@interface KottageAbstractCoroutine<__contravariant T> : KottageJobSupport <KottageJob, KottageKotlinContinuation, KottageCoroutineScope>
-- (instancetype)initWithParentContext:(id<KottageKotlinCoroutineContext>)parentContext initParentJob:(BOOL)initParentJob active:(BOOL)active __attribute__((swift_name("init(parentContext:initParentJob:active:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithActive:(BOOL)active __attribute__((swift_name("init(active:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)afterResumeState:(id _Nullable)state __attribute__((swift_name("afterResume(state:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (NSString *)cancellationExceptionMessage __attribute__((swift_name("cancellationExceptionMessage()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onCancelledCause:(KottageKotlinThrowable *)cause handled:(BOOL)handled __attribute__((swift_name("onCancelled(cause:handled:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onCompletedValue:(T _Nullable)value __attribute__((swift_name("onCompleted(value:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onCompletionInternalState:(id _Nullable)state __attribute__((swift_name("onCompletionInternal(state:)")));
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-- (void)startStart:(KottageCoroutineStart *)start receiver:(id _Nullable)receiver block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("start(start:receiver:block:)")));
-@property (readonly) id<KottageKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@property (readonly) id<KottageKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@end
-
-__attribute__((swift_name("CancellableContinuation")))
-@protocol KottageCancellableContinuation <KottageKotlinContinuation>
-@required
-- (BOOL)cancelCause_:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
-- (void)completeResumeToken:(id)token __attribute__((swift_name("completeResume(token:)")));
-- (void)doInitCancellability __attribute__((swift_name("doInitCancellability()")));
-- (void)invokeOnCancellationHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCancellation(handler:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (void)resumeValue:(id _Nullable)value onCancellation:(void (^ _Nullable)(KottageKotlinThrowable *))onCancellation __attribute__((swift_name("resume(value:onCancellation:)")));
-- (id _Nullable)tryResumeValue:(id _Nullable)value idempotent:(id _Nullable)idempotent __attribute__((swift_name("tryResume(value:idempotent:)")));
-- (id _Nullable)tryResumeValue:(id _Nullable)value idempotent:(id _Nullable)idempotent onCancellation:(void (^ _Nullable)(KottageKotlinThrowable *))onCancellation __attribute__((swift_name("tryResume(value:idempotent:onCancellation:)")));
-- (id _Nullable)tryResumeWithExceptionException:(KottageKotlinThrowable *)exception __attribute__((swift_name("tryResumeWithException(exception:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (void)resumeUndispatched:(KottageCoroutineDispatcher *)receiver value:(id _Nullable)value __attribute__((swift_name("resumeUndispatched(_:value:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (void)resumeUndispatchedWithException:(KottageCoroutineDispatcher *)receiver exception:(KottageKotlinThrowable *)exception __attribute__((swift_name("resumeUndispatchedWithException(_:exception:)")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@end
-
-__attribute__((swift_name("DisposableHandle")))
-@protocol KottageDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
-@end
-
-__attribute__((swift_name("ChildHandle")))
-@protocol KottageChildHandle <KottageDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(KottageKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
-@interface KottageKotlinAbstractCoroutineContextElement : KottageBase <KottageKotlinCoroutineContextElement>
-- (instancetype)initWithKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) id<KottageKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinContinuationInterceptor")))
-@protocol KottageKotlinContinuationInterceptor <KottageKotlinCoroutineContextElement>
-@required
-- (id<KottageKotlinContinuation>)interceptContinuationContinuation:(id<KottageKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (void)releaseInterceptedContinuationContinuation:(id<KottageKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-@end
-
-__attribute__((swift_name("CoroutineDispatcher")))
-@interface KottageCoroutineDispatcher : KottageKotlinAbstractCoroutineContextElement <KottageKotlinContinuationInterceptor>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KottageCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
-- (void)dispatchContext:(id<KottageKotlinCoroutineContext>)context block:(id<KottageRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
-- (void)dispatchYieldContext:(id<KottageKotlinCoroutineContext>)context block:(id<KottageRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
-- (id<KottageKotlinContinuation>)interceptContinuationContinuation:(id<KottageKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (BOOL)isDispatchNeededContext:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (KottageCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (KottageCoroutineDispatcher *)plusOther_:(KottageCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
-- (void)releaseInterceptedContinuationContinuation:(id<KottageKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end
-
-__attribute__((swift_name("CloseableCoroutineDispatcher")))
-@interface KottageCloseableCoroutineDispatcher : KottageCoroutineDispatcher
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)close __attribute__((swift_name("close()")));
-@end
-
-__attribute__((swift_name("Deferred")))
-@protocol KottageDeferred <KottageJob>
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)awaitWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("await(completionHandler:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (id _Nullable)getCompleted __attribute__((swift_name("getCompleted()")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (KottageKotlinThrowable * _Nullable)getCompletionExceptionOrNull __attribute__((swift_name("getCompletionExceptionOrNull()")));
-@property (readonly) id<KottageSelectClause1> onAwait __attribute__((swift_name("onAwait")));
-@end
-
-__attribute__((swift_name("CompletableDeferred")))
-@protocol KottageCompletableDeferred <KottageDeferred>
-@required
-- (BOOL)completeValue:(id _Nullable)value __attribute__((swift_name("complete(value:)")));
-- (BOOL)completeExceptionallyException:(KottageKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
-@end
-
-__attribute__((swift_name("CompletableJob")))
-@protocol KottageCompletableJob <KottageJob>
-@required
-- (BOOL)complete __attribute__((swift_name("complete()")));
-- (BOOL)completeExceptionallyException:(KottageKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
-@end
-
-__attribute__((swift_name("KotlinThrowable")))
-@interface KottageKotlinThrowable : KottageBase
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-
-/**
- * @note annotations
- *   kotlin.experimental.ExperimentalNativeApi
-*/
-- (KottageKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
-- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) KottageKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
-@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
-- (NSError *)asError __attribute__((swift_name("asError()")));
-@end
-
-__attribute__((swift_name("KotlinException")))
-@interface KottageKotlinException : KottageKotlinThrowable
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface KottageKotlinRuntimeException : KottageKotlinException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CompletionHandlerException")))
-@interface KottageCompletionHandlerException : KottageKotlinRuntimeException
-- (instancetype)initWithMessage:(NSString *)message cause:(KottageKotlinThrowable *)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-__attribute__((swift_name("CopyableThrowable")))
-@protocol KottageCopyableThrowable
-@required
-- (KottageKotlinThrowable * _Nullable)createCopy __attribute__((swift_name("createCopy()")));
-@end
-
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol KottageKotlinCoroutineContextKey
-@required
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface KottageKotlinAbstractCoroutineContextKey<B, E> : KottageBase <KottageKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<KottageKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<KottageKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CoroutineDispatcher.Key")))
-@interface KottageCoroutineDispatcherKey : KottageKotlinAbstractCoroutineContextKey<id<KottageKotlinContinuationInterceptor>, KottageCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<KottageKotlinCoroutineContextKey>)baseKey safeCast:(id<KottageKotlinCoroutineContextElement> _Nullable (^)(id<KottageKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("CoroutineExceptionHandler")))
-@protocol KottageCoroutineExceptionHandler <KottageKotlinCoroutineContextElement>
-@required
-- (void)handleExceptionContext:(id<KottageKotlinCoroutineContext>)context exception:(KottageKotlinThrowable *)exception __attribute__((swift_name("handleException(context:exception:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CoroutineExceptionHandlerKey")))
-@interface KottageCoroutineExceptionHandlerKey : KottageBase <KottageKotlinCoroutineContextKey>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageCoroutineExceptionHandlerKey *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CoroutineName")))
-@interface KottageCoroutineName : KottageKotlinAbstractCoroutineContextElement
-- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) KottageCoroutineNameKey *companion __attribute__((swift_name("companion")));
-- (KottageCoroutineName *)doCopyName:(NSString *)name __attribute__((swift_name("doCopy(name:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CoroutineName.Key")))
-@interface KottageCoroutineNameKey : KottageBase <KottageKotlinCoroutineContextKey>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageCoroutineNameKey *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("KotlinComparable")))
-@protocol KottageKotlinComparable
-@required
-- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
-@end
-
-__attribute__((swift_name("KotlinEnum")))
-@interface KottageKotlinEnum<E> : KottageBase <KottageKotlinComparable>
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) KottageKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CoroutineStart")))
-@interface KottageCoroutineStart : KottageKotlinEnum<KottageCoroutineStart *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) KottageCoroutineStart *default_ __attribute__((swift_name("default_")));
-@property (class, readonly) KottageCoroutineStart *lazy __attribute__((swift_name("lazy")));
-@property (class, readonly) KottageCoroutineStart *atomic __attribute__((swift_name("atomic")));
-@property (class, readonly) KottageCoroutineStart *undispatched __attribute__((swift_name("undispatched")));
-+ (KottageKotlinArray<KottageCoroutineStart *> *)values __attribute__((swift_name("values()")));
-- (void)invokeBlock:(id<KottageKotlinSuspendFunction0>)block completion:(id<KottageKotlinContinuation>)completion __attribute__((swift_name("invoke(block:completion:)")));
-- (void)invokeBlock:(id<KottageKotlinSuspendFunction1>)block receiver:(id _Nullable)receiver completion:(id<KottageKotlinContinuation>)completion __attribute__((swift_name("invoke(block:receiver:completion:)")));
-@property (readonly) BOOL isLazy __attribute__((swift_name("isLazy")));
-@end
-
-__attribute__((swift_name("Delay")))
-@protocol KottageDelay
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)delayTime:(int64_t)time completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("delay(time:completionHandler:)"))) __attribute__((unavailable("Deprecated without replacement as an internal method never intended for public use")));
-- (id<KottageDisposableHandle>)invokeOnTimeoutTimeMillis:(int64_t)timeMillis block:(id<KottageRunnable>)block context:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("invokeOnTimeout(timeMillis:block:context:)")));
-- (void)scheduleResumeAfterDelayTimeMillis:(int64_t)timeMillis continuation:(id<KottageCancellableContinuation>)continuation __attribute__((swift_name("scheduleResumeAfterDelay(timeMillis:continuation:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Dispatchers")))
-@interface KottageDispatchers : KottageBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)dispatchers __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageDispatchers *shared __attribute__((swift_name("shared")));
-@property (readonly) KottageCoroutineDispatcher *Default __attribute__((swift_name("Default")));
-@property (readonly) KottageMainCoroutineDispatcher *Main __attribute__((swift_name("Main")));
-@property (readonly) KottageCoroutineDispatcher *Unconfined __attribute__((swift_name("Unconfined")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.DelicateCoroutinesApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GlobalScope")))
-@interface KottageGlobalScope : KottageBase <KottageCoroutineScope>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)globalScope __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageGlobalScope *shared __attribute__((swift_name("shared")));
-@property (readonly) id<KottageKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JobKey")))
-@interface KottageJobKey : KottageBase <KottageKotlinCoroutineContextKey>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageJobKey *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("MainCoroutineDispatcher")))
-@interface KottageMainCoroutineDispatcher : KottageCoroutineDispatcher
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (KottageCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (NSString * _Nullable)toStringInternalImpl __attribute__((swift_name("toStringInternalImpl()")));
-@property (readonly) KottageMainCoroutineDispatcher *immediate __attribute__((swift_name("immediate")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("NonCancellable")))
-@interface KottageNonCancellable : KottageKotlinAbstractCoroutineContextElement <KottageJob>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)nonCancellable __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageNonCancellable *shared __attribute__((swift_name("shared")));
-- (id<KottageChildHandle>)attachChildChild:(id<KottageChildJob>)child __attribute__((swift_name("attachChild(child:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-- (KottageKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-- (id<KottageDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-- (id<KottageDisposableHandle>)invokeOnCompletionHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-- (BOOL)start __attribute__((swift_name("start()"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<KottageKotlinSequence> children __attribute__((swift_name("children"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-@property (readonly) id<KottageSelectClause0> onJoin __attribute__((swift_name("onJoin"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("NonDisposableHandle")))
-@interface KottageNonDisposableHandle : KottageBase <KottageDisposableHandle, KottageChildHandle>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)nonDisposableHandle __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageNonDisposableHandle *shared __attribute__((swift_name("shared")));
-- (BOOL)childCancelledCause:(KottageKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-- (void)dispose __attribute__((swift_name("dispose()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-__attribute__((swift_name("Runnable")))
-@protocol KottageRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
-@end
-
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface KottageKotlinIllegalStateException : KottageKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.4")
-*/
-__attribute__((swift_name("KotlinCancellationException")))
-@interface KottageKotlinCancellationException : KottageKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimeoutCancellationException")))
-@interface KottageTimeoutCancellationException : KottageKotlinCancellationException <KottageCopyableThrowable>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (KottageTimeoutCancellationException *)createCopy __attribute__((swift_name("createCopy()")));
-@end
-
-__attribute__((swift_name("SendChannel")))
-@protocol KottageSendChannel
-@required
-- (BOOL)closeCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("close(cause:)")));
-- (void)invokeOnCloseHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnClose(handler:)")));
-- (BOOL)offerElement:(id _Nullable)element __attribute__((swift_name("offer(element:)"))) __attribute__((unavailable("Deprecated in the favour of 'trySend' method")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)sendElement:(id _Nullable)element completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("send(element:completionHandler:)")));
-- (id _Nullable)trySendElement:(id _Nullable)element __attribute__((swift_name("trySend(element:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.DelicateCoroutinesApi
-*/
-@property (readonly) BOOL isClosedForSend __attribute__((swift_name("isClosedForSend")));
-@property (readonly) id<KottageSelectClause2> onSend __attribute__((swift_name("onSend")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ObsoleteCoroutinesApi
-*/
-__attribute__((swift_name("BroadcastChannel")))
-@protocol KottageBroadcastChannel <KottageSendChannel>
-@required
-- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (id<KottageReceiveChannel>)openSubscription __attribute__((swift_name("openSubscription()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BufferOverflow")))
-@interface KottageBufferOverflow : KottageKotlinEnum<KottageBufferOverflow *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) KottageBufferOverflow *suspend __attribute__((swift_name("suspend")));
-@property (class, readonly) KottageBufferOverflow *dropOldest __attribute__((swift_name("dropOldest")));
-@property (class, readonly) KottageBufferOverflow *dropLatest __attribute__((swift_name("dropLatest")));
-+ (KottageKotlinArray<KottageBufferOverflow *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((swift_name("ReceiveChannel")))
-@protocol KottageReceiveChannel
-@required
-- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (id<KottageChannelIterator>)iterator __attribute__((swift_name("iterator()")));
-- (id _Nullable)poll __attribute__((swift_name("poll()"))) __attribute__((unavailable("Deprecated in the favour of 'tryReceive'. Please note that the provided replacement does not rethrow channel's close cause as 'poll' did, for the precise replacement please refer to the 'poll' documentation")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)receiveWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receive(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)receiveCatchingWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receiveCatching(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)receiveOrNullWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receiveOrNull(completionHandler:)"))) __attribute__((unavailable("Deprecated in favor of 'receiveCatching'. Please note that the provided replacement does not rethrow channel's close cause as 'receiveOrNull' did, for the detailed replacement please refer to the 'receiveOrNull' documentation")));
-- (id _Nullable)tryReceive __attribute__((swift_name("tryReceive()")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.DelicateCoroutinesApi
-*/
-@property (readonly) BOOL isClosedForReceive __attribute__((swift_name("isClosedForReceive")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
-@property (readonly) id<KottageSelectClause1> onReceive __attribute__((swift_name("onReceive")));
-@property (readonly) id<KottageSelectClause1> onReceiveCatching __attribute__((swift_name("onReceiveCatching")));
-@property (readonly) id<KottageSelectClause1> onReceiveOrNull __attribute__((swift_name("onReceiveOrNull"))) __attribute__((unavailable("Deprecated in favor of onReceiveCatching extension")));
-@end
-
-__attribute__((swift_name("Channel")))
-@protocol KottageChannel <KottageSendChannel, KottageReceiveChannel>
-@required
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ChannelFactory")))
-@interface KottageChannelFactory : KottageBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)factory __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageChannelFactory *shared __attribute__((swift_name("shared")));
-@property (readonly) int32_t BUFFERED __attribute__((swift_name("BUFFERED")));
-@property (readonly) int32_t CONFLATED __attribute__((swift_name("CONFLATED")));
-@property (readonly) NSString *DEFAULT_BUFFER_PROPERTY_NAME __attribute__((swift_name("DEFAULT_BUFFER_PROPERTY_NAME")));
-@property (readonly) int32_t RENDEZVOUS __attribute__((swift_name("RENDEZVOUS")));
-@property (readonly) int32_t UNLIMITED __attribute__((swift_name("UNLIMITED")));
-@end
-
-__attribute__((swift_name("ChannelIterator")))
-@protocol KottageChannelIterator
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)hasNextWithCompletionHandler:(void (^)(KottageBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("hasNext(completionHandler:)")));
-- (id _Nullable)next __attribute__((swift_name("next()")));
-@end
-
-__attribute__((swift_name("KotlinNoSuchElementException")))
-@interface KottageKotlinNoSuchElementException : KottageKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ClosedReceiveChannelException")))
-@interface KottageClosedReceiveChannelException : KottageKotlinNoSuchElementException
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ClosedSendChannelException")))
-@interface KottageClosedSendChannelException : KottageKotlinIllegalStateException
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ObsoleteCoroutinesApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ConflatedBroadcastChannel")))
-@interface KottageConflatedBroadcastChannel<E> : KottageBase <KottageBroadcastChannel>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("ConflatedBroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithValue:(E _Nullable)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("ConflatedBroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
-- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (BOOL)closeCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("close(cause:)")));
-- (void)invokeOnCloseHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnClose(handler:)")));
-- (BOOL)offerElement:(E _Nullable)element __attribute__((swift_name("offer(element:)"))) __attribute__((unavailable("Deprecated in the favour of 'trySend' method")));
-- (id<KottageReceiveChannel>)openSubscription __attribute__((swift_name("openSubscription()")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)sendElement:(E _Nullable)element completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("send(element:completionHandler:)")));
-- (id _Nullable)trySendElement:(E _Nullable)element __attribute__((swift_name("trySend(element:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.DelicateCoroutinesApi
-*/
-@property (readonly) BOOL isClosedForSend __attribute__((swift_name("isClosedForSend")));
-@property (readonly) id<KottageSelectClause2> onSend __attribute__((swift_name("onSend")));
-@property (readonly) E _Nullable value __attribute__((swift_name("value")));
-@property (readonly) E _Nullable valueOrNull __attribute__((swift_name("valueOrNull")));
-@end
-
-__attribute__((swift_name("ProducerScope")))
-@protocol KottageProducerScope <KottageCoroutineScope, KottageSendChannel>
-@required
-@property (readonly) id<KottageSendChannel> channel __attribute__((swift_name("channel")));
-@end
-
-__attribute__((swift_name("Flow")))
-@protocol KottageFlow
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)collectCollector:(id<KottageFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-__attribute__((swift_name("AbstractFlow")))
-@interface KottageAbstractFlow<T> : KottageBase <KottageFlow>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)collectCollector:(id<KottageFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)collectSafelyCollector:(id<KottageFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collectSafely(collector:completionHandler:)")));
-@end
-
-__attribute__((swift_name("FlowCollector")))
-@protocol KottageFlowCollector
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
-@end
-
-__attribute__((swift_name("SharedFlow")))
-@protocol KottageSharedFlow <KottageFlow>
-@required
-@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
-@end
-
-__attribute__((swift_name("MutableSharedFlow")))
-@protocol KottageMutableSharedFlow <KottageSharedFlow, KottageFlowCollector>
-@required
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (void)resetReplayCache __attribute__((swift_name("resetReplayCache()")));
-- (BOOL)tryEmitValue:(id _Nullable)value __attribute__((swift_name("tryEmit(value:)")));
-@property (readonly) id<KottageStateFlow> subscriptionCount __attribute__((swift_name("subscriptionCount")));
-@end
-
-__attribute__((swift_name("StateFlow")))
-@protocol KottageStateFlow <KottageSharedFlow>
-@required
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
-@end
-
-__attribute__((swift_name("MutableStateFlow")))
-@protocol KottageMutableStateFlow <KottageStateFlow, KottageMutableSharedFlow>
-@required
-- (BOOL)compareAndSetExpect:(id _Nullable)expect update:(id _Nullable)update __attribute__((swift_name("compareAndSet(expect:update:)")));
-- (void)setValue:(id _Nullable)value __attribute__((swift_name("setValue(_:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SharingCommand")))
-@interface KottageSharingCommand : KottageKotlinEnum<KottageSharingCommand *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) KottageSharingCommand *start __attribute__((swift_name("start")));
-@property (class, readonly) KottageSharingCommand *stop __attribute__((swift_name("stop")));
-@property (class, readonly) KottageSharingCommand *stopAndResetReplayCache __attribute__((swift_name("stopAndResetReplayCache")));
-+ (KottageKotlinArray<KottageSharingCommand *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((swift_name("SharingStarted")))
-@protocol KottageSharingStarted
-@required
-- (id<KottageFlow>)commandSubscriptionCount:(id<KottageStateFlow>)subscriptionCount __attribute__((swift_name("command(subscriptionCount:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SharingStartedCompanion")))
-@interface KottageSharingStartedCompanion : KottageBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageSharingStartedCompanion *shared __attribute__((swift_name("shared")));
-- (id<KottageSharingStarted>)WhileSubscribedStopTimeoutMillis:(int64_t)stopTimeoutMillis replayExpirationMillis:(int64_t)replayExpirationMillis __attribute__((swift_name("WhileSubscribed(stopTimeoutMillis:replayExpirationMillis:)")));
-@property (readonly) id<KottageSharingStarted> Eagerly __attribute__((swift_name("Eagerly")));
-@property (readonly) id<KottageSharingStarted> Lazily __attribute__((swift_name("Lazily")));
-@end
-
-__attribute__((swift_name("FusibleFlow")))
-@protocol KottageFusibleFlow <KottageFlow>
-@required
-- (id<KottageFlow>)fuseContext:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("fuse(context:capacity:onBufferOverflow:)")));
-@end
-
-__attribute__((swift_name("ChannelFlow")))
-@interface KottageChannelFlow<T> : KottageBase <KottageFusibleFlow>
-- (instancetype)initWithContext:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("init(context:capacity:onBufferOverflow:)"))) __attribute__((objc_designated_initializer));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (NSString * _Nullable)additionalToStringProps __attribute__((swift_name("additionalToStringProps()")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)collectCollector:(id<KottageFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)collectToScope:(id<KottageProducerScope>)scope completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collectTo(scope:completionHandler:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (KottageChannelFlow<T> *)createContext:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("create(context:capacity:onBufferOverflow:)")));
-- (id<KottageFlow> _Nullable)dropChannelOperators __attribute__((swift_name("dropChannelOperators()")));
-- (id<KottageFlow>)fuseContext:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("fuse(context:capacity:onBufferOverflow:)")));
-- (id<KottageReceiveChannel>)produceImplScope:(id<KottageCoroutineScope>)scope __attribute__((swift_name("produceImpl(scope:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t capacity __attribute__((swift_name("capacity")));
-@property (readonly) id<KottageKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@property (readonly) KottageBufferOverflow *onBufferOverflow __attribute__((swift_name("onBufferOverflow")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SendingCollector")))
-@interface KottageSendingCollector<T> : KottageBase <KottageFlowCollector>
-- (instancetype)initWithChannel:(id<KottageSendChannel>)channel __attribute__((swift_name("init(channel:)"))) __attribute__((objc_designated_initializer));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)emitValue:(T _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
-@end
-
-__attribute__((swift_name("SelectBuilder")))
-@protocol KottageSelectBuilder
-@required
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (void)onTimeoutTimeMillis:(int64_t)timeMillis block:(id<KottageKotlinSuspendFunction0>)block __attribute__((swift_name("onTimeout(timeMillis:block:)"))) __attribute__((unavailable("Replaced with the same extension function")));
-- (void)invoke:(id<KottageSelectClause0>)receiver block:(id<KottageKotlinSuspendFunction0>)block __attribute__((swift_name("invoke(_:block:)")));
-- (void)invoke:(id<KottageSelectClause1>)receiver block_:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("invoke(_:block_:)")));
-- (void)invoke:(id<KottageSelectClause2>)receiver param:(id _Nullable)param block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("invoke(_:param:block:)")));
-- (void)invoke:(id<KottageSelectClause2>)receiver block__:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("invoke(_:block__:)")));
-@end
-
-__attribute__((swift_name("SelectClause")))
-@protocol KottageSelectClause
-@required
-@property (readonly) id clauseObject __attribute__((swift_name("clauseObject")));
-@property (readonly) KottageKotlinUnit *(^(^ _Nullable onCancellationConstructor)(id<KottageSelectInstance>, id _Nullable, id _Nullable))(KottageKotlinThrowable *) __attribute__((swift_name("onCancellationConstructor")));
-@property (readonly) id _Nullable (^processResFunc)(id, id _Nullable, id _Nullable) __attribute__((swift_name("processResFunc")));
-@property (readonly) void (^regFunc)(id, id<KottageSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
-@end
-
-__attribute__((swift_name("SelectClause0")))
-@protocol KottageSelectClause0 <KottageSelectClause>
-@required
-@end
-
-__attribute__((swift_name("SelectClause1")))
-@protocol KottageSelectClause1 <KottageSelectClause>
-@required
-@end
-
-__attribute__((swift_name("SelectClause2")))
-@protocol KottageSelectClause2 <KottageSelectClause>
-@required
-@end
-
-__attribute__((swift_name("SelectInstance")))
-@protocol KottageSelectInstance
-@required
-- (void)disposeOnCompletionDisposableHandle:(id<KottageDisposableHandle>)disposableHandle __attribute__((swift_name("disposeOnCompletion(disposableHandle:)")));
-- (void)selectInRegistrationPhaseInternalResult:(id _Nullable)internalResult __attribute__((swift_name("selectInRegistrationPhase(internalResult:)")));
-- (BOOL)trySelectClauseObject:(id)clauseObject result:(id _Nullable)result __attribute__((swift_name("trySelect(clauseObject:result:)")));
-@property (readonly) id<KottageKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end
-
-__attribute__((swift_name("OpDescriptor")))
-@interface KottageOpDescriptor : KottageBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) KottageAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
-@end
-
-__attribute__((swift_name("AtomicOp")))
-@interface KottageAtomicOp<__contravariant T> : KottageOpDescriptor
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
-@property (readonly) KottageAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@end
-
-__attribute__((swift_name("LockFreeLinkedListNode")))
-@interface KottageLockFreeLinkedListNode : KottageBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addLastNode:(KottageLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
-- (BOOL)addLastIfNode:(KottageLockFreeLinkedListNode *)node condition:(KottageBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
-- (BOOL)addOneIfEmptyNode:(KottageLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (KottageLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
-- (BOOL)remove __attribute__((swift_name("remove()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
-@property (readonly) KottageLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
-@property (readonly) KottageLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
-@end
-
-__attribute__((swift_name("LockFreeLinkedListHead")))
-@interface KottageLockFreeLinkedListHead : KottageLockFreeLinkedListNode
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)forEachBlock:(void (^)(KottageLockFreeLinkedListNode *))block __attribute__((swift_name("forEach(block:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (KottageLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
-- (BOOL)remove __attribute__((swift_name("remove()")));
-@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
-@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@end
-
-__attribute__((swift_name("MainDispatcherFactory")))
-@protocol KottageMainDispatcherFactory
-@required
-- (KottageMainCoroutineDispatcher *)createDispatcherAllFactories:(NSArray<id<KottageMainDispatcherFactory>> *)allFactories __attribute__((swift_name("createDispatcher(allFactories:)")));
-- (NSString * _Nullable)hintOnError __attribute__((swift_name("hintOnError()")));
-@property (readonly) int32_t loadPriority __attribute__((swift_name("loadPriority")));
-@end
-
-__attribute__((swift_name("AtomicfuSynchronizedObject")))
-@interface KottageAtomicfuSynchronizedObject : KottageBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)lock __attribute__((swift_name("lock()")));
-- (BOOL)tryLock __attribute__((swift_name("tryLock()")));
-- (void)unlock __attribute__((swift_name("unlock()")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly, getter=lock_) KottageKotlinAtomicReference<KottageAtomicfuSynchronizedObjectLockState *> *lock __attribute__((swift_name("lock")));
-@end
-
-__attribute__((swift_name("ThreadSafeHeap")))
-@interface KottageThreadSafeHeap<T> : KottageAtomicfuSynchronizedObject
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addLastNode:(T)node __attribute__((swift_name("addLast(node:)")));
-- (BOOL)addLastIfNode:(T)node cond:(KottageBoolean *(^)(T _Nullable))cond __attribute__((swift_name("addLastIf(node:cond:)")));
-- (void)clear __attribute__((swift_name("clear()")));
-- (T _Nullable)findPredicate:(KottageBoolean *(^)(T))predicate __attribute__((swift_name("find(predicate:)")));
-- (T _Nullable)peek __attribute__((swift_name("peek()")));
-- (BOOL)removeNode:(T)node __attribute__((swift_name("remove(node:)")));
-- (T _Nullable)removeFirstIfPredicate:(KottageBoolean *(^)(T))predicate __attribute__((swift_name("removeFirstIf(predicate:)")));
-- (T _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
-@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
-@end
-
-__attribute__((swift_name("ThreadSafeHeapNode")))
-@protocol KottageThreadSafeHeapNode
-@required
-@property KottageThreadSafeHeap<id> * _Nullable heap __attribute__((swift_name("heap")));
-@property int32_t index __attribute__((swift_name("index")));
-@end
-
-__attribute__((swift_name("Mutex")))
-@protocol KottageMutex
-@required
-- (BOOL)holdsLockOwner:(id)owner __attribute__((swift_name("holdsLock(owner:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)lockOwner:(id _Nullable)owner completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("lock(owner:completionHandler:)")));
-- (BOOL)tryLockOwner:(id _Nullable)owner __attribute__((swift_name("tryLock(owner:)")));
-- (void)unlockOwner:(id _Nullable)owner __attribute__((swift_name("unlock(owner:)")));
-@property (readonly) BOOL isLocked __attribute__((swift_name("isLocked")));
-@property (readonly) id<KottageSelectClause2> onLock __attribute__((swift_name("onLock"))) __attribute__((deprecated("Mutex.onLock deprecated without replacement. For additional details please refer to #2794")));
-@end
-
-__attribute__((swift_name("Semaphore")))
-@protocol KottageSemaphore
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)acquireWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("acquire(completionHandler:)")));
-- (void)release_ __attribute__((swift_name("release()")));
-- (BOOL)tryAcquire __attribute__((swift_name("tryAcquire()")));
-@property (readonly) int32_t availablePermits __attribute__((swift_name("availablePermits")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DecodeSequenceMode")))
-@interface KottageDecodeSequenceMode : KottageKotlinEnum<KottageDecodeSequenceMode *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) KottageDecodeSequenceMode *whitespaceSeparated __attribute__((swift_name("whitespaceSeparated")));
-@property (class, readonly) KottageDecodeSequenceMode *arrayWrapped __attribute__((swift_name("arrayWrapped")));
-@property (class, readonly) KottageDecodeSequenceMode *autoDetect __attribute__((swift_name("autoDetect")));
-+ (KottageKotlinArray<KottageDecodeSequenceMode *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<KottageDecodeSequenceMode *> *entries __attribute__((swift_name("entries")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerialFormat")))
-@protocol KottageKotlinx_serialization_coreSerialFormat
-@required
-@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreStringFormat")))
-@protocol KottageKotlinx_serialization_coreStringFormat <KottageKotlinx_serialization_coreSerialFormat>
-@required
-- (id _Nullable)decodeFromStringDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
-- (NSString *)encodeToStringSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
-@end
-
-__attribute__((swift_name("Json")))
-@interface KottageJson : KottageBase <KottageKotlinx_serialization_coreStringFormat>
-@property (class, readonly, getter=companion) KottageJsonDefault *companion __attribute__((swift_name("companion")));
-- (id _Nullable)decodeFromJsonElementDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer element:(KottageJsonElement *)element __attribute__((swift_name("decodeFromJsonElement(deserializer:element:)")));
-- (id _Nullable)decodeFromStringString:(NSString *)string __attribute__((swift_name("decodeFromString(string:)")));
-- (id _Nullable)decodeFromStringDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
-- (KottageJsonElement *)encodeToJsonElementSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(serializer:value:)")));
-- (NSString *)encodeToStringSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
-- (KottageJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
-@property (readonly) KottageJsonConfiguration *configuration __attribute__((swift_name("configuration")));
-@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Json.Default")))
-@interface KottageJsonDefault : KottageJson
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)default_ __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageJsonDefault *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((unavailable("can't be imported")))
-__attribute__((swift_name("JsonArray")))
-@interface KottageJsonArray : NSObject
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonArrayBuilder")))
-@interface KottageJsonArrayBuilder : KottageBase
-- (BOOL)addElement:(KottageJsonElement *)element __attribute__((swift_name("add(element:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (BOOL)addAllElements:(id)elements __attribute__((swift_name("addAll(elements:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonBuilder")))
-@interface KottageJsonBuilder : KottageBase
-@property BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
-@property BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
-@property NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
-@property BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property BOOL decodeEnumsCaseInsensitive __attribute__((swift_name("decodeEnumsCaseInsensitive")));
-@property BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
-@property BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
-@property BOOL isLenient __attribute__((swift_name("isLenient")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property id<KottageJsonNamingStrategy> _Nullable namingStrategy __attribute__((swift_name("namingStrategy")));
-@property BOOL prettyPrint __attribute__((swift_name("prettyPrint")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
-@property KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@property BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
-@property BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonConfiguration")))
-@interface KottageJsonConfiguration : KottageBase
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
-@property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
-@property (readonly) NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
-@property (readonly) BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property (readonly) BOOL decodeEnumsCaseInsensitive __attribute__((swift_name("decodeEnumsCaseInsensitive")));
-@property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property (readonly) BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
-@property (readonly) BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
-@property (readonly) BOOL isLenient __attribute__((swift_name("isLenient")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property (readonly) id<KottageJsonNamingStrategy> _Nullable namingStrategy __attribute__((swift_name("namingStrategy")));
-@property (readonly) BOOL prettyPrint __attribute__((swift_name("prettyPrint")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property (readonly) NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
-@property (readonly) BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
-@property (readonly) BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
-@protocol KottageKotlinx_serialization_coreSerializationStrategy
-@required
-- (void)serializeEncoder:(id<KottageKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<KottageKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
-@protocol KottageKotlinx_serialization_coreDeserializationStrategy
-@required
-- (id _Nullable)deserializeDecoder:(id<KottageKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-@property (readonly) id<KottageKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
-@protocol KottageKotlinx_serialization_coreKSerializer <KottageKotlinx_serialization_coreSerializationStrategy, KottageKotlinx_serialization_coreDeserializationStrategy>
-@required
-@end
-
-__attribute__((swift_name("JsonContentPolymorphicSerializer")))
-@interface KottageJsonContentPolymorphicSerializer<T> : KottageBase <KottageKotlinx_serialization_coreKSerializer>
-- (instancetype)initWithBaseClass:(id<KottageKotlinKClass>)baseClass __attribute__((swift_name("init(baseClass:)"))) __attribute__((objc_designated_initializer));
-- (T)deserializeDecoder:(id<KottageKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (id<KottageKotlinx_serialization_coreDeserializationStrategy>)selectDeserializerElement:(KottageJsonElement *)element __attribute__((swift_name("selectDeserializer(element:)")));
-- (void)serializeEncoder:(id<KottageKotlinx_serialization_coreEncoder>)encoder value:(T)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<KottageKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
-@protocol KottageKotlinx_serialization_coreDecoder
-@required
-- (id<KottageKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
-- (BOOL)decodeBoolean __attribute__((swift_name("decodeBoolean()")));
-- (int8_t)decodeByte __attribute__((swift_name("decodeByte()")));
-- (unichar)decodeChar __attribute__((swift_name("decodeChar()")));
-- (double)decodeDouble __attribute__((swift_name("decodeDouble()")));
-- (int32_t)decodeEnumEnumDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
-- (float)decodeFloat __attribute__((swift_name("decodeFloat()")));
-- (id<KottageKotlinx_serialization_coreDecoder>)decodeInlineDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeInline(descriptor:)")));
-- (int32_t)decodeInt __attribute__((swift_name("decodeInt()")));
-- (int64_t)decodeLong __attribute__((swift_name("decodeLong()")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (BOOL)decodeNotNullMark __attribute__((swift_name("decodeNotNullMark()")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (KottageKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
-- (id _Nullable)decodeSerializableValueDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
-- (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
-- (NSString *)decodeString __attribute__((swift_name("decodeString()")));
-@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
-@protocol KottageKotlinx_serialization_coreCompositeDecoder
-@required
-- (BOOL)decodeBooleanElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
-- (int8_t)decodeByteElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
-- (unichar)decodeCharElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
-- (int32_t)decodeCollectionSizeDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
-- (double)decodeDoubleElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
-- (int32_t)decodeElementIndexDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
-- (float)decodeFloatElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
-- (id<KottageKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
-- (int32_t)decodeIntElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
-- (int64_t)decodeLongElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (BOOL)decodeSequentially __attribute__((swift_name("decodeSequentially()")));
-- (id _Nullable)decodeSerializableElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
-- (int16_t)decodeShortElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
-- (NSString *)decodeStringElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
-- (void)endStructureDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
-@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((swift_name("JsonDecoder")))
-@protocol KottageJsonDecoder <KottageKotlinx_serialization_coreDecoder, KottageKotlinx_serialization_coreCompositeDecoder>
-@required
-- (KottageJsonElement *)decodeJsonElement __attribute__((swift_name("decodeJsonElement()")));
-@property (readonly) KottageJson *json __attribute__((swift_name("json")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
-*/
-__attribute__((swift_name("JsonElement")))
-@interface KottageJsonElement : KottageBase
-@property (class, readonly, getter=companion) KottageJsonElementCompanion *companion __attribute__((swift_name("companion")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonElement.Companion")))
-@interface KottageJsonElementCompanion : KottageBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageJsonElementCompanion *shared __attribute__((swift_name("shared")));
-- (id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
-@protocol KottageKotlinx_serialization_coreEncoder
-@required
-- (id<KottageKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
-- (id<KottageKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
-- (void)encodeBooleanValue:(BOOL)value __attribute__((swift_name("encodeBoolean(value:)")));
-- (void)encodeByteValue:(int8_t)value __attribute__((swift_name("encodeByte(value:)")));
-- (void)encodeCharValue:(unichar)value __attribute__((swift_name("encodeChar(value:)")));
-- (void)encodeDoubleValue:(double)value __attribute__((swift_name("encodeDouble(value:)")));
-- (void)encodeEnumEnumDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
-- (void)encodeFloatValue:(float)value __attribute__((swift_name("encodeFloat(value:)")));
-- (id<KottageKotlinx_serialization_coreEncoder>)encodeInlineDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("encodeInline(descriptor:)")));
-- (void)encodeIntValue:(int32_t)value __attribute__((swift_name("encodeInt(value:)")));
-- (void)encodeLongValue:(int64_t)value __attribute__((swift_name("encodeLong(value:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (void)encodeNotNullMark __attribute__((swift_name("encodeNotNullMark()")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (void)encodeNull __attribute__((swift_name("encodeNull()")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (void)encodeNullableSerializableValueSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
-- (void)encodeSerializableValueSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
-- (void)encodeShortValue:(int16_t)value __attribute__((swift_name("encodeShort(value:)")));
-- (void)encodeStringValue:(NSString *)value __attribute__((swift_name("encodeString(value:)")));
-@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
-@protocol KottageKotlinx_serialization_coreCompositeEncoder
-@required
-- (void)encodeBooleanElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
-- (void)encodeByteElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
-- (void)encodeCharElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
-- (void)encodeDoubleElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
-- (void)encodeFloatElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
-- (id<KottageKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
-- (void)encodeIntElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
-- (void)encodeLongElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (void)encodeNullableSerializableElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
-- (void)encodeSerializableElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
-- (void)encodeShortElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
-- (void)encodeStringElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
-- (void)endStructureDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (BOOL)shouldEncodeElementDefaultDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
-@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((swift_name("JsonEncoder")))
-@protocol KottageJsonEncoder <KottageKotlinx_serialization_coreEncoder, KottageKotlinx_serialization_coreCompositeEncoder>
-@required
-- (void)encodeJsonElementElement:(KottageJsonElement *)element __attribute__((swift_name("encodeJsonElement(element:)")));
-@property (readonly) KottageJson *json __attribute__((swift_name("json")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-__attribute__((swift_name("JsonNamingStrategy")))
-@protocol KottageJsonNamingStrategy
-@required
-- (NSString *)serialNameForJsonDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor elementIndex:(int32_t)elementIndex serialName:(NSString *)serialName __attribute__((swift_name("serialNameForJson(descriptor:elementIndex:serialName:)")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonNamingStrategyBuiltins")))
-@interface KottageJsonNamingStrategyBuiltins : KottageBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)builtins __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageJsonNamingStrategyBuiltins *shared __attribute__((swift_name("shared")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property (readonly) id<KottageJsonNamingStrategy> SnakeCase __attribute__((swift_name("SnakeCase")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonPrimitiveSerializer))
-*/
-__attribute__((swift_name("JsonPrimitive")))
-@interface KottageJsonPrimitive : KottageJsonElement
-@property (class, readonly, getter=companion) KottageJsonPrimitiveCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *content __attribute__((swift_name("content")));
-@property (readonly) BOOL isString __attribute__((swift_name("isString")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonNullSerializer))
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonNull")))
-@interface KottageJsonNull : KottageJsonPrimitive
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)jsonNull __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageJsonNull *shared __attribute__((swift_name("shared")));
-- (id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (id<KottageKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(KottageKotlinArray<id<KottageKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
-@property (readonly) NSString *content __attribute__((swift_name("content")));
-@property (readonly) BOOL isString __attribute__((swift_name("isString")));
-@end
-
-__attribute__((unavailable("can't be imported")))
-__attribute__((swift_name("JsonObject")))
-@interface KottageJsonObject : NSObject
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonObjectBuilder")))
-@interface KottageJsonObjectBuilder : KottageBase
-- (KottageJsonElement * _Nullable)putKey:(NSString *)key element:(KottageJsonElement *)element __attribute__((swift_name("put(key:element:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonPrimitive.Companion")))
-@interface KottageJsonPrimitiveCompanion : KottageBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageJsonPrimitiveCompanion *shared __attribute__((swift_name("shared")));
-- (id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((swift_name("JsonTransformingSerializer")))
-@interface KottageJsonTransformingSerializer<T> : KottageBase <KottageKotlinx_serialization_coreKSerializer>
-- (instancetype)initWithTSerializer:(id<KottageKotlinx_serialization_coreKSerializer>)tSerializer __attribute__((swift_name("init(tSerializer:)"))) __attribute__((objc_designated_initializer));
-- (T)deserializeDecoder:(id<KottageKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-- (void)serializeEncoder:(id<KottageKotlinx_serialization_coreEncoder>)encoder value:(T)value __attribute__((swift_name("serialize(encoder:value:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (KottageJsonElement *)transformDeserializeElement:(KottageJsonElement *)element __attribute__((swift_name("transformDeserialize(element:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (KottageJsonElement *)transformSerializeElement:(KottageJsonElement *)element __attribute__((swift_name("transformSerialize(element:)")));
-@property (readonly) id<KottageKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1921,6 +288,17 @@ __attribute__((swift_name("KottageEvent.Companion")))
 - (id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+__attribute__((swift_name("Flow")))
+@protocol KottageFlow
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<KottageFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KottageEventFlow")))
 @interface KottageKottageEventFlow : KottageBase <KottageFlow>
@@ -1936,6 +314,24 @@ __attribute__((swift_name("KottageEventFlow")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)ensureSubscribedWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("ensureSubscribed(completionHandler:)")));
+@end
+
+__attribute__((swift_name("KotlinComparable")))
+@protocol KottageKotlinComparable
+@required
+- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
+@end
+
+__attribute__((swift_name("KotlinEnum")))
+@interface KottageKotlinEnum<E> : KottageBase <KottageKotlinComparable>
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) KottageKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2424,6 +820,19 @@ __attribute__((swift_name("KottageStorageOptions.Builder")))
 @property id<KottageKottageStrategy> strategy __attribute__((swift_name("strategy")));
 @end
 
+__attribute__((swift_name("KottageEncoder")))
+@protocol KottageKottageEncoder
+@required
+- (KottageKotlinByteArray *)decodeEncoded:(KottageKotlinByteArray *)encoded __attribute__((swift_name("decode(encoded:)")));
+- (double)decodeToDoubleEncoded:(KottageKotlinByteArray *)encoded __attribute__((swift_name("decodeToDouble(encoded:)")));
+- (int64_t)decodeToLongEncoded:(KottageKotlinByteArray *)encoded __attribute__((swift_name("decodeToLong(encoded:)")));
+- (NSString *)decodeToStringEncoded:(KottageKotlinByteArray *)encoded __attribute__((swift_name("decodeToString(encoded:)")));
+- (KottageKotlinByteArray *)encodeValue:(KottageKotlinByteArray *)value __attribute__((swift_name("encode(value:)")));
+- (KottageKotlinByteArray *)encodeValue_:(double)value __attribute__((swift_name("encode(value_:)")));
+- (KottageKotlinByteArray *)encodeValue__:(int64_t)value __attribute__((swift_name("encode(value__:)")));
+- (KottageKotlinByteArray *)encodeValue___:(NSString *)value __attribute__((swift_name("encode(value___:)")));
+@end
+
 __attribute__((swift_name("KottageCalendar")))
 @protocol KottageKottageCalendar
 @required
@@ -2597,34 +1006,1609 @@ __attribute__((swift_name("KottageStrategyOperator")))
 - (void)updateItemLastReadTransaction:(id)transaction key:(NSString *)key itemType:(NSString *)itemType now:(int64_t)now completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("updateItemLastRead(transaction:key:itemType:now:completionHandler:)")));
 @end
 
-__attribute__((swift_name("KottageEncoder")))
-@protocol KottageKottageEncoder
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol KottageKotlinCoroutineContext
 @required
-- (KottageKotlinByteArray *)decodeEncoded:(KottageKotlinByteArray *)encoded __attribute__((swift_name("decode(encoded:)")));
-- (double)decodeToDoubleEncoded:(KottageKotlinByteArray *)encoded __attribute__((swift_name("decodeToDouble(encoded:)")));
-- (int64_t)decodeToLongEncoded:(KottageKotlinByteArray *)encoded __attribute__((swift_name("decodeToLong(encoded:)")));
-- (NSString *)decodeToStringEncoded:(KottageKotlinByteArray *)encoded __attribute__((swift_name("decodeToString(encoded:)")));
-- (KottageKotlinByteArray *)encodeValue:(KottageKotlinByteArray *)value __attribute__((swift_name("encode(value:)")));
-- (KottageKotlinByteArray *)encodeValue_:(double)value __attribute__((swift_name("encode(value_:)")));
-- (KottageKotlinByteArray *)encodeValue__:(int64_t)value __attribute__((swift_name("encode(value__:)")));
-- (KottageKotlinByteArray *)encodeValue___:(NSString *)value __attribute__((swift_name("encode(value___:)")));
+- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<KottageKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
+- (id<KottageKotlinCoroutineContextElement> _Nullable)getKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key:)")));
+- (id<KottageKotlinCoroutineContext>)minusKeyKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
+- (id<KottageKotlinCoroutineContext>)plusContext:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
 @end
 
-@interface KottageDispatchers (Extensions)
-@property (readonly) KottageCoroutineDispatcher *IO __attribute__((swift_name("IO")));
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol KottageKotlinCoroutineContextElement <KottageKotlinCoroutineContext>
+@required
+@property (readonly) id<KottageKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
 @end
 
-@interface KottageCoroutineDispatcher (Extensions)
+__attribute__((swift_name("Job")))
+@protocol KottageJob <KottageKotlinCoroutineContextElement>
+@required
+- (id<KottageChildHandle>)attachChildChild:(id<KottageChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (KottageKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<KottageDisposableHandle>)invokeOnCompletionHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+- (id<KottageDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)invokeBlock:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(block:completionHandler:)")));
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<KottageJob>)plusOther:(id<KottageJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<KottageKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<KottageSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent")));
 @end
 
-@interface KottageSharingStartedCompanion (Extensions)
-- (id<KottageSharingStarted>)WhileSubscribedStopTimeout:(int64_t)stopTimeout replayExpiration:(int64_t)replayExpiration __attribute__((swift_name("WhileSubscribed(stopTimeout:replayExpiration:)")));
+__attribute__((swift_name("ChildJob")))
+@protocol KottageChildJob <KottageJob>
+@required
+- (void)parentCancelledParentJob:(id<KottageParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end
+
+__attribute__((swift_name("ParentJob")))
+@protocol KottageParentJob <KottageJob>
+@required
+- (KottageKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end
+
+__attribute__((swift_name("JobSupport")))
+@interface KottageJobSupport : KottageBase <KottageJob, KottageChildJob, KottageParentJob>
+- (instancetype)initWithActive:(BOOL)active __attribute__((swift_name("init(active:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable("This is internal API and may be removed in the future releases")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)afterCompletionState:(id _Nullable)state __attribute__((swift_name("afterCompletion(state:)")));
+- (id<KottageChildHandle>)attachChildChild:(id<KottageChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)awaitInternalWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitInternal(completionHandler:)")));
+- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (BOOL)cancelCoroutineCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancelCoroutine(cause:)")));
+- (void)cancelInternalCause:(KottageKotlinThrowable *)cause __attribute__((swift_name("cancelInternal(cause:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (NSString *)cancellationExceptionMessage __attribute__((swift_name("cancellationExceptionMessage()")));
+- (BOOL)childCancelledCause:(KottageKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+- (KottageKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (KottageKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+- (KottageKotlinThrowable * _Nullable)getCompletionExceptionOrNull __attribute__((swift_name("getCompletionExceptionOrNull()")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (BOOL)handleJobExceptionException:(KottageKotlinThrowable *)exception __attribute__((swift_name("handleJobException(exception:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)doInitParentJobParent:(id<KottageJob> _Nullable)parent __attribute__((swift_name("doInitParentJob(parent:)")));
+- (id<KottageDisposableHandle>)invokeOnCompletionHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+- (id<KottageDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onCancellingCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("onCancelling(cause:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onCompletionInternalState:(id _Nullable)state __attribute__((swift_name("onCompletionInternal(state:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onStart __attribute__((swift_name("onStart()")));
+- (void)parentCancelledParentJob:(id<KottageParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+- (BOOL)start __attribute__((swift_name("start()")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (KottageKotlinCancellationException *)toCancellationException:(KottageKotlinThrowable *)receiver message:(NSString * _Nullable)message __attribute__((swift_name("toCancellationException(_:message:)")));
+- (NSString *)toDebugString __attribute__((swift_name("toDebugString()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KottageKotlinSequence> children __attribute__((swift_name("children")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) KottageKotlinThrowable * _Nullable completionCause __attribute__((swift_name("completionCause")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) BOOL completionCauseHandled __attribute__((swift_name("completionCauseHandled")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) BOOL isCompletedExceptionally __attribute__((swift_name("isCompletedExceptionally")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) BOOL isScopedCoroutine __attribute__((swift_name("isScopedCoroutine")));
+@property (readonly) id<KottageKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) id<KottageSelectClause1> onAwaitInternal __attribute__((swift_name("onAwaitInternal")));
+@property (readonly) id<KottageSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinContinuation")))
+@protocol KottageKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<KottageKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end
+
+__attribute__((swift_name("CoroutineScope")))
+@protocol KottageCoroutineScope
+@required
+@property (readonly) id<KottageKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end
+
+__attribute__((swift_name("AbstractCoroutine")))
+@interface KottageAbstractCoroutine<__contravariant T> : KottageJobSupport <KottageJob, KottageKotlinContinuation, KottageCoroutineScope>
+- (instancetype)initWithParentContext:(id<KottageKotlinCoroutineContext>)parentContext initParentJob:(BOOL)initParentJob active:(BOOL)active __attribute__((swift_name("init(parentContext:initParentJob:active:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithActive:(BOOL)active __attribute__((swift_name("init(active:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)afterResumeState:(id _Nullable)state __attribute__((swift_name("afterResume(state:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (NSString *)cancellationExceptionMessage __attribute__((swift_name("cancellationExceptionMessage()")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onCancelledCause:(KottageKotlinThrowable *)cause handled:(BOOL)handled __attribute__((swift_name("onCancelled(cause:handled:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onCompletedValue:(T _Nullable)value __attribute__((swift_name("onCompleted(value:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onCompletionInternalState:(id _Nullable)state __attribute__((swift_name("onCompletionInternal(state:)")));
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+- (void)startStart:(KottageCoroutineStart *)start receiver:(id _Nullable)receiver block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("start(start:receiver:block:)")));
+@property (readonly) id<KottageKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@property (readonly) id<KottageKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@end
+
+__attribute__((swift_name("CancellableContinuation")))
+@protocol KottageCancellableContinuation <KottageKotlinContinuation>
+@required
+- (BOOL)cancelCause_:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
+- (void)completeResumeToken:(id)token __attribute__((swift_name("completeResume(token:)")));
+- (void)doInitCancellability __attribute__((swift_name("doInitCancellability()")));
+- (void)invokeOnCancellationHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCancellation(handler:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (void)resumeValue:(id _Nullable)value onCancellation:(void (^ _Nullable)(KottageKotlinThrowable *))onCancellation __attribute__((swift_name("resume(value:onCancellation:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (void)resumeUndispatched:(KottageCoroutineDispatcher *)receiver value:(id _Nullable)value __attribute__((swift_name("resumeUndispatched(_:value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (void)resumeUndispatchedWithException:(KottageCoroutineDispatcher *)receiver exception:(KottageKotlinThrowable *)exception __attribute__((swift_name("resumeUndispatchedWithException(_:exception:)")));
+- (id _Nullable)tryResumeValue:(id _Nullable)value idempotent:(id _Nullable)idempotent __attribute__((swift_name("tryResume(value:idempotent:)")));
+- (id _Nullable)tryResumeValue:(id _Nullable)value idempotent:(id _Nullable)idempotent onCancellation:(void (^ _Nullable)(KottageKotlinThrowable *))onCancellation __attribute__((swift_name("tryResume(value:idempotent:onCancellation:)")));
+- (id _Nullable)tryResumeWithExceptionException:(KottageKotlinThrowable *)exception __attribute__((swift_name("tryResumeWithException(exception:)")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@end
+
+__attribute__((swift_name("DisposableHandle")))
+@protocol KottageDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end
+
+__attribute__((swift_name("ChildHandle")))
+@protocol KottageChildHandle <KottageDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(KottageKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
+@interface KottageKotlinAbstractCoroutineContextElement : KottageBase <KottageKotlinCoroutineContextElement>
+- (instancetype)initWithKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<KottageKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinContinuationInterceptor")))
+@protocol KottageKotlinContinuationInterceptor <KottageKotlinCoroutineContextElement>
+@required
+- (id<KottageKotlinContinuation>)interceptContinuationContinuation:(id<KottageKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (void)releaseInterceptedContinuationContinuation:(id<KottageKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+@end
+
+__attribute__((swift_name("CoroutineDispatcher")))
+@interface KottageCoroutineDispatcher : KottageKotlinAbstractCoroutineContextElement <KottageKotlinContinuationInterceptor>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KottageCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
+- (void)dispatchContext:(id<KottageKotlinCoroutineContext>)context block:(id<KottageRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
+- (void)dispatchYieldContext:(id<KottageKotlinCoroutineContext>)context block:(id<KottageRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
+- (id<KottageKotlinContinuation>)interceptContinuationContinuation:(id<KottageKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (BOOL)isDispatchNeededContext:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (KottageCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (KottageCoroutineDispatcher *)plusOther_:(KottageCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (void)releaseInterceptedContinuationContinuation:(id<KottageKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((swift_name("CloseableCoroutineDispatcher")))
+@interface KottageCloseableCoroutineDispatcher : KottageCoroutineDispatcher
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)close __attribute__((swift_name("close()")));
+@end
+
+__attribute__((swift_name("Deferred")))
+@protocol KottageDeferred <KottageJob>
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)awaitWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("await(completionHandler:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (id _Nullable)getCompleted __attribute__((swift_name("getCompleted()")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (KottageKotlinThrowable * _Nullable)getCompletionExceptionOrNull __attribute__((swift_name("getCompletionExceptionOrNull()")));
+@property (readonly) id<KottageSelectClause1> onAwait __attribute__((swift_name("onAwait")));
+@end
+
+__attribute__((swift_name("CompletableDeferred")))
+@protocol KottageCompletableDeferred <KottageDeferred>
+@required
+- (BOOL)completeValue:(id _Nullable)value __attribute__((swift_name("complete(value:)")));
+- (BOOL)completeExceptionallyException:(KottageKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
+@end
+
+__attribute__((swift_name("CompletableJob")))
+@protocol KottageCompletableJob <KottageJob>
+@required
+- (BOOL)complete __attribute__((swift_name("complete()")));
+- (BOOL)completeExceptionallyException:(KottageKotlinThrowable *)exception __attribute__((swift_name("completeExceptionally(exception:)")));
+@end
+
+__attribute__((swift_name("KotlinThrowable")))
+@interface KottageKotlinThrowable : KottageBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note annotations
+ *   kotlin.experimental.ExperimentalNativeApi
+*/
+- (KottageKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
+- (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KottageKotlinThrowable * _Nullable cause __attribute__((swift_name("cause")));
+@property (readonly) NSString * _Nullable message __attribute__((swift_name("message")));
+- (NSError *)asError __attribute__((swift_name("asError()")));
+@end
+
+__attribute__((swift_name("KotlinException")))
+@interface KottageKotlinException : KottageKotlinThrowable
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface KottageKotlinRuntimeException : KottageKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CompletionHandlerException")))
+@interface KottageCompletionHandlerException : KottageKotlinRuntimeException
+- (instancetype)initWithMessage:(NSString *)message cause:(KottageKotlinThrowable *)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+__attribute__((swift_name("CopyableThrowable")))
+@protocol KottageCopyableThrowable
+@required
+- (KottageKotlinThrowable * _Nullable)createCopy __attribute__((swift_name("createCopy()")));
+@end
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol KottageKotlinCoroutineContextKey
+@required
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface KottageKotlinAbstractCoroutineContextKey<B, E> : KottageBase <KottageKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<KottageKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<KottageKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CoroutineDispatcher.Key")))
+@interface KottageCoroutineDispatcherKey : KottageKotlinAbstractCoroutineContextKey<id<KottageKotlinContinuationInterceptor>, KottageCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<KottageKotlinCoroutineContextKey>)baseKey safeCast:(id<KottageKotlinCoroutineContextElement> _Nullable (^)(id<KottageKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("CoroutineExceptionHandler")))
+@protocol KottageCoroutineExceptionHandler <KottageKotlinCoroutineContextElement>
+@required
+- (void)handleExceptionContext:(id<KottageKotlinCoroutineContext>)context exception:(KottageKotlinThrowable *)exception __attribute__((swift_name("handleException(context:exception:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CoroutineExceptionHandlerKey")))
+@interface KottageCoroutineExceptionHandlerKey : KottageBase <KottageKotlinCoroutineContextKey>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageCoroutineExceptionHandlerKey *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CoroutineName")))
+@interface KottageCoroutineName : KottageKotlinAbstractCoroutineContextElement
+- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) KottageCoroutineNameKey *companion __attribute__((swift_name("companion")));
+- (KottageCoroutineName *)doCopyName:(NSString *)name __attribute__((swift_name("doCopy(name:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CoroutineName.Key")))
+@interface KottageCoroutineNameKey : KottageBase <KottageKotlinCoroutineContextKey>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageCoroutineNameKey *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CoroutineStart")))
+@interface KottageCoroutineStart : KottageKotlinEnum<KottageCoroutineStart *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) KottageCoroutineStart *default_ __attribute__((swift_name("default_")));
+@property (class, readonly) KottageCoroutineStart *lazy __attribute__((swift_name("lazy")));
+@property (class, readonly) KottageCoroutineStart *atomic __attribute__((swift_name("atomic")));
+@property (class, readonly) KottageCoroutineStart *undispatched __attribute__((swift_name("undispatched")));
++ (KottageKotlinArray<KottageCoroutineStart *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<KottageCoroutineStart *> *entries __attribute__((swift_name("entries")));
+- (void)invokeBlock:(id<KottageKotlinSuspendFunction1>)block receiver:(id _Nullable)receiver completion:(id<KottageKotlinContinuation>)completion __attribute__((swift_name("invoke(block:receiver:completion:)")));
+@property (readonly) BOOL isLazy __attribute__((swift_name("isLazy")));
+@end
+
+__attribute__((swift_name("Delay")))
+@protocol KottageDelay
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)delayTime:(int64_t)time completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("delay(time:completionHandler:)"))) __attribute__((unavailable("Deprecated without replacement as an internal method never intended for public use")));
+- (id<KottageDisposableHandle>)invokeOnTimeoutTimeMillis:(int64_t)timeMillis block:(id<KottageRunnable>)block context:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("invokeOnTimeout(timeMillis:block:context:)")));
+- (void)scheduleResumeAfterDelayTimeMillis:(int64_t)timeMillis continuation:(id<KottageCancellableContinuation>)continuation __attribute__((swift_name("scheduleResumeAfterDelay(timeMillis:continuation:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Dispatchers")))
+@interface KottageDispatchers : KottageBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)dispatchers __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageDispatchers *shared __attribute__((swift_name("shared")));
+@property (readonly) KottageCoroutineDispatcher *Default __attribute__((swift_name("Default")));
+@property (readonly) KottageMainCoroutineDispatcher *Main __attribute__((swift_name("Main")));
+@property (readonly) KottageCoroutineDispatcher *Unconfined __attribute__((swift_name("Unconfined")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.DelicateCoroutinesApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("GlobalScope")))
+@interface KottageGlobalScope : KottageBase <KottageCoroutineScope>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)globalScope __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageGlobalScope *shared __attribute__((swift_name("shared")));
+@property (readonly) id<KottageKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JobKey")))
+@interface KottageJobKey : KottageBase <KottageKotlinCoroutineContextKey>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageJobKey *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("MainCoroutineDispatcher")))
+@interface KottageMainCoroutineDispatcher : KottageCoroutineDispatcher
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (KottageCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (NSString * _Nullable)toStringInternalImpl __attribute__((swift_name("toStringInternalImpl()")));
+@property (readonly) KottageMainCoroutineDispatcher *immediate __attribute__((swift_name("immediate")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NonCancellable")))
+@interface KottageNonCancellable : KottageKotlinAbstractCoroutineContextElement <KottageJob>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithKey:(id<KottageKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)nonCancellable __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageNonCancellable *shared __attribute__((swift_name("shared")));
+- (id<KottageChildHandle>)attachChildChild:(id<KottageChildJob>)child __attribute__((swift_name("attachChild(child:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+- (KottageKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+- (id<KottageDisposableHandle>)invokeOnCompletionHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+- (id<KottageDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+- (BOOL)start __attribute__((swift_name("start()"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KottageKotlinSequence> children __attribute__((swift_name("children"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+@property (readonly) id<KottageSelectClause0> onJoin __attribute__((swift_name("onJoin"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent"))) __attribute__((deprecated("NonCancellable can be used only as an argument for 'withContext', direct usages of its API are prohibited")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NonDisposableHandle")))
+@interface KottageNonDisposableHandle : KottageBase <KottageDisposableHandle, KottageChildHandle>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)nonDisposableHandle __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageNonDisposableHandle *shared __attribute__((swift_name("shared")));
+- (BOOL)childCancelledCause:(KottageKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+- (void)dispose __attribute__((swift_name("dispose()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<KottageJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+__attribute__((swift_name("Runnable")))
+@protocol KottageRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
+@end
+
+__attribute__((swift_name("KotlinIllegalStateException")))
+@interface KottageKotlinIllegalStateException : KottageKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.4")
+*/
+__attribute__((swift_name("KotlinCancellationException")))
+@interface KottageKotlinCancellationException : KottageKotlinIllegalStateException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("TimeoutCancellationException")))
+@interface KottageTimeoutCancellationException : KottageKotlinCancellationException <KottageCopyableThrowable>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (KottageTimeoutCancellationException *)createCopy __attribute__((swift_name("createCopy()")));
+@end
+
+__attribute__((swift_name("SendChannel")))
+@protocol KottageSendChannel
+@required
+- (BOOL)closeCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("close(cause:)")));
+- (void)invokeOnCloseHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnClose(handler:)")));
+- (BOOL)offerElement:(id _Nullable)element __attribute__((swift_name("offer(element:)"))) __attribute__((unavailable("Deprecated in the favour of 'trySend' method")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)sendElement:(id _Nullable)element completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("send(element:completionHandler:)")));
+- (id _Nullable)trySendElement:(id _Nullable)element __attribute__((swift_name("trySend(element:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.DelicateCoroutinesApi
+*/
+@property (readonly) BOOL isClosedForSend __attribute__((swift_name("isClosedForSend")));
+@property (readonly) id<KottageSelectClause2> onSend __attribute__((swift_name("onSend")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ObsoleteCoroutinesApi
+*/
+__attribute__((swift_name("BroadcastChannel")))
+@protocol KottageBroadcastChannel <KottageSendChannel>
+@required
+- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (id<KottageReceiveChannel>)openSubscription __attribute__((swift_name("openSubscription()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BufferOverflow")))
+@interface KottageBufferOverflow : KottageKotlinEnum<KottageBufferOverflow *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) KottageBufferOverflow *suspend __attribute__((swift_name("suspend")));
+@property (class, readonly) KottageBufferOverflow *dropOldest __attribute__((swift_name("dropOldest")));
+@property (class, readonly) KottageBufferOverflow *dropLatest __attribute__((swift_name("dropLatest")));
++ (KottageKotlinArray<KottageBufferOverflow *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<KottageBufferOverflow *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((swift_name("ReceiveChannel")))
+@protocol KottageReceiveChannel
+@required
+- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (id<KottageChannelIterator>)iterator __attribute__((swift_name("iterator()")));
+- (id _Nullable)poll __attribute__((swift_name("poll()"))) __attribute__((unavailable("Deprecated in the favour of 'tryReceive'. Please note that the provided replacement does not rethrow channel's close cause as 'poll' did, for the precise replacement please refer to the 'poll' documentation")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)receiveWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receive(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)receiveCatchingWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receiveCatching(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)receiveOrNullWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receiveOrNull(completionHandler:)"))) __attribute__((unavailable("Deprecated in favor of 'receiveCatching'. Please note that the provided replacement does not rethrow channel's close cause as 'receiveOrNull' did, for the detailed replacement please refer to the 'receiveOrNull' documentation")));
+- (id _Nullable)tryReceive __attribute__((swift_name("tryReceive()")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.DelicateCoroutinesApi
+*/
+@property (readonly) BOOL isClosedForReceive __attribute__((swift_name("isClosedForReceive")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) id<KottageSelectClause1> onReceive __attribute__((swift_name("onReceive")));
+@property (readonly) id<KottageSelectClause1> onReceiveCatching __attribute__((swift_name("onReceiveCatching")));
+@property (readonly) id<KottageSelectClause1> onReceiveOrNull __attribute__((swift_name("onReceiveOrNull"))) __attribute__((unavailable("Deprecated in favor of onReceiveCatching extension")));
+@end
+
+__attribute__((swift_name("Channel")))
+@protocol KottageChannel <KottageSendChannel, KottageReceiveChannel>
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChannelFactory")))
+@interface KottageChannelFactory : KottageBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)factory __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageChannelFactory *shared __attribute__((swift_name("shared")));
+@property (readonly) int32_t BUFFERED __attribute__((swift_name("BUFFERED")));
+@property (readonly) int32_t CONFLATED __attribute__((swift_name("CONFLATED")));
+@property (readonly) NSString *DEFAULT_BUFFER_PROPERTY_NAME __attribute__((swift_name("DEFAULT_BUFFER_PROPERTY_NAME")));
+@property (readonly) int32_t RENDEZVOUS __attribute__((swift_name("RENDEZVOUS")));
+@property (readonly) int32_t UNLIMITED __attribute__((swift_name("UNLIMITED")));
+@end
+
+__attribute__((swift_name("ChannelIterator")))
+@protocol KottageChannelIterator
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)hasNextWithCompletionHandler:(void (^)(KottageBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("hasNext(completionHandler:)")));
+- (id _Nullable)next __attribute__((swift_name("next()")));
+@end
+
+__attribute__((swift_name("KotlinNoSuchElementException")))
+@interface KottageKotlinNoSuchElementException : KottageKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ClosedReceiveChannelException")))
+@interface KottageClosedReceiveChannelException : KottageKotlinNoSuchElementException
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ClosedSendChannelException")))
+@interface KottageClosedSendChannelException : KottageKotlinIllegalStateException
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ObsoleteCoroutinesApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ConflatedBroadcastChannel")))
+@interface KottageConflatedBroadcastChannel<E> : KottageBase <KottageBroadcastChannel>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("ConflatedBroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithValue:(E _Nullable)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("ConflatedBroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
+- (void)cancelCause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (BOOL)closeCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("close(cause:)")));
+- (void)invokeOnCloseHandler:(void (^)(KottageKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnClose(handler:)")));
+- (BOOL)offerElement:(E _Nullable)element __attribute__((swift_name("offer(element:)"))) __attribute__((unavailable("Deprecated in the favour of 'trySend' method")));
+- (id<KottageReceiveChannel>)openSubscription __attribute__((swift_name("openSubscription()")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)sendElement:(E _Nullable)element completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("send(element:completionHandler:)")));
+- (id _Nullable)trySendElement:(E _Nullable)element __attribute__((swift_name("trySend(element:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.DelicateCoroutinesApi
+*/
+@property (readonly) BOOL isClosedForSend __attribute__((swift_name("isClosedForSend")));
+@property (readonly) id<KottageSelectClause2> onSend __attribute__((swift_name("onSend")));
+@property (readonly) E _Nullable value __attribute__((swift_name("value")));
+@property (readonly) E _Nullable valueOrNull __attribute__((swift_name("valueOrNull")));
+@end
+
+__attribute__((swift_name("ProducerScope")))
+@protocol KottageProducerScope <KottageCoroutineScope, KottageSendChannel>
+@required
+@property (readonly) id<KottageSendChannel> channel __attribute__((swift_name("channel")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+__attribute__((swift_name("AbstractFlow")))
+@interface KottageAbstractFlow<T> : KottageBase <KottageFlow>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<KottageFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectSafelyCollector:(id<KottageFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collectSafely(collector:completionHandler:)")));
+@end
+
+__attribute__((swift_name("FlowCollector")))
+@protocol KottageFlowCollector
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
+@end
+
+__attribute__((swift_name("SharedFlow")))
+@protocol KottageSharedFlow <KottageFlow>
+@required
+@property (readonly) NSArray<id> *replayCache __attribute__((swift_name("replayCache")));
+@end
+
+__attribute__((swift_name("MutableSharedFlow")))
+@protocol KottageMutableSharedFlow <KottageSharedFlow, KottageFlowCollector>
+@required
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (void)resetReplayCache __attribute__((swift_name("resetReplayCache()")));
+- (BOOL)tryEmitValue:(id _Nullable)value __attribute__((swift_name("tryEmit(value:)")));
+@property (readonly) id<KottageStateFlow> subscriptionCount __attribute__((swift_name("subscriptionCount")));
+@end
+
+__attribute__((swift_name("StateFlow")))
+@protocol KottageStateFlow <KottageSharedFlow>
+@required
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end
+
+__attribute__((swift_name("MutableStateFlow")))
+@protocol KottageMutableStateFlow <KottageStateFlow, KottageMutableSharedFlow>
+@required
+- (void)setValue:(id _Nullable)value __attribute__((swift_name("setValue(_:)")));
+- (BOOL)compareAndSetExpect:(id _Nullable)expect update:(id _Nullable)update __attribute__((swift_name("compareAndSet(expect:update:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SharingCommand")))
+@interface KottageSharingCommand : KottageKotlinEnum<KottageSharingCommand *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) KottageSharingCommand *start __attribute__((swift_name("start")));
+@property (class, readonly) KottageSharingCommand *stop __attribute__((swift_name("stop")));
+@property (class, readonly) KottageSharingCommand *stopAndResetReplayCache __attribute__((swift_name("stopAndResetReplayCache")));
++ (KottageKotlinArray<KottageSharingCommand *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<KottageSharingCommand *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((swift_name("SharingStarted")))
+@protocol KottageSharingStarted
+@required
+- (id<KottageFlow>)commandSubscriptionCount:(id<KottageStateFlow>)subscriptionCount __attribute__((swift_name("command(subscriptionCount:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SharingStartedCompanion")))
+@interface KottageSharingStartedCompanion : KottageBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageSharingStartedCompanion *shared __attribute__((swift_name("shared")));
+- (id<KottageSharingStarted>)WhileSubscribedStopTimeoutMillis:(int64_t)stopTimeoutMillis replayExpirationMillis:(int64_t)replayExpirationMillis __attribute__((swift_name("WhileSubscribed(stopTimeoutMillis:replayExpirationMillis:)")));
+@property (readonly) id<KottageSharingStarted> Eagerly __attribute__((swift_name("Eagerly")));
+@property (readonly) id<KottageSharingStarted> Lazily __attribute__((swift_name("Lazily")));
+@end
+
+__attribute__((swift_name("FusibleFlow")))
+@protocol KottageFusibleFlow <KottageFlow>
+@required
+- (id<KottageFlow>)fuseContext:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("fuse(context:capacity:onBufferOverflow:)")));
+@end
+
+__attribute__((swift_name("ChannelFlow")))
+@interface KottageChannelFlow<T> : KottageBase <KottageFusibleFlow>
+- (instancetype)initWithContext:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("init(context:capacity:onBufferOverflow:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (NSString * _Nullable)additionalToStringProps __attribute__((swift_name("additionalToStringProps()")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<KottageFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)collectToScope:(id<KottageProducerScope>)scope completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collectTo(scope:completionHandler:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (KottageChannelFlow<T> *)createContext:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("create(context:capacity:onBufferOverflow:)")));
+- (id<KottageFlow> _Nullable)dropChannelOperators __attribute__((swift_name("dropChannelOperators()")));
+- (id<KottageFlow>)fuseContext:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("fuse(context:capacity:onBufferOverflow:)")));
+- (id<KottageReceiveChannel>)produceImplScope:(id<KottageCoroutineScope>)scope __attribute__((swift_name("produceImpl(scope:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t capacity __attribute__((swift_name("capacity")));
+@property (readonly) id<KottageKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@property (readonly) KottageBufferOverflow *onBufferOverflow __attribute__((swift_name("onBufferOverflow")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SendingCollector")))
+@interface KottageSendingCollector<T> : KottageBase <KottageFlowCollector>
+- (instancetype)initWithChannel:(id<KottageSendChannel>)channel __attribute__((swift_name("init(channel:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(T _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
+@end
+
+__attribute__((swift_name("OpDescriptor")))
+@interface KottageOpDescriptor : KottageBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) KottageAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
+@end
+
+__attribute__((swift_name("AtomicOp")))
+@interface KottageAtomicOp<__contravariant T> : KottageOpDescriptor
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
+- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
+- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
+@property (readonly) KottageAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
+@end
+
+__attribute__((swift_name("LockFreeLinkedListNode")))
+@interface KottageLockFreeLinkedListNode : KottageBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addLastNode:(KottageLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
+- (BOOL)addLastIfNode:(KottageLockFreeLinkedListNode *)node condition:(KottageBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
+- (BOOL)addOneIfEmptyNode:(KottageLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (KottageLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
+- (BOOL)remove __attribute__((swift_name("remove()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
+@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
+@property (readonly) KottageLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
+@property (readonly) KottageLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
+@end
+
+__attribute__((swift_name("LockFreeLinkedListHead")))
+@interface KottageLockFreeLinkedListHead : KottageLockFreeLinkedListNode
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)forEachBlock:(void (^)(KottageLockFreeLinkedListNode *))block __attribute__((swift_name("forEach(block:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (KottageLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
+- (BOOL)remove __attribute__((swift_name("remove()")));
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
+@end
+
+__attribute__((swift_name("MainDispatcherFactory")))
+@protocol KottageMainDispatcherFactory
+@required
+- (KottageMainCoroutineDispatcher *)createDispatcherAllFactories:(NSArray<id<KottageMainDispatcherFactory>> *)allFactories __attribute__((swift_name("createDispatcher(allFactories:)")));
+- (NSString * _Nullable)hintOnError __attribute__((swift_name("hintOnError()")));
+@property (readonly) int32_t loadPriority __attribute__((swift_name("loadPriority")));
+@end
+
+__attribute__((swift_name("AtomicfuSynchronizedObject")))
+@interface KottageAtomicfuSynchronizedObject : KottageBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)lock __attribute__((swift_name("lock()")));
+- (BOOL)tryLock __attribute__((swift_name("tryLock()")));
+- (void)unlock __attribute__((swift_name("unlock()")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly, getter=lock_) KottageKotlinAtomicReference<KottageAtomicfuSynchronizedObjectLockState *> *lock __attribute__((swift_name("lock")));
+@end
+
+__attribute__((swift_name("ThreadSafeHeap")))
+@interface KottageThreadSafeHeap<T> : KottageAtomicfuSynchronizedObject
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addLastNode:(T)node __attribute__((swift_name("addLast(node:)")));
+- (BOOL)addLastIfNode:(T)node cond:(KottageBoolean *(^)(T _Nullable))cond __attribute__((swift_name("addLastIf(node:cond:)")));
+- (T _Nullable)findPredicate:(KottageBoolean *(^)(T))predicate __attribute__((swift_name("find(predicate:)")));
+- (T _Nullable)peek __attribute__((swift_name("peek()")));
+- (BOOL)removeNode:(T)node __attribute__((swift_name("remove(node:)")));
+- (T _Nullable)removeFirstIfPredicate:(KottageBoolean *(^)(T))predicate __attribute__((swift_name("removeFirstIf(predicate:)")));
+- (T _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((swift_name("ThreadSafeHeapNode")))
+@protocol KottageThreadSafeHeapNode
+@required
+@property KottageThreadSafeHeap<id> * _Nullable heap __attribute__((swift_name("heap")));
+@property int32_t index __attribute__((swift_name("index")));
+@end
+
+__attribute__((swift_name("SelectBuilder")))
+@protocol KottageSelectBuilder
+@required
+- (void)invoke:(id<KottageSelectClause0>)receiver block:(id<KottageKotlinSuspendFunction0>)block __attribute__((swift_name("invoke(_:block:)")));
+- (void)invoke:(id<KottageSelectClause1>)receiver block_:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("invoke(_:block_:)")));
+- (void)invoke:(id<KottageSelectClause2>)receiver block__:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("invoke(_:block__:)")));
+- (void)invoke:(id<KottageSelectClause2>)receiver param:(id _Nullable)param block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("invoke(_:param:block:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (void)onTimeoutTimeMillis:(int64_t)timeMillis block:(id<KottageKotlinSuspendFunction0>)block __attribute__((swift_name("onTimeout(timeMillis:block:)"))) __attribute__((unavailable("Replaced with the same extension function")));
+@end
+
+__attribute__((swift_name("SelectClause")))
+@protocol KottageSelectClause
+@required
+@property (readonly) id clauseObject __attribute__((swift_name("clauseObject")));
+@property (readonly) KottageKotlinUnit *(^(^ _Nullable onCancellationConstructor)(id<KottageSelectInstance>, id _Nullable, id _Nullable))(KottageKotlinThrowable *) __attribute__((swift_name("onCancellationConstructor")));
+@property (readonly) id _Nullable (^processResFunc)(id, id _Nullable, id _Nullable) __attribute__((swift_name("processResFunc")));
+@property (readonly) void (^regFunc)(id, id<KottageSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
+@end
+
+__attribute__((swift_name("SelectClause0")))
+@protocol KottageSelectClause0 <KottageSelectClause>
+@required
+@end
+
+__attribute__((swift_name("SelectClause1")))
+@protocol KottageSelectClause1 <KottageSelectClause>
+@required
+@end
+
+__attribute__((swift_name("SelectClause2")))
+@protocol KottageSelectClause2 <KottageSelectClause>
+@required
+@end
+
+__attribute__((swift_name("SelectInstance")))
+@protocol KottageSelectInstance
+@required
+- (void)disposeOnCompletionDisposableHandle:(id<KottageDisposableHandle>)disposableHandle __attribute__((swift_name("disposeOnCompletion(disposableHandle:)")));
+- (void)selectInRegistrationPhaseInternalResult:(id _Nullable)internalResult __attribute__((swift_name("selectInRegistrationPhase(internalResult:)")));
+- (BOOL)trySelectClauseObject:(id)clauseObject result:(id _Nullable)result __attribute__((swift_name("trySelect(clauseObject:result:)")));
+@property (readonly) id<KottageKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end
+
+__attribute__((swift_name("Mutex")))
+@protocol KottageMutex
+@required
+- (BOOL)holdsLockOwner:(id)owner __attribute__((swift_name("holdsLock(owner:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)lockOwner:(id _Nullable)owner completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("lock(owner:completionHandler:)")));
+- (BOOL)tryLockOwner:(id _Nullable)owner __attribute__((swift_name("tryLock(owner:)")));
+- (void)unlockOwner:(id _Nullable)owner __attribute__((swift_name("unlock(owner:)")));
+@property (readonly) BOOL isLocked __attribute__((swift_name("isLocked")));
+@property (readonly) id<KottageSelectClause2> onLock __attribute__((swift_name("onLock"))) __attribute__((deprecated("Mutex.onLock deprecated without replacement. For additional details please refer to #2794")));
+@end
+
+__attribute__((swift_name("Semaphore")))
+@protocol KottageSemaphore
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)acquireWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("acquire(completionHandler:)")));
+- (void)release_ __attribute__((swift_name("release()")));
+- (BOOL)tryAcquire __attribute__((swift_name("tryAcquire()")));
+@property (readonly) int32_t availablePermits __attribute__((swift_name("availablePermits")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DecodeSequenceMode")))
+@interface KottageDecodeSequenceMode : KottageKotlinEnum<KottageDecodeSequenceMode *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) KottageDecodeSequenceMode *whitespaceSeparated __attribute__((swift_name("whitespaceSeparated")));
+@property (class, readonly) KottageDecodeSequenceMode *arrayWrapped __attribute__((swift_name("arrayWrapped")));
+@property (class, readonly) KottageDecodeSequenceMode *autoDetect __attribute__((swift_name("autoDetect")));
++ (KottageKotlinArray<KottageDecodeSequenceMode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<KottageDecodeSequenceMode *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerialFormat")))
+@protocol KottageKotlinx_serialization_coreSerialFormat
+@required
+@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreStringFormat")))
+@protocol KottageKotlinx_serialization_coreStringFormat <KottageKotlinx_serialization_coreSerialFormat>
+@required
+- (id _Nullable)decodeFromStringDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
+- (NSString *)encodeToStringSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
+@end
+
+__attribute__((swift_name("Json")))
+@interface KottageJson : KottageBase <KottageKotlinx_serialization_coreStringFormat>
+@property (class, readonly, getter=companion) KottageJsonDefault *companion __attribute__((swift_name("companion")));
+- (id _Nullable)decodeFromJsonElementDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer element:(KottageJsonElement *)element __attribute__((swift_name("decodeFromJsonElement(deserializer:element:)")));
+- (id _Nullable)decodeFromStringString:(NSString *)string __attribute__((swift_name("decodeFromString(string:)")));
+- (id _Nullable)decodeFromStringDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
+- (KottageJsonElement *)encodeToJsonElementSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(serializer:value:)")));
+- (NSString *)encodeToStringSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
+- (KottageJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
+@property (readonly) KottageJsonConfiguration *configuration __attribute__((swift_name("configuration")));
+@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Json.Default")))
+@interface KottageJsonDefault : KottageJson
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)default_ __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageJsonDefault *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((unavailable("can't be imported")))
+__attribute__((swift_name("JsonArray")))
+@interface KottageJsonArray : NSObject
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonArrayBuilder")))
+@interface KottageJsonArrayBuilder : KottageBase
+- (BOOL)addElement:(KottageJsonElement *)element __attribute__((swift_name("add(element:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)addAllElements:(id)elements __attribute__((swift_name("addAll(elements:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonBuilder")))
+@interface KottageJsonBuilder : KottageBase
+@property BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
+@property BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
+@property NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
+@property BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property BOOL decodeEnumsCaseInsensitive __attribute__((swift_name("decodeEnumsCaseInsensitive")));
+@property BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
+@property BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
+@property BOOL isLenient __attribute__((swift_name("isLenient")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property id<KottageJsonNamingStrategy> _Nullable namingStrategy __attribute__((swift_name("namingStrategy")));
+@property BOOL prettyPrint __attribute__((swift_name("prettyPrint")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
+@property KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@property BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
+@property BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonConfiguration")))
+@interface KottageJsonConfiguration : KottageBase
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
+@property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
+@property (readonly) NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
+@property (readonly) BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL decodeEnumsCaseInsensitive __attribute__((swift_name("decodeEnumsCaseInsensitive")));
+@property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
+@property (readonly) BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
+@property (readonly) BOOL isLenient __attribute__((swift_name("isLenient")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) id<KottageJsonNamingStrategy> _Nullable namingStrategy __attribute__((swift_name("namingStrategy")));
+@property (readonly) BOOL prettyPrint __attribute__((swift_name("prettyPrint")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
+@property (readonly) BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
+@property (readonly) BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
+@protocol KottageKotlinx_serialization_coreSerializationStrategy
+@required
+- (void)serializeEncoder:(id<KottageKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<KottageKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
+@protocol KottageKotlinx_serialization_coreDeserializationStrategy
+@required
+- (id _Nullable)deserializeDecoder:(id<KottageKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<KottageKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
+@protocol KottageKotlinx_serialization_coreKSerializer <KottageKotlinx_serialization_coreSerializationStrategy, KottageKotlinx_serialization_coreDeserializationStrategy>
+@required
+@end
+
+__attribute__((swift_name("JsonContentPolymorphicSerializer")))
+@interface KottageJsonContentPolymorphicSerializer<T> : KottageBase <KottageKotlinx_serialization_coreKSerializer>
+- (instancetype)initWithBaseClass:(id<KottageKotlinKClass>)baseClass __attribute__((swift_name("init(baseClass:)"))) __attribute__((objc_designated_initializer));
+- (T)deserializeDecoder:(id<KottageKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (id<KottageKotlinx_serialization_coreDeserializationStrategy>)selectDeserializerElement:(KottageJsonElement *)element __attribute__((swift_name("selectDeserializer(element:)")));
+- (void)serializeEncoder:(id<KottageKotlinx_serialization_coreEncoder>)encoder value:(T)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<KottageKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
+@protocol KottageKotlinx_serialization_coreDecoder
+@required
+- (id<KottageKotlinx_serialization_coreCompositeDecoder>)beginStructureDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (BOOL)decodeBoolean __attribute__((swift_name("decodeBoolean()")));
+- (int8_t)decodeByte __attribute__((swift_name("decodeByte()")));
+- (unichar)decodeChar __attribute__((swift_name("decodeChar()")));
+- (double)decodeDouble __attribute__((swift_name("decodeDouble()")));
+- (int32_t)decodeEnumEnumDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)enumDescriptor __attribute__((swift_name("decodeEnum(enumDescriptor:)")));
+- (float)decodeFloat __attribute__((swift_name("decodeFloat()")));
+- (id<KottageKotlinx_serialization_coreDecoder>)decodeInlineDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeInline(descriptor:)")));
+- (int32_t)decodeInt __attribute__((swift_name("decodeInt()")));
+- (int64_t)decodeLong __attribute__((swift_name("decodeLong()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)decodeNotNullMark __attribute__((swift_name("decodeNotNullMark()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (KottageKotlinNothing * _Nullable)decodeNull __attribute__((swift_name("decodeNull()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id _Nullable)decodeNullableSerializableValueDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeNullableSerializableValue(deserializer:)")));
+- (id _Nullable)decodeSerializableValueDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("decodeSerializableValue(deserializer:)")));
+- (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
+- (NSString *)decodeString __attribute__((swift_name("decodeString()")));
+@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
+@protocol KottageKotlinx_serialization_coreCompositeDecoder
+@required
+- (BOOL)decodeBooleanElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeBooleanElement(descriptor:index:)")));
+- (int8_t)decodeByteElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeByteElement(descriptor:index:)")));
+- (unichar)decodeCharElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeCharElement(descriptor:index:)")));
+- (int32_t)decodeCollectionSizeDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeCollectionSize(descriptor:)")));
+- (double)decodeDoubleElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeDoubleElement(descriptor:index:)")));
+- (int32_t)decodeElementIndexDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("decodeElementIndex(descriptor:)")));
+- (float)decodeFloatElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeFloatElement(descriptor:index:)")));
+- (id<KottageKotlinx_serialization_coreDecoder>)decodeInlineElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeInlineElement(descriptor:index:)")));
+- (int32_t)decodeIntElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeIntElement(descriptor:index:)")));
+- (int64_t)decodeLongElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeLongElement(descriptor:index:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id _Nullable)decodeNullableSerializableElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeNullableSerializableElement(descriptor:index:deserializer:previousValue:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)decodeSequentially __attribute__((swift_name("decodeSequentially()")));
+- (id _Nullable)decodeSerializableElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index deserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer previousValue:(id _Nullable)previousValue __attribute__((swift_name("decodeSerializableElement(descriptor:index:deserializer:previousValue:)")));
+- (int16_t)decodeShortElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeShortElement(descriptor:index:)")));
+- (NSString *)decodeStringElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
+- (void)endStructureDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("JsonDecoder")))
+@protocol KottageJsonDecoder <KottageKotlinx_serialization_coreDecoder, KottageKotlinx_serialization_coreCompositeDecoder>
+@required
+- (KottageJsonElement *)decodeJsonElement __attribute__((swift_name("decodeJsonElement()")));
+@property (readonly) KottageJson *json __attribute__((swift_name("json")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
+*/
+__attribute__((swift_name("JsonElement")))
+@interface KottageJsonElement : KottageBase
+@property (class, readonly, getter=companion) KottageJsonElementCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonElement.Companion")))
+@interface KottageJsonElementCompanion : KottageBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageJsonElementCompanion *shared __attribute__((swift_name("shared")));
+- (id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
+@protocol KottageKotlinx_serialization_coreEncoder
+@required
+- (id<KottageKotlinx_serialization_coreCompositeEncoder>)beginCollectionDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor collectionSize:(int32_t)collectionSize __attribute__((swift_name("beginCollection(descriptor:collectionSize:)")));
+- (id<KottageKotlinx_serialization_coreCompositeEncoder>)beginStructureDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("beginStructure(descriptor:)")));
+- (void)encodeBooleanValue:(BOOL)value __attribute__((swift_name("encodeBoolean(value:)")));
+- (void)encodeByteValue:(int8_t)value __attribute__((swift_name("encodeByte(value:)")));
+- (void)encodeCharValue:(unichar)value __attribute__((swift_name("encodeChar(value:)")));
+- (void)encodeDoubleValue:(double)value __attribute__((swift_name("encodeDouble(value:)")));
+- (void)encodeEnumEnumDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)enumDescriptor index:(int32_t)index __attribute__((swift_name("encodeEnum(enumDescriptor:index:)")));
+- (void)encodeFloatValue:(float)value __attribute__((swift_name("encodeFloat(value:)")));
+- (id<KottageKotlinx_serialization_coreEncoder>)encodeInlineDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("encodeInline(descriptor:)")));
+- (void)encodeIntValue:(int32_t)value __attribute__((swift_name("encodeInt(value:)")));
+- (void)encodeLongValue:(int64_t)value __attribute__((swift_name("encodeLong(value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)encodeNotNullMark __attribute__((swift_name("encodeNotNullMark()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)encodeNull __attribute__((swift_name("encodeNull()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)encodeNullableSerializableValueSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableValue(serializer:value:)")));
+- (void)encodeSerializableValueSerializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableValue(serializer:value:)")));
+- (void)encodeShortValue:(int16_t)value __attribute__((swift_name("encodeShort(value:)")));
+- (void)encodeStringValue:(NSString *)value __attribute__((swift_name("encodeString(value:)")));
+@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
+@protocol KottageKotlinx_serialization_coreCompositeEncoder
+@required
+- (void)encodeBooleanElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(BOOL)value __attribute__((swift_name("encodeBooleanElement(descriptor:index:value:)")));
+- (void)encodeByteElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int8_t)value __attribute__((swift_name("encodeByteElement(descriptor:index:value:)")));
+- (void)encodeCharElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(unichar)value __attribute__((swift_name("encodeCharElement(descriptor:index:value:)")));
+- (void)encodeDoubleElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(double)value __attribute__((swift_name("encodeDoubleElement(descriptor:index:value:)")));
+- (void)encodeFloatElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(float)value __attribute__((swift_name("encodeFloatElement(descriptor:index:value:)")));
+- (id<KottageKotlinx_serialization_coreEncoder>)encodeInlineElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("encodeInlineElement(descriptor:index:)")));
+- (void)encodeIntElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int32_t)value __attribute__((swift_name("encodeIntElement(descriptor:index:value:)")));
+- (void)encodeLongElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int64_t)value __attribute__((swift_name("encodeLongElement(descriptor:index:value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)encodeNullableSerializableElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeNullableSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeSerializableElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index serializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeSerializableElement(descriptor:index:serializer:value:)")));
+- (void)encodeShortElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(int16_t)value __attribute__((swift_name("encodeShortElement(descriptor:index:value:)")));
+- (void)encodeStringElementDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index value:(NSString *)value __attribute__((swift_name("encodeStringElement(descriptor:index:value:)")));
+- (void)endStructureDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (BOOL)shouldEncodeElementDefaultDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
+@property (readonly) KottageKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("JsonEncoder")))
+@protocol KottageJsonEncoder <KottageKotlinx_serialization_coreEncoder, KottageKotlinx_serialization_coreCompositeEncoder>
+@required
+- (void)encodeJsonElementElement:(KottageJsonElement *)element __attribute__((swift_name("encodeJsonElement(element:)")));
+@property (readonly) KottageJson *json __attribute__((swift_name("json")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((swift_name("JsonNamingStrategy")))
+@protocol KottageJsonNamingStrategy
+@required
+- (NSString *)serialNameForJsonDescriptor:(id<KottageKotlinx_serialization_coreSerialDescriptor>)descriptor elementIndex:(int32_t)elementIndex serialName:(NSString *)serialName __attribute__((swift_name("serialNameForJson(descriptor:elementIndex:serialName:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonNamingStrategyBuiltins")))
+@interface KottageJsonNamingStrategyBuiltins : KottageBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)builtins __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageJsonNamingStrategyBuiltins *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) id<KottageJsonNamingStrategy> SnakeCase __attribute__((swift_name("SnakeCase")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonPrimitiveSerializer))
+*/
+__attribute__((swift_name("JsonPrimitive")))
+@interface KottageJsonPrimitive : KottageJsonElement
+@property (class, readonly, getter=companion) KottageJsonPrimitiveCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *content __attribute__((swift_name("content")));
+@property (readonly) BOOL isString __attribute__((swift_name("isString")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonNullSerializer))
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonNull")))
+@interface KottageJsonNull : KottageJsonPrimitive
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)jsonNull __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageJsonNull *shared __attribute__((swift_name("shared")));
+- (id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<KottageKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(KottageKotlinArray<id<KottageKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@property (readonly) NSString *content __attribute__((swift_name("content")));
+@property (readonly) BOOL isString __attribute__((swift_name("isString")));
+@end
+
+__attribute__((unavailable("can't be imported")))
+__attribute__((swift_name("JsonObject")))
+@interface KottageJsonObject : NSObject
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonObjectBuilder")))
+@interface KottageJsonObjectBuilder : KottageBase
+- (KottageJsonElement * _Nullable)putKey:(NSString *)key element:(KottageJsonElement *)element __attribute__((swift_name("put(key:element:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonPrimitive.Companion")))
+@interface KottageJsonPrimitiveCompanion : KottageBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageJsonPrimitiveCompanion *shared __attribute__((swift_name("shared")));
+- (id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((swift_name("JsonTransformingSerializer")))
+@interface KottageJsonTransformingSerializer<T> : KottageBase <KottageKotlinx_serialization_coreKSerializer>
+- (instancetype)initWithTSerializer:(id<KottageKotlinx_serialization_coreKSerializer>)tSerializer __attribute__((swift_name("init(tSerializer:)"))) __attribute__((objc_designated_initializer));
+- (T)deserializeDecoder:(id<KottageKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<KottageKotlinx_serialization_coreEncoder>)encoder value:(T)value __attribute__((swift_name("serialize(encoder:value:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (KottageJsonElement *)transformDeserializeElement:(KottageJsonElement *)element __attribute__((swift_name("transformDeserialize(element:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (KottageJsonElement *)transformSerializeElement:(KottageJsonElement *)element __attribute__((swift_name("transformSerialize(element:)")));
+@property (readonly) id<KottageKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2782,25 +2766,44 @@ __attribute__((swift_name("KotlinLongRange")))
 - (id<KottageFlow>)asFlow __attribute__((swift_name("asFlow()")));
 @end
 
-@interface KottageJsonPrimitive (Extensions)
-@property (readonly) BOOL boolean __attribute__((swift_name("boolean")));
-@property (readonly) KottageBoolean * _Nullable booleanOrNull __attribute__((swift_name("booleanOrNull")));
-@property (readonly) NSString * _Nullable contentOrNull __attribute__((swift_name("contentOrNull")));
-@property (readonly, getter=double) double double_ __attribute__((swift_name("double_")));
-@property (readonly) KottageDouble * _Nullable doubleOrNull __attribute__((swift_name("doubleOrNull")));
-@property (readonly, getter=float) float float_ __attribute__((swift_name("float_")));
-@property (readonly) KottageFloat * _Nullable floatOrNull __attribute__((swift_name("floatOrNull")));
-@property (readonly, getter=int) int32_t int_ __attribute__((swift_name("int_")));
-@property (readonly) KottageInt * _Nullable intOrNull __attribute__((swift_name("intOrNull")));
-@property (readonly, getter=long) int64_t long_ __attribute__((swift_name("long_")));
-@property (readonly) KottageLong * _Nullable longOrNull __attribute__((swift_name("longOrNull")));
+@interface KottageCoroutineDispatcher (Extensions)
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeBlock:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(block:completionHandler:)")));
 @end
 
-@interface KottageJsonElement (Extensions)
-@property (readonly) NSArray<KottageJsonElement *> *jsonArray __attribute__((swift_name("jsonArray")));
-@property (readonly) KottageJsonNull *jsonNull __attribute__((swift_name("jsonNull")));
-@property (readonly) NSDictionary<NSString *, KottageJsonElement *> *jsonObject __attribute__((swift_name("jsonObject")));
-@property (readonly) KottageJsonPrimitive *jsonPrimitive __attribute__((swift_name("jsonPrimitive")));
+@interface KottageDispatchers (Extensions)
+@property (readonly) KottageCoroutineDispatcher *IO __attribute__((swift_name("IO")));
+@end
+
+@interface KottageSharingStartedCompanion (Extensions)
+- (id<KottageSharingStarted>)WhileSubscribedStopTimeout:(int64_t)stopTimeout replayExpiration:(int64_t)replayExpiration __attribute__((swift_name("WhileSubscribed(stopTimeout:replayExpiration:)")));
+@end
+
+@interface KottageJson (Extensions)
+- (id _Nullable)decodeFromJsonElementJson:(KottageJsonElement *)json __attribute__((swift_name("decodeFromJsonElement(json:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.InternalSerializationApi
+*/
+- (KottageJsonElement *)decodeStringToJsonTreeDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer source:(NSString *)source __attribute__((swift_name("decodeStringToJsonTree(deserializer:source:)")));
+- (KottageJsonElement *)encodeToJsonElementValue:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.InternalSerializationApi
+*/
+- (id _Nullable)readJsonElement:(KottageJsonElement *)element deserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("readJson(element:deserializer:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.InternalSerializationApi
+*/
+- (KottageJsonElement *)writeJsonValue:(id _Nullable)value serializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer __attribute__((swift_name("writeJson(value:serializer:)")));
 @end
 
 @interface KottageJsonArrayBuilder (Extensions)
@@ -2838,27 +2841,11 @@ __attribute__((swift_name("KotlinLongRange")))
 - (BOOL)addJsonObjectBuilderAction:(void (^)(KottageJsonObjectBuilder *))builderAction __attribute__((swift_name("addJsonObject(builderAction:)")));
 @end
 
-@interface KottageJson (Extensions)
-- (id _Nullable)decodeFromJsonElementJson:(KottageJsonElement *)json __attribute__((swift_name("decodeFromJsonElement(json:)")));
-- (KottageJsonElement *)encodeToJsonElementValue:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(value:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.InternalSerializationApi
-*/
-- (KottageJsonElement *)decodeStringToJsonTreeDeserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer source:(NSString *)source __attribute__((swift_name("decodeStringToJsonTree(deserializer:source:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.InternalSerializationApi
-*/
-- (id _Nullable)readJsonElement:(KottageJsonElement *)element deserializer:(id<KottageKotlinx_serialization_coreDeserializationStrategy>)deserializer __attribute__((swift_name("readJson(element:deserializer:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.InternalSerializationApi
-*/
-- (KottageJsonElement *)writeJsonValue:(id _Nullable)value serializer:(id<KottageKotlinx_serialization_coreSerializationStrategy>)serializer __attribute__((swift_name("writeJson(value:serializer:)")));
+@interface KottageJsonElement (Extensions)
+@property (readonly) NSArray<KottageJsonElement *> *jsonArray __attribute__((swift_name("jsonArray")));
+@property (readonly) KottageJsonNull *jsonNull __attribute__((swift_name("jsonNull")));
+@property (readonly) NSDictionary<NSString *, KottageJsonElement *> *jsonObject __attribute__((swift_name("jsonObject")));
+@property (readonly) KottageJsonPrimitive *jsonPrimitive __attribute__((swift_name("jsonPrimitive")));
 @end
 
 @interface KottageJsonObjectBuilder (Extensions)
@@ -2875,24 +2862,251 @@ __attribute__((swift_name("KotlinLongRange")))
 - (KottageJsonElement * _Nullable)putJsonObjectKey:(NSString *)key builderAction:(void (^)(KottageJsonObjectBuilder *))builderAction __attribute__((swift_name("putJsonObject(key:builderAction:)")));
 @end
 
+@interface KottageJsonPrimitive (Extensions)
+@property (readonly) BOOL boolean __attribute__((swift_name("boolean")));
+@property (readonly) KottageBoolean * _Nullable booleanOrNull __attribute__((swift_name("booleanOrNull")));
+@property (readonly) NSString * _Nullable contentOrNull __attribute__((swift_name("contentOrNull")));
+@property (readonly, getter=double) double double_ __attribute__((swift_name("double_")));
+@property (readonly) KottageDouble * _Nullable doubleOrNull __attribute__((swift_name("doubleOrNull")));
+@property (readonly, getter=float) float float_ __attribute__((swift_name("float_")));
+@property (readonly) KottageFloat * _Nullable floatOrNull __attribute__((swift_name("floatOrNull")));
+@property (readonly, getter=int) int32_t int_ __attribute__((swift_name("int_")));
+@property (readonly) KottageInt * _Nullable intOrNull __attribute__((swift_name("intOrNull")));
+@property (readonly, getter=long) int64_t long_ __attribute__((swift_name("long_")));
+@property (readonly) KottageLong * _Nullable longOrNull __attribute__((swift_name("longOrNull")));
+@end
+
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JobKt")))
-@interface KottageJobKt : KottageBase
-+ (BOOL)isActive:(id<KottageKotlinCoroutineContext>)receiver __attribute__((swift_name("isActive(_:)")));
-+ (id<KottageJob>)job:(id<KottageKotlinCoroutineContext>)receiver __attribute__((swift_name("job(_:)")));
-+ (id<KottageCompletableJob>)JobParent:(id<KottageJob> _Nullable)parent __attribute__((swift_name("Job(parent:)")));
-+ (void)cancel:(id<KottageKotlinCoroutineContext>)receiver cause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(_:cause:)")));
-+ (void)cancel:(id<KottageJob>)receiver message:(NSString *)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(_:message:cause:)")));
+__attribute__((swift_name("AwaitKt")))
+@interface KottageAwaitKt : KottageBase
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)cancelAndJoin:(id<KottageJob>)receiver completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("cancelAndJoin(_:completionHandler:)")));
-+ (void)cancelChildren:(id<KottageKotlinCoroutineContext>)receiver cause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancelChildren(_:cause:)")));
-+ (void)cancelChildren:(id<KottageJob>)receiver cause_:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancelChildren(_:cause_:)")));
-+ (void)ensureActive:(id<KottageKotlinCoroutineContext>)receiver __attribute__((swift_name("ensureActive(_:)")));
-+ (void)ensureActive_:(id<KottageJob>)receiver __attribute__((swift_name("ensureActive(__:)")));
++ (void)awaitAll:(id)receiver completionHandler:(void (^)(NSArray<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitAll(_:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)awaitAllDeferreds:(KottageKotlinArray<id<KottageDeferred>> *)deferreds completionHandler:(void (^)(NSArray<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitAll(deferreds:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)joinAll:(id)receiver completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("joinAll(_:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)joinAllJobs:(KottageKotlinArray<id<KottageJob>> *)jobs completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("joinAll(jobs:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BroadcastKt")))
+@interface KottageBroadcastKt : KottageBase
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ObsoleteCoroutinesApi
+*/
++ (id<KottageBroadcastChannel>)broadcast:(id<KottageReceiveChannel>)receiver capacity:(int32_t)capacity start:(KottageCoroutineStart *)start __attribute__((swift_name("broadcast(_:capacity:start:)"))) __attribute__((deprecated("BroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ObsoleteCoroutinesApi
+*/
++ (id<KottageBroadcastChannel>)broadcast:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity start:(KottageCoroutineStart *)start onCompletion:(void (^ _Nullable)(KottageKotlinThrowable * _Nullable))onCompletion block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("broadcast(_:context:capacity:start:onCompletion:block:)"))) __attribute__((deprecated("BroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BroadcastChannelKt")))
+@interface KottageBroadcastChannelKt : KottageBase
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ObsoleteCoroutinesApi
+*/
++ (id<KottageBroadcastChannel>)BroadcastChannelCapacity:(int32_t)capacity __attribute__((swift_name("BroadcastChannel(capacity:)"))) __attribute__((deprecated("BroadcastChannel is deprecated in the favour of SharedFlow and StateFlow, and is no longer supported")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Builders_commonKt")))
+@interface KottageBuilders_commonKt : KottageBase
++ (id<KottageDeferred>)async:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context start:(KottageCoroutineStart *)start block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("async(_:context:start:block:)")));
++ (id<KottageJob>)launch:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context start:(KottageCoroutineStart *)start block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("launch(_:context:start:block:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)withContextContext:(id<KottageKotlinCoroutineContext>)context block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withContext(context:block:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BuildersKt")))
+@interface KottageBuildersKt : KottageBase
++ (id<KottageFlow>)asFlow:(id _Nullable (^)(void))receiver __attribute__((swift_name("asFlow(_:)")));
++ (id<KottageFlow>)asFlow_:(id)receiver __attribute__((swift_name("asFlow(__:)")));
++ (id<KottageFlow>)asFlow__:(id<KottageKotlinIterator>)receiver __attribute__((swift_name("asFlow(___:)")));
++ (id<KottageFlow>)asFlow___:(id<KottageKotlinSuspendFunction0>)receiver __attribute__((swift_name("asFlow(____:)")));
++ (id<KottageFlow>)asFlow____:(id<KottageKotlinSequence>)receiver __attribute__((swift_name("asFlow(_____:)")));
++ (id<KottageFlow>)callbackFlowBlock:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("callbackFlow(block:)")));
++ (id<KottageFlow>)channelFlowBlock:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("channelFlow(block:)")));
++ (id<KottageFlow>)emptyFlow __attribute__((swift_name("emptyFlow()")));
++ (id<KottageFlow>)flowBlock:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("flow(block:)")));
++ (id<KottageFlow>)flowOfValue:(id _Nullable)value __attribute__((swift_name("flowOf(value:)")));
++ (id<KottageFlow>)flowOfElements:(KottageKotlinArray<id> *)elements __attribute__((swift_name("flowOf(elements:)")));
++ (id _Nullable)runBlockingContext:(id<KottageKotlinCoroutineContext>)context block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("runBlocking(context:block:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CancellableKt")))
+@interface KottageCancellableKt : KottageBase
++ (void)startCoroutineCancellable:(id<KottageKotlinSuspendFunction0>)receiver completion:(id<KottageKotlinContinuation>)completion __attribute__((swift_name("startCoroutineCancellable(_:completion:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CancellableContinuationKt")))
+@interface KottageCancellableContinuationKt : KottageBase
++ (void)disposeOnCancellation:(id<KottageCancellableContinuation>)receiver handle:(id<KottageDisposableHandle>)handle __attribute__((swift_name("disposeOnCancellation(_:handle:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)suspendCancellableCoroutineBlock:(void (^)(id<KottageCancellableContinuation>))block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("suspendCancellableCoroutine(block:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChannelKt")))
+@interface KottageChannelKt : KottageBase
++ (id<KottageChannel>)ChannelCapacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow onUndeliveredElement:(void (^ _Nullable)(id _Nullable))onUndeliveredElement __attribute__((swift_name("Channel(capacity:onBufferOverflow:onUndeliveredElement:)")));
++ (id _Nullable)getOrElse:(id _Nullable)receiver onFailure:(id _Nullable (^)(KottageKotlinThrowable * _Nullable))onFailure __attribute__((swift_name("getOrElse(_:onFailure:)")));
++ (id _Nullable)onClosed:(id _Nullable)receiver action:(void (^)(KottageKotlinThrowable * _Nullable))action __attribute__((swift_name("onClosed(_:action:)")));
++ (id _Nullable)onFailure:(id _Nullable)receiver action:(void (^)(KottageKotlinThrowable * _Nullable))action __attribute__((swift_name("onFailure(_:action:)")));
++ (id _Nullable)onSuccess:(id _Nullable)receiver action:(void (^)(id _Nullable))action __attribute__((swift_name("onSuccess(_:action:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Channels_commonKt")))
+@interface KottageChannels_commonKt : KottageBase
++ (id _Nullable)consume:(id<KottageReceiveChannel>)receiver block:(id _Nullable (^)(id<KottageReceiveChannel>))block __attribute__((swift_name("consume(_:block:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)consumeEach:(id<KottageReceiveChannel>)receiver action:(void (^)(id _Nullable))action completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("consumeEach(_:action:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)toList:(id<KottageReceiveChannel>)receiver completionHandler:(void (^)(NSArray<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toList(_:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ChannelsKt")))
+@interface KottageChannelsKt : KottageBase
++ (id<KottageFlow>)asFlow:(id<KottageBroadcastChannel>)receiver __attribute__((swift_name("asFlow(_:)"))) __attribute__((unavailable("'BroadcastChannel' is obsolete and all corresponding operators are deprecated in the favour of StateFlow and SharedFlow")));
++ (id<KottageFlow>)consumeAsFlow:(id<KottageReceiveChannel>)receiver __attribute__((swift_name("consumeAsFlow(_:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)emitAll:(id<KottageFlowCollector>)receiver channel:(id<KottageReceiveChannel>)channel completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emitAll(_:channel:completionHandler:)")));
++ (id<KottageReceiveChannel>)produceIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope __attribute__((swift_name("produceIn(_:scope:)")));
++ (id<KottageFlow>)receiveAsFlow:(id<KottageReceiveChannel>)receiver __attribute__((swift_name("receiveAsFlow(_:)")));
++ (id _Nullable)trySendBlocking:(id<KottageSendChannel>)receiver element:(id _Nullable)element __attribute__((swift_name("trySendBlocking(_:element:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CollectKt")))
+@interface KottageCollectKt : KottageBase
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)collect:(id<KottageFlow>)receiver completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(_:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)collectIndexed:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction2>)action completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collectIndexed(_:action:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)collectLatest:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collectLatest(_:action:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)emitAll:(id<KottageFlowCollector>)receiver flow:(id<KottageFlow>)flow completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emitAll(_:flow:completionHandler:)")));
++ (id<KottageJob>)launchIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope __attribute__((swift_name("launchIn(_:scope:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CollectionKt")))
+@interface KottageCollectionKt : KottageBase
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)toCollection:(id<KottageFlow>)receiver destination:(id)destination completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toCollection(_:destination:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)toList:(id<KottageFlow>)receiver destination:(NSMutableArray<id> *)destination completionHandler:(void (^)(NSArray<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toList(_:destination:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)toSet:(id<KottageFlow>)receiver destination:(KottageMutableSet<id> *)destination completionHandler:(void (^)(NSSet<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toSet(_:destination:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CompletableDeferredKt")))
+@interface KottageCompletableDeferredKt : KottageBase
++ (id<KottageCompletableDeferred>)CompletableDeferredValue:(id _Nullable)value __attribute__((swift_name("CompletableDeferred(value:)")));
++ (id<KottageCompletableDeferred>)CompletableDeferredParent:(id<KottageJob> _Nullable)parent __attribute__((swift_name("CompletableDeferred(parent:)")));
++ (BOOL)completeWith:(id<KottageCompletableDeferred>)receiver result:(id _Nullable)result __attribute__((swift_name("completeWith(_:result:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ContextKt")))
+@interface KottageContextKt : KottageBase
++ (id<KottageFlow>)buffer:(id<KottageFlow>)receiver capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("buffer(_:capacity:onBufferOverflow:)")));
++ (id<KottageFlow>)cancellable:(id<KottageFlow>)receiver __attribute__((swift_name("cancellable(_:)")));
++ (id<KottageFlow>)conflate:(id<KottageFlow>)receiver __attribute__((swift_name("conflate(_:)")));
++ (id<KottageFlow>)flowOn:(id<KottageFlow>)receiver context:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("flowOn(_:context:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CoroutineContextKt")))
+@interface KottageCoroutineContextKt : KottageBase
++ (id<KottageKotlinCoroutineContext>)doNewCoroutineContext:(id<KottageKotlinCoroutineContext>)receiver addedContext:(id<KottageKotlinCoroutineContext>)addedContext __attribute__((swift_name("doNewCoroutineContext(_:addedContext:)")));
++ (id<KottageKotlinCoroutineContext>)doNewCoroutineContext:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("doNewCoroutineContext(_:context:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CoroutineExceptionHandlerKt")))
+@interface KottageCoroutineExceptionHandlerKt : KottageBase
++ (id<KottageCoroutineExceptionHandler>)CoroutineExceptionHandlerHandler:(void (^)(id<KottageKotlinCoroutineContext>, KottageKotlinThrowable *))handler __attribute__((swift_name("CoroutineExceptionHandler(handler:)")));
++ (void)handleCoroutineExceptionContext:(id<KottageKotlinCoroutineContext>)context exception:(KottageKotlinThrowable *)exception __attribute__((swift_name("handleCoroutineException(context:exception:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2901,6 +3115,8 @@ __attribute__((swift_name("CoroutineScopeKt")))
 + (BOOL)isActive:(id<KottageCoroutineScope>)receiver __attribute__((swift_name("isActive(_:)")));
 + (id<KottageCoroutineScope>)CoroutineScopeContext:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("CoroutineScope(context:)")));
 + (id<KottageCoroutineScope>)MainScope __attribute__((swift_name("MainScope()")));
++ (void)cancel:(id<KottageCoroutineScope>)receiver cause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(_:cause:)")));
++ (void)cancel:(id<KottageCoroutineScope>)receiver message:(NSString *)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(_:message:cause:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -2913,72 +3129,25 @@ __attribute__((swift_name("CoroutineScopeKt")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 + (void)currentCoroutineContextWithCompletionHandler:(void (^)(id<KottageKotlinCoroutineContext> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("currentCoroutineContext(completionHandler:)")));
-+ (void)cancel:(id<KottageCoroutineScope>)receiver message:(NSString *)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(_:message:cause:)")));
-+ (void)cancel:(id<KottageCoroutineScope>)receiver cause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(_:cause:)")));
 + (void)ensureActive:(id<KottageCoroutineScope>)receiver __attribute__((swift_name("ensureActive(_:)")));
 + (id<KottageCoroutineScope>)plus:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("plus(_:context:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CompletableDeferredKt")))
-@interface KottageCompletableDeferredKt : KottageBase
-+ (id<KottageCompletableDeferred>)CompletableDeferredValue:(id _Nullable)value __attribute__((swift_name("CompletableDeferred(value:)")));
-+ (id<KottageCompletableDeferred>)CompletableDeferredParent:(id<KottageJob> _Nullable)parent __attribute__((swift_name("CompletableDeferred(parent:)")));
-+ (BOOL)completeWith:(id<KottageCompletableDeferred>)receiver result:(id _Nullable)result __attribute__((swift_name("completeWith(_:result:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CoroutineExceptionHandlerKt")))
-@interface KottageCoroutineExceptionHandlerKt : KottageBase
-+ (id<KottageCoroutineExceptionHandler>)CoroutineExceptionHandlerHandler:(void (^)(id<KottageKotlinCoroutineContext>, KottageKotlinThrowable *))handler __attribute__((swift_name("CoroutineExceptionHandler(handler:)")));
-+ (void)handleCoroutineExceptionContext:(id<KottageKotlinCoroutineContext>)context exception:(KottageKotlinThrowable *)exception __attribute__((swift_name("handleCoroutineException(context:exception:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RunnableKt")))
-@interface KottageRunnableKt : KottageBase
-+ (id<KottageRunnable>)RunnableBlock:(void (^)(void))block __attribute__((swift_name("Runnable(block:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SupervisorKt")))
-@interface KottageSupervisorKt : KottageBase
-+ (id<KottageCompletableJob>)SupervisorJobParent:(id<KottageJob> _Nullable)parent __attribute__((swift_name("SupervisorJob(parent:)")));
+__attribute__((swift_name("CountKt")))
+@interface KottageCountKt : KottageBase
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)supervisorScopeBlock:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("supervisorScope(block:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AwaitKt")))
-@interface KottageAwaitKt : KottageBase
++ (void)count:(id<KottageFlow>)receiver completionHandler:(void (^)(KottageInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("count(_:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)awaitAllDeferreds:(KottageKotlinArray<id<KottageDeferred>> *)deferreds completionHandler:(void (^)(NSArray<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitAll(deferreds:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)joinAllJobs:(KottageKotlinArray<id<KottageJob>> *)jobs completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("joinAll(jobs:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)awaitAll:(id)receiver completionHandler:(void (^)(NSArray<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitAll(_:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)joinAll:(id)receiver completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("joinAll(_:completionHandler:)")));
++ (void)count:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate completionHandler:(void (^)(KottageInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("count(_:predicate:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2990,18 +3159,6 @@ __attribute__((swift_name("DelayKt")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 + (void)awaitCancellationWithCompletionHandler:(void (^)(KottageKotlinNothing * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitCancellation(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)delayTimeMillis:(int64_t)timeMillis completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("delay(timeMillis:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)delayDuration:(int64_t)duration completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("delay(duration:completionHandler:)")));
 
 /**
  * @note annotations
@@ -3029,6 +3186,18 @@ __attribute__((swift_name("DelayKt")))
 + (id<KottageFlow>)debounce:(id<KottageFlow>)receiver timeout_:(int64_t)timeout __attribute__((swift_name("debounce(_:timeout_:)")));
 
 /**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)delayTimeMillis:(int64_t)timeMillis completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("delay(timeMillis:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)delayDuration:(int64_t)duration completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("delay(duration:completionHandler:)")));
+
+/**
  * @note annotations
  *   kotlinx.coroutines.FlowPreview
 */
@@ -3048,273 +3217,222 @@ __attribute__((swift_name("DelayKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MultithreadedDispatchersKt")))
-@interface KottageMultithreadedDispatchersKt : KottageBase
-+ (KottageCloseableCoroutineDispatcher *)doNewFixedThreadPoolContextNThreads:(int32_t)nThreads name:(NSString *)name __attribute__((swift_name("doNewFixedThreadPoolContext(nThreads:name:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-+ (KottageCloseableCoroutineDispatcher *)doNewSingleThreadContextName:(NSString *)name __attribute__((swift_name("doNewSingleThreadContext(name:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BuildersKt")))
-@interface KottageBuildersKt : KottageBase
-+ (id _Nullable)runBlockingContext:(id<KottageKotlinCoroutineContext>)context block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("runBlocking(context:block:)")));
-+ (id<KottageFlow>)callbackFlowBlock:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("callbackFlow(block:)")));
-+ (id<KottageFlow>)channelFlowBlock:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("channelFlow(block:)")));
-+ (id<KottageFlow>)emptyFlow __attribute__((swift_name("emptyFlow()")));
-+ (id<KottageFlow>)flowBlock:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("flow(block:)")));
-+ (id<KottageFlow>)flowOfValue:(id _Nullable)value __attribute__((swift_name("flowOf(value:)")));
-+ (id<KottageFlow>)flowOfElements:(KottageKotlinArray<id> *)elements __attribute__((swift_name("flowOf(elements:)")));
-+ (id<KottageFlow>)asFlow:(id _Nullable (^)(void))receiver __attribute__((swift_name("asFlow(_:)")));
-+ (id<KottageFlow>)asFlow_:(id)receiver __attribute__((swift_name("asFlow(__:)")));
-+ (id<KottageFlow>)asFlow__:(id<KottageKotlinIterator>)receiver __attribute__((swift_name("asFlow(___:)")));
-+ (id<KottageFlow>)asFlow___:(id<KottageKotlinSequence>)receiver __attribute__((swift_name("asFlow(____:)")));
-+ (id<KottageFlow>)asFlow____:(id<KottageKotlinSuspendFunction0>)receiver __attribute__((swift_name("asFlow(_____:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CancellableContinuationKt")))
-@interface KottageCancellableContinuationKt : KottageBase
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)suspendCancellableCoroutineBlock:(void (^)(id<KottageCancellableContinuation>))block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("suspendCancellableCoroutine(block:completionHandler:)")));
-+ (void)disposeOnCancellation:(id<KottageCancellableContinuation>)receiver handle:(id<KottageDisposableHandle>)handle __attribute__((swift_name("disposeOnCancellation(_:handle:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Builders_commonKt")))
-@interface KottageBuilders_commonKt : KottageBase
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)withContextContext:(id<KottageKotlinCoroutineContext>)context block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withContext(context:block:completionHandler:)")));
-+ (id<KottageDeferred>)async:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context start:(KottageCoroutineStart *)start block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("async(_:context:start:block:)")));
-+ (id<KottageJob>)launch:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context start:(KottageCoroutineStart *)start block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("launch(_:context:start:block:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TimeoutKt")))
-@interface KottageTimeoutKt : KottageBase
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)withTimeoutTimeMillis:(int64_t)timeMillis block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withTimeout(timeMillis:block:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)withTimeoutTimeout:(int64_t)timeout block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withTimeout(timeout:block:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)withTimeoutOrNullTimeMillis:(int64_t)timeMillis block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withTimeoutOrNull(timeMillis:block:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)withTimeoutOrNullTimeout:(int64_t)timeout block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withTimeoutOrNull(timeout:block:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("YieldKt")))
-@interface KottageYieldKt : KottageBase
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)yieldWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("yield(completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CoroutineContextKt")))
-@interface KottageCoroutineContextKt : KottageBase
-+ (id<KottageKotlinCoroutineContext>)doNewCoroutineContext:(id<KottageKotlinCoroutineContext>)receiver addedContext:(id<KottageKotlinCoroutineContext>)addedContext __attribute__((swift_name("doNewCoroutineContext(_:addedContext:)")));
-+ (id<KottageKotlinCoroutineContext>)doNewCoroutineContext:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("doNewCoroutineContext(_:context:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CancellableKt")))
-@interface KottageCancellableKt : KottageBase
-+ (void)startCoroutineCancellable:(id<KottageKotlinSuspendFunction0>)receiver completion:(id<KottageKotlinContinuation>)completion __attribute__((swift_name("startCoroutineCancellable(_:completion:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BroadcastChannelKt")))
-@interface KottageBroadcastChannelKt : KottageBase
+__attribute__((swift_name("DeprecatedKt")))
+@interface KottageDeprecatedKt : KottageBase
 
 /**
  * @note annotations
  *   kotlinx.coroutines.ObsoleteCoroutinesApi
 */
-+ (id<KottageBroadcastChannel>)BroadcastChannelCapacity:(int32_t)capacity __attribute__((swift_name("BroadcastChannel(capacity:)"))) __attribute__((deprecated("BroadcastChannel is deprecated in the favour of SharedFlow and StateFlow, and is no longer supported")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ChannelKt")))
-@interface KottageChannelKt : KottageBase
-+ (id<KottageChannel>)ChannelCapacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow onUndeliveredElement:(void (^ _Nullable)(id _Nullable))onUndeliveredElement __attribute__((swift_name("Channel(capacity:onBufferOverflow:onUndeliveredElement:)")));
-+ (id _Nullable)getOrElse:(id _Nullable)receiver onFailure:(id _Nullable (^)(KottageKotlinThrowable * _Nullable))onFailure __attribute__((swift_name("getOrElse(_:onFailure:)")));
-+ (id _Nullable)onClosed:(id _Nullable)receiver action:(void (^)(KottageKotlinThrowable * _Nullable))action __attribute__((swift_name("onClosed(_:action:)")));
-+ (id _Nullable)onFailure:(id _Nullable)receiver action:(void (^)(KottageKotlinThrowable * _Nullable))action __attribute__((swift_name("onFailure(_:action:)")));
-+ (id _Nullable)onSuccess:(id _Nullable)receiver action:(void (^)(id _Nullable))action __attribute__((swift_name("onSuccess(_:action:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ProduceKt")))
-@interface KottageProduceKt : KottageBase
++ (id _Nullable)consume:(id<KottageBroadcastChannel>)receiver block:(id _Nullable (^)(id<KottageReceiveChannel>))block __attribute__((swift_name("consume(_:block:)"))) __attribute__((unavailable("BroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)awaitClose:(id<KottageProducerScope>)receiver block:(void (^)(void))block completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("awaitClose(_:block:completionHandler:)")));
-+ (id<KottageReceiveChannel>)produce:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity start:(KottageCoroutineStart *)start onCompletion:(void (^ _Nullable)(KottageKotlinThrowable * _Nullable))onCompletion block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("produce(_:context:capacity:start:onCompletion:block:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-+ (id<KottageReceiveChannel>)produce:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("produce(_:context:capacity:block:)")));
++ (void)consumeEach:(id<KottageBroadcastChannel>)receiver action:(void (^)(id _Nullable))action completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("consumeEach(_:action:completionHandler:)"))) __attribute__((unavailable("BroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BroadcastKt")))
-@interface KottageBroadcastKt : KottageBase
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ObsoleteCoroutinesApi
-*/
-+ (id<KottageBroadcastChannel>)broadcast:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity start:(KottageCoroutineStart *)start onCompletion:(void (^ _Nullable)(KottageKotlinThrowable * _Nullable))onCompletion block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("broadcast(_:context:capacity:start:onCompletion:block:)"))) __attribute__((deprecated("BroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ObsoleteCoroutinesApi
-*/
-+ (id<KottageBroadcastChannel>)broadcast:(id<KottageReceiveChannel>)receiver capacity:(int32_t)capacity start:(KottageCoroutineStart *)start __attribute__((swift_name("broadcast(_:capacity:start:)"))) __attribute__((deprecated("BroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
+__attribute__((swift_name("DispatchedContinuationKt")))
+@interface KottageDispatchedContinuationKt : KottageBase
++ (void)resumeCancellableWith:(id<KottageKotlinContinuation>)receiver result:(id _Nullable)result onCancellation:(void (^ _Nullable)(KottageKotlinThrowable *))onCancellation __attribute__((swift_name("resumeCancellableWith(_:result:onCancellation:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Channels_commonKt")))
-@interface KottageChannels_commonKt : KottageBase
+__attribute__((swift_name("DistinctKt")))
+@interface KottageDistinctKt : KottageBase
++ (id<KottageFlow>)distinctUntilChanged:(id<KottageFlow>)receiver __attribute__((swift_name("distinctUntilChanged(_:)")));
++ (id<KottageFlow>)distinctUntilChanged:(id<KottageFlow>)receiver areEquivalent:(KottageBoolean *(^)(id _Nullable, id _Nullable))areEquivalent __attribute__((swift_name("distinctUntilChanged(_:areEquivalent:)")));
++ (id<KottageFlow>)distinctUntilChangedBy:(id<KottageFlow>)receiver keySelector:(id _Nullable (^)(id _Nullable))keySelector __attribute__((swift_name("distinctUntilChangedBy(_:keySelector:)")));
+@end
 
-/**
- * @note annotations
- *   kotlinx.coroutines.ObsoleteCoroutinesApi
-*/
-+ (id _Nullable)consume:(id<KottageBroadcastChannel>)receiver block:(id _Nullable (^)(id<KottageReceiveChannel>))block __attribute__((swift_name("consume(_:block:)"))) __attribute__((deprecated("BroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
-+ (id _Nullable)consume:(id<KottageReceiveChannel>)receiver block_:(id _Nullable (^)(id<KottageReceiveChannel>))block __attribute__((swift_name("consume(_:block_:)")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("EmittersKt")))
+@interface KottageEmittersKt : KottageBase
++ (id<KottageFlow>)onCompletion:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction2>)action __attribute__((swift_name("onCompletion(_:action:)")));
++ (id<KottageFlow>)onEmpty:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action __attribute__((swift_name("onEmpty(_:action:)")));
++ (id<KottageFlow>)onStart:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action __attribute__((swift_name("onStart(_:action:)")));
++ (id<KottageFlow>)transform:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("transform(_:transform:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ErrorsKt")))
+@interface KottageErrorsKt : KottageBase
++ (id<KottageFlow>)catch:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction2>)action __attribute__((swift_name("catch(_:action:)")));
++ (id<KottageFlow>)retry:(id<KottageFlow>)receiver retries:(int64_t)retries predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("retry(_:retries:predicate:)")));
++ (id<KottageFlow>)retryWhen:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction3>)predicate __attribute__((swift_name("retryWhen(_:predicate:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ExceptionsKt")))
+@interface KottageExceptionsKt : KottageBase
++ (KottageKotlinCancellationException *)CancellationExceptionMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("CancellationException(message:cause:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JobKt")))
+@interface KottageJobKt : KottageBase
++ (BOOL)isActive:(id<KottageKotlinCoroutineContext>)receiver __attribute__((swift_name("isActive(_:)")));
++ (id<KottageJob>)job:(id<KottageKotlinCoroutineContext>)receiver __attribute__((swift_name("job(_:)")));
++ (id<KottageCompletableJob>)JobParent:(id<KottageJob> _Nullable)parent __attribute__((swift_name("Job(parent:)")));
++ (void)cancel:(id<KottageKotlinCoroutineContext>)receiver cause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(_:cause:)")));
++ (void)cancel:(id<KottageJob>)receiver message:(NSString *)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(_:message:cause:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)consumeEach:(id<KottageBroadcastChannel>)receiver action:(void (^)(id _Nullable))action completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("consumeEach(_:action:completionHandler:)"))) __attribute__((deprecated("BroadcastChannel is deprecated in the favour of SharedFlow and is no longer supported")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)consumeEach:(id<KottageReceiveChannel>)receiver action:(void (^)(id _Nullable))action completionHandler_:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("consumeEach(_:action:completionHandler_:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)toList:(id<KottageReceiveChannel>)receiver completionHandler:(void (^)(NSArray<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toList(_:completionHandler:)")));
++ (void)cancelAndJoin:(id<KottageJob>)receiver completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("cancelAndJoin(_:completionHandler:)")));
++ (void)cancelChildren:(id<KottageKotlinCoroutineContext>)receiver cause:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancelChildren(_:cause:)")));
++ (void)cancelChildren:(id<KottageJob>)receiver cause_:(KottageKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancelChildren(_:cause_:)")));
++ (void)ensureActive:(id<KottageKotlinCoroutineContext>)receiver __attribute__((swift_name("ensureActive(_:)")));
++ (void)ensureActive_:(id<KottageJob>)receiver __attribute__((swift_name("ensureActive(__:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ChannelsKt")))
-@interface KottageChannelsKt : KottageBase
-+ (id _Nullable)trySendBlocking:(id<KottageSendChannel>)receiver element:(id _Nullable)element __attribute__((swift_name("trySendBlocking(_:element:)")));
-+ (id<KottageFlow>)asFlow:(id<KottageBroadcastChannel>)receiver __attribute__((swift_name("asFlow(_:)"))) __attribute__((unavailable("'BroadcastChannel' is obsolete and all corresponding operators are deprecated in the favour of StateFlow and SharedFlow")));
-+ (id<KottageFlow>)consumeAsFlow:(id<KottageReceiveChannel>)receiver __attribute__((swift_name("consumeAsFlow(_:)")));
+__attribute__((swift_name("JsonKt")))
+@interface KottageJsonKt : KottageBase
++ (KottageJson *)JsonFrom:(KottageJson *)from builderAction:(void (^)(KottageJsonBuilder *))builderAction __attribute__((swift_name("Json(from:builderAction:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonElementKt")))
+@interface KottageJsonElementKt : KottageBase
++ (KottageJsonPrimitive *)JsonPrimitiveValue:(KottageBoolean * _Nullable)value __attribute__((swift_name("JsonPrimitive(value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
++ (KottageJsonNull *)JsonPrimitiveValue_:(KottageKotlinNothing * _Nullable)value __attribute__((swift_name("JsonPrimitive(value_:)")));
++ (KottageJsonPrimitive *)JsonPrimitiveValue__:(id _Nullable)value __attribute__((swift_name("JsonPrimitive(value__:)")));
++ (KottageJsonPrimitive *)JsonPrimitiveValue___:(NSString * _Nullable)value __attribute__((swift_name("JsonPrimitive(value___:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
++ (KottageJsonPrimitive *)JsonPrimitiveValue____:(uint8_t)value __attribute__((swift_name("JsonPrimitive(value____:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
++ (KottageJsonPrimitive *)JsonPrimitiveValue_____:(uint32_t)value __attribute__((swift_name("JsonPrimitive(value_____:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
++ (KottageJsonPrimitive *)JsonPrimitiveValue______:(uint64_t)value __attribute__((swift_name("JsonPrimitive(value______:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
++ (KottageJsonPrimitive *)JsonPrimitiveValue_______:(uint16_t)value __attribute__((swift_name("JsonPrimitive(value_______:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
++ (KottageJsonPrimitive *)JsonUnquotedLiteralValue:(NSString * _Nullable)value __attribute__((swift_name("JsonUnquotedLiteral(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("JsonElementBuildersKt")))
+@interface KottageJsonElementBuildersKt : KottageBase
++ (NSArray<KottageJsonElement *> *)buildJsonArrayBuilderAction:(void (^)(KottageJsonArrayBuilder *))builderAction __attribute__((swift_name("buildJsonArray(builderAction:)")));
++ (NSDictionary<NSString *, KottageJsonElement *> *)buildJsonObjectBuilderAction:(void (^)(KottageJsonObjectBuilder *))builderAction __attribute__((swift_name("buildJsonObject(builderAction:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KottageListKt")))
+@interface KottageKottageListKt : KottageBase
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)emitAll:(id<KottageFlowCollector>)receiver channel:(id<KottageReceiveChannel>)channel completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emitAll(_:channel:completionHandler:)")));
-+ (id<KottageReceiveChannel>)produceIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope __attribute__((swift_name("produceIn(_:scope:)")));
-+ (id<KottageFlow>)receiveAsFlow:(id<KottageReceiveChannel>)receiver __attribute__((swift_name("receiveAsFlow(_:)")));
++ (void)add:(id<KottageKottageList>)receiver key:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("add(_:key:value:metaData:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)addFirst:(id<KottageKottageList>)receiver key:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("addFirst(_:key:value:metaData:completionHandler:)")));
+
+/**
+ * @note This method converts instances of NoSuchElementException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)insertAfter:(id<KottageKottageList>)receiver positionId:(NSString *)positionId key:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("insertAfter(_:positionId:key:value:metaData:completionHandler:)")));
+
+/**
+ * @note This method converts instances of NoSuchElementException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)insertBefore:(id<KottageKottageList>)receiver positionId:(NSString *)positionId key:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("insertBefore(_:positionId:key:value:metaData:completionHandler:)")));
+
+/**
+ * @note This method converts instances of NoSuchElementException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
++ (void)update:(id<KottageKottageList>)receiver positionId:(NSString *)positionId key:(NSString *)key value:(id)value completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("update(_:positionId:key:value:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MergeKt")))
-@interface KottageMergeKt : KottageBase
-+ (id<KottageFlow>)mergeFlows:(KottageKotlinArray<id<KottageFlow>> *)flows __attribute__((swift_name("merge(flows:)")));
+__attribute__((swift_name("KottageListValueKt")))
+@interface KottageKottageListValueKt : KottageBase
++ (KottageKottageListValue<id> *)kottageListValueKey:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData __attribute__((swift_name("kottageListValue(key:value:metaData:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KottageStorageKt")))
+@interface KottageKottageStorageKt : KottageBase
 
 /**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ * @note This method converts instances of NoSuchElementException, ClassCastException, SerializationException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
 */
-+ (id<KottageFlow>)flatMapConcat:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("flatMapConcat(_:transform:)")));
++ (void)get:(id<KottageKottageStorage>)receiver key:(NSString *)key completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("get(_:key:completionHandler:)")));
 
 /**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ * @note This method converts instances of NoSuchElementException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
 */
-+ (id<KottageFlow>)flatMapLatest:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("flatMapLatest(_:transform:)")));
++ (void)getEntry:(id<KottageKottageStorage>)receiver key:(NSString *)key completionHandler:(void (^)(KottageKottageEntry<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getEntry(_:key:completionHandler:)")));
 
 /**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
 */
-+ (id<KottageFlow>)flatMapMerge:(id<KottageFlow>)receiver concurrency:(int32_t)concurrency transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("flatMapMerge(_:concurrency:transform:)")));
++ (void)getEntryOrNull:(id<KottageKottageStorage>)receiver key:(NSString *)key completionHandler:(void (^)(KottageKottageEntry<id> * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getEntryOrNull(_:key:completionHandler:)")));
 
 /**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ * @note This method converts instances of ClassCastException, SerializationException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
 */
-+ (id<KottageFlow>)flattenConcat:(id<KottageFlow>)receiver __attribute__((swift_name("flattenConcat(_:)")));
++ (void)getOrNull:(id<KottageKottageStorage>)receiver key:(NSString *)key completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getOrNull(_:key:completionHandler:)")));
++ (id<KottageKotlinReadOnlyProperty>)nullableProperty:(id<KottageKottageStorage>)receiver key:(NSString * _Nullable)key expireTime:(id _Nullable)expireTime __attribute__((swift_name("nullableProperty(_:key:expireTime:)")));
++ (id<KottageKotlinReadOnlyProperty>)property:(id<KottageKottageStorage>)receiver key:(NSString * _Nullable)key expireTime:(id _Nullable)expireTime defaultValue:(id (^)(void))defaultValue __attribute__((swift_name("property(_:key:expireTime:defaultValue:)")));
 
 /**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ * @note This method converts instances of ClassCastException, SerializationException, CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
 */
-+ (id<KottageFlow>)flattenMerge:(id<KottageFlow>)receiver concurrency:(int32_t)concurrency __attribute__((swift_name("flattenMerge(_:concurrency:)")));
++ (void)put:(id<KottageKottageStorage>)receiver key:(NSString *)key value:(id)value expireTime:(id _Nullable)expireTime completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("put(_:key:value:expireTime:completionHandler:)")));
+@end
 
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-+ (id<KottageFlow>)mapLatest:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("mapLatest(_:transform:)")));
-+ (id<KottageFlow>)merge:(id)receiver __attribute__((swift_name("merge(_:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-+ (id<KottageFlow>)transformLatest:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("transformLatest(_:transform:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.FlowPreview
-*/
-@property (class, readonly) int32_t DEFAULT_CONCURRENCY __attribute__((swift_name("DEFAULT_CONCURRENCY")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.FlowPreview
-*/
-@property (class, readonly) NSString *DEFAULT_CONCURRENCY_PROPERTY_NAME __attribute__((swift_name("DEFAULT_CONCURRENCY_PROPERTY_NAME")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("LimitKt")))
+@interface KottageLimitKt : KottageBase
++ (id<KottageFlow>)drop:(id<KottageFlow>)receiver count:(int32_t)count __attribute__((swift_name("drop(_:count:)")));
++ (id<KottageFlow>)dropWhile:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("dropWhile(_:predicate:)")));
++ (id<KottageFlow>)take:(id<KottageFlow>)receiver count:(int32_t)count __attribute__((swift_name("take(_:count:)")));
++ (id<KottageFlow>)takeWhile:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("takeWhile(_:predicate:)")));
++ (id<KottageFlow>)transformWhile:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("transformWhile(_:transform:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3363,83 +3481,74 @@ __attribute__((swift_name("LintKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SharedFlowKt")))
-@interface KottageSharedFlowKt : KottageBase
-+ (id<KottageMutableSharedFlow>)MutableSharedFlowReplay:(int32_t)replay extraBufferCapacity:(int32_t)extraBufferCapacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("MutableSharedFlow(replay:extraBufferCapacity:onBufferOverflow:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("StateFlowKt")))
-@interface KottageStateFlowKt : KottageBase
-+ (id<KottageMutableStateFlow>)MutableStateFlowValue:(id _Nullable)value __attribute__((swift_name("MutableStateFlow(value:)")));
-+ (id _Nullable)getAndUpdate:(id<KottageMutableStateFlow>)receiver function:(id _Nullable (^)(id _Nullable))function __attribute__((swift_name("getAndUpdate(_:function:)")));
-+ (void)update:(id<KottageMutableStateFlow>)receiver function:(id _Nullable (^)(id _Nullable))function __attribute__((swift_name("update(_:function:)")));
-+ (id _Nullable)updateAndGet:(id<KottageMutableStateFlow>)receiver function:(id _Nullable (^)(id _Nullable))function __attribute__((swift_name("updateAndGet(_:function:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ZipKt")))
-@interface KottageZipKt : KottageBase
-+ (id<KottageFlow>)combineFlows:(KottageKotlinArray<id<KottageFlow>> *)flows transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("combine(flows:transform:)")));
-+ (id<KottageFlow>)combineFlows:(id)flows transform_:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("combine(flows:transform_:)")));
-+ (id<KottageFlow>)combineFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 flow4:(id<KottageFlow>)flow4 flow5:(id<KottageFlow>)flow5 transform:(id<KottageKotlinSuspendFunction5>)transform __attribute__((swift_name("combine(flow:flow2:flow3:flow4:flow5:transform:)")));
-+ (id<KottageFlow>)combineFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 flow4:(id<KottageFlow>)flow4 transform:(id<KottageKotlinSuspendFunction4>)transform __attribute__((swift_name("combine(flow:flow2:flow3:flow4:transform:)")));
-+ (id<KottageFlow>)combineFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 transform:(id<KottageKotlinSuspendFunction3>)transform __attribute__((swift_name("combine(flow:flow2:flow3:transform:)")));
-+ (id<KottageFlow>)combineFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combine(flow:flow2:transform:)")));
-+ (id<KottageFlow>)combineTransformFlows:(KottageKotlinArray<id<KottageFlow>> *)flows transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combineTransform(flows:transform:)")));
-+ (id<KottageFlow>)combineTransformFlows:(id)flows transform_:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combineTransform(flows:transform_:)")));
-+ (id<KottageFlow>)combineTransformFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 flow4:(id<KottageFlow>)flow4 flow5:(id<KottageFlow>)flow5 transform:(id<KottageKotlinSuspendFunction6>)transform __attribute__((swift_name("combineTransform(flow:flow2:flow3:flow4:flow5:transform:)")));
-+ (id<KottageFlow>)combineTransformFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 flow4:(id<KottageFlow>)flow4 transform:(id<KottageKotlinSuspendFunction5>)transform __attribute__((swift_name("combineTransform(flow:flow2:flow3:flow4:transform:)")));
-+ (id<KottageFlow>)combineTransformFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 transform:(id<KottageKotlinSuspendFunction4>)transform __attribute__((swift_name("combineTransform(flow:flow2:flow3:transform:)")));
-+ (id<KottageFlow>)combineTransformFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 transform:(id<KottageKotlinSuspendFunction3>)transform __attribute__((swift_name("combineTransform(flow:flow2:transform:)")));
+__attribute__((swift_name("MergeKt")))
+@interface KottageMergeKt : KottageBase
 
 /**
  * @note annotations
- *   kotlin.jvm.JvmName(name="flowCombine")
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
 */
-+ (id<KottageFlow>)combine:(id<KottageFlow>)receiver flow:(id<KottageFlow>)flow transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combine(_:flow:transform:)")));
++ (id<KottageFlow>)flatMapConcat:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("flatMapConcat(_:transform:)")));
 
 /**
  * @note annotations
- *   kotlin.jvm.JvmName(name="flowCombineTransform")
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
 */
-+ (id<KottageFlow>)combineTransform:(id<KottageFlow>)receiver flow:(id<KottageFlow>)flow transform:(id<KottageKotlinSuspendFunction3>)transform __attribute__((swift_name("combineTransform(_:flow:transform:)")));
-+ (id<KottageFlow>)zip:(id<KottageFlow>)receiver other:(id<KottageFlow>)other transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("zip(_:other:transform:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ShareKt")))
-@interface KottageShareKt : KottageBase
-+ (id<KottageSharedFlow>)asSharedFlow:(id<KottageMutableSharedFlow>)receiver __attribute__((swift_name("asSharedFlow(_:)")));
-+ (id<KottageStateFlow>)asStateFlow:(id<KottageMutableStateFlow>)receiver __attribute__((swift_name("asStateFlow(_:)")));
-+ (id<KottageSharedFlow>)onSubscription:(id<KottageSharedFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action __attribute__((swift_name("onSubscription(_:action:)")));
-+ (id<KottageSharedFlow>)shareIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope started:(id<KottageSharingStarted>)started replay:(int32_t)replay __attribute__((swift_name("shareIn(_:scope:started:replay:)")));
++ (id<KottageFlow>)flatMapLatest:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("flatMapLatest(_:transform:)")));
 
 /**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
 */
-+ (void)stateIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope completionHandler:(void (^)(id<KottageStateFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("stateIn(_:scope:completionHandler:)")));
-+ (id<KottageStateFlow>)stateIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope started:(id<KottageSharingStarted>)started initialValue:(id _Nullable)initialValue __attribute__((swift_name("stateIn(_:scope:started:initialValue:)")));
-@end
++ (id<KottageFlow>)flatMapMerge:(id<KottageFlow>)receiver concurrency:(int32_t)concurrency transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("flatMapMerge(_:concurrency:transform:)")));
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ContextKt")))
-@interface KottageContextKt : KottageBase
-+ (id<KottageFlow>)buffer:(id<KottageFlow>)receiver capacity:(int32_t)capacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("buffer(_:capacity:onBufferOverflow:)")));
-+ (id<KottageFlow>)cancellable:(id<KottageFlow>)receiver __attribute__((swift_name("cancellable(_:)")));
-+ (id<KottageFlow>)conflate:(id<KottageFlow>)receiver __attribute__((swift_name("conflate(_:)")));
-+ (id<KottageFlow>)flowOn:(id<KottageFlow>)receiver context:(id<KottageKotlinCoroutineContext>)context __attribute__((swift_name("flowOn(_:context:)")));
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
++ (id<KottageFlow>)flattenConcat:(id<KottageFlow>)receiver __attribute__((swift_name("flattenConcat(_:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
++ (id<KottageFlow>)flattenMerge:(id<KottageFlow>)receiver concurrency:(int32_t)concurrency __attribute__((swift_name("flattenMerge(_:concurrency:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
++ (id<KottageFlow>)mapLatest:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("mapLatest(_:transform:)")));
++ (id<KottageFlow>)merge:(id)receiver __attribute__((swift_name("merge(_:)")));
++ (id<KottageFlow>)mergeFlows:(KottageKotlinArray<id<KottageFlow>> *)flows __attribute__((swift_name("merge(flows:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
++ (id<KottageFlow>)transformLatest:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("transformLatest(_:transform:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.FlowPreview
+*/
+@property (class, readonly) int32_t DEFAULT_CONCURRENCY __attribute__((swift_name("DEFAULT_CONCURRENCY")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.FlowPreview
+*/
+@property (class, readonly) NSString *DEFAULT_CONCURRENCY_PROPERTY_NAME __attribute__((swift_name("DEFAULT_CONCURRENCY_PROPERTY_NAME")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MigrationKt")))
 @interface KottageMigrationKt : KottageBase
 + (id<KottageFlow>)cache:(id<KottageFlow>)receiver __attribute__((swift_name("cache(_:)"))) __attribute__((unavailable("Flow analogue of 'cache()' is 'shareIn' with unlimited replay and 'started = SharingStared.Lazily' argument'")));
-+ (id<KottageFlow>)combineLatest:(id<KottageFlow>)receiver other:(id<KottageFlow>)other other2:(id<KottageFlow>)other2 other3:(id<KottageFlow>)other3 other4:(id<KottageFlow>)other4 transform:(id<KottageKotlinSuspendFunction5>)transform __attribute__((swift_name("combineLatest(_:other:other2:other3:other4:transform:)"))) __attribute__((unavailable("Flow analogue of 'combineLatest' is 'combine'")));
-+ (id<KottageFlow>)combineLatest:(id<KottageFlow>)receiver other:(id<KottageFlow>)other other2:(id<KottageFlow>)other2 other3:(id<KottageFlow>)other3 transform:(id<KottageKotlinSuspendFunction4>)transform __attribute__((swift_name("combineLatest(_:other:other2:other3:transform:)"))) __attribute__((unavailable("Flow analogue of 'combineLatest' is 'combine'")));
-+ (id<KottageFlow>)combineLatest:(id<KottageFlow>)receiver other:(id<KottageFlow>)other other2:(id<KottageFlow>)other2 transform:(id<KottageKotlinSuspendFunction3>)transform __attribute__((swift_name("combineLatest(_:other:other2:transform:)"))) __attribute__((unavailable("Flow analogue of 'combineLatest' is 'combine'")));
 + (id<KottageFlow>)combineLatest:(id<KottageFlow>)receiver other:(id<KottageFlow>)other transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combineLatest(_:other:transform:)"))) __attribute__((unavailable("Flow analogue of 'combineLatest' is 'combine'")));
++ (id<KottageFlow>)combineLatest:(id<KottageFlow>)receiver other:(id<KottageFlow>)other other2:(id<KottageFlow>)other2 transform:(id<KottageKotlinSuspendFunction3>)transform __attribute__((swift_name("combineLatest(_:other:other2:transform:)"))) __attribute__((unavailable("Flow analogue of 'combineLatest' is 'combine'")));
++ (id<KottageFlow>)combineLatest:(id<KottageFlow>)receiver other:(id<KottageFlow>)other other2:(id<KottageFlow>)other2 other3:(id<KottageFlow>)other3 transform:(id<KottageKotlinSuspendFunction4>)transform __attribute__((swift_name("combineLatest(_:other:other2:other3:transform:)"))) __attribute__((unavailable("Flow analogue of 'combineLatest' is 'combine'")));
++ (id<KottageFlow>)combineLatest:(id<KottageFlow>)receiver other:(id<KottageFlow>)other other2:(id<KottageFlow>)other2 other3:(id<KottageFlow>)other3 other4:(id<KottageFlow>)other4 transform:(id<KottageKotlinSuspendFunction5>)transform __attribute__((swift_name("combineLatest(_:other:other2:other3:other4:transform:)"))) __attribute__((unavailable("Flow analogue of 'combineLatest' is 'combine'")));
 + (id<KottageFlow>)compose:(id<KottageFlow>)receiver transformer:(id<KottageFlow> (^)(id<KottageFlow>))transformer __attribute__((swift_name("compose(_:transformer:)"))) __attribute__((unavailable("Flow analogue of 'compose' is 'let'")));
 + (id<KottageFlow>)concatMap:(id<KottageFlow>)receiver mapper:(id<KottageFlow> (^)(id _Nullable))mapper __attribute__((swift_name("concatMap(_:mapper:)"))) __attribute__((unavailable("Flow analogue of 'concatMap' is 'flatMapConcat'")));
 + (id<KottageFlow>)concatWith:(id<KottageFlow>)receiver value:(id _Nullable)value __attribute__((swift_name("concatWith(_:value:)"))) __attribute__((unavailable("Flow analogue of 'concatWith' is 'onCompletion'. Use 'onCompletion { emit(value) }'")));
@@ -3473,93 +3582,68 @@ __attribute__((swift_name("MigrationKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ErrorsKt")))
-@interface KottageErrorsKt : KottageBase
-+ (id<KottageFlow>)catch:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction2>)action __attribute__((swift_name("catch(_:action:)")));
-+ (id<KottageFlow>)retry:(id<KottageFlow>)receiver retries:(int64_t)retries predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("retry(_:retries:predicate:)")));
-+ (id<KottageFlow>)retryWhen:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction3>)predicate __attribute__((swift_name("retryWhen(_:predicate:)")));
+__attribute__((swift_name("MultithreadedDispatchers_commonKt")))
+@interface KottageMultithreadedDispatchers_commonKt : KottageBase
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ *   kotlinx.coroutines.DelicateCoroutinesApi
+*/
++ (KottageCloseableCoroutineDispatcher *)doNewSingleThreadContextName:(NSString *)name __attribute__((swift_name("doNewSingleThreadContext(name:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CollectKt")))
-@interface KottageCollectKt : KottageBase
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)collect:(id<KottageFlow>)receiver completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(_:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)collectIndexed:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction2>)action completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collectIndexed(_:action:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)collectLatest:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collectLatest(_:action:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)emitAll:(id<KottageFlowCollector>)receiver flow:(id<KottageFlow>)flow completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emitAll(_:flow:completionHandler:)")));
-+ (id<KottageJob>)launchIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope __attribute__((swift_name("launchIn(_:scope:)")));
+__attribute__((swift_name("MultithreadedDispatchersKt")))
+@interface KottageMultithreadedDispatchersKt : KottageBase
++ (KottageCloseableCoroutineDispatcher *)doNewFixedThreadPoolContextNThreads:(int32_t)nThreads name:(NSString *)name __attribute__((swift_name("doNewFixedThreadPoolContext(nThreads:name:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CountKt")))
-@interface KottageCountKt : KottageBase
+__attribute__((swift_name("MutexKt")))
+@interface KottageMutexKt : KottageBase
++ (id<KottageMutex>)MutexLocked:(BOOL)locked __attribute__((swift_name("Mutex(locked:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)count:(id<KottageFlow>)receiver completionHandler:(void (^)(KottageInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("count(_:completionHandler:)")));
++ (void)withLock:(id<KottageMutex>)receiver owner:(id _Nullable)owner action:(id _Nullable (^)(void))action completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withLock(_:owner:action:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OnTimeoutKt")))
+@interface KottageOnTimeoutKt : KottageBase
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
++ (void)onTimeout:(id<KottageSelectBuilder>)receiver timeMillis:(int64_t)timeMillis block:(id<KottageKotlinSuspendFunction0>)block __attribute__((swift_name("onTimeout(_:timeMillis:block:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
++ (void)onTimeout:(id<KottageSelectBuilder>)receiver timeout:(int64_t)timeout block:(id<KottageKotlinSuspendFunction0>)block __attribute__((swift_name("onTimeout(_:timeout:block:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ProduceKt")))
+@interface KottageProduceKt : KottageBase
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)count:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate completionHandler:(void (^)(KottageInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("count(_:predicate:completionHandler:)")));
-@end
++ (void)awaitClose:(id<KottageProducerScope>)receiver block:(void (^)(void))block completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("awaitClose(_:block:completionHandler:)")));
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DistinctKt")))
-@interface KottageDistinctKt : KottageBase
-+ (id<KottageFlow>)distinctUntilChanged:(id<KottageFlow>)receiver __attribute__((swift_name("distinctUntilChanged(_:)")));
-+ (id<KottageFlow>)distinctUntilChanged:(id<KottageFlow>)receiver areEquivalent:(KottageBoolean *(^)(id _Nullable, id _Nullable))areEquivalent __attribute__((swift_name("distinctUntilChanged(_:areEquivalent:)")));
-+ (id<KottageFlow>)distinctUntilChangedBy:(id<KottageFlow>)receiver keySelector:(id _Nullable (^)(id _Nullable))keySelector __attribute__((swift_name("distinctUntilChangedBy(_:keySelector:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("LimitKt")))
-@interface KottageLimitKt : KottageBase
-+ (id<KottageFlow>)drop:(id<KottageFlow>)receiver count:(int32_t)count __attribute__((swift_name("drop(_:count:)")));
-+ (id<KottageFlow>)dropWhile:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("dropWhile(_:predicate:)")));
-+ (id<KottageFlow>)take:(id<KottageFlow>)receiver count:(int32_t)count __attribute__((swift_name("take(_:count:)")));
-+ (id<KottageFlow>)takeWhile:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("takeWhile(_:predicate:)")));
-+ (id<KottageFlow>)transformWhile:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("transformWhile(_:transform:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("TransformKt")))
-@interface KottageTransformKt : KottageBase
-+ (id<KottageFlow>)filter:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("filter(_:predicate:)")));
-+ (id<KottageFlow>)filterIsInstance:(id<KottageFlow>)receiver __attribute__((swift_name("filterIsInstance(_:)")));
-+ (id<KottageFlow>)filterIsInstance:(id<KottageFlow>)receiver klass:(id<KottageKotlinKClass>)klass __attribute__((swift_name("filterIsInstance(_:klass:)")));
-+ (id<KottageFlow>)filterNot:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("filterNot(_:predicate:)")));
-+ (id<KottageFlow>)filterNotNull:(id<KottageFlow>)receiver __attribute__((swift_name("filterNotNull(_:)")));
-+ (id<KottageFlow>)map:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("map(_:transform:)")));
-+ (id<KottageFlow>)mapNotNull:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("mapNotNull(_:transform:)")));
-+ (id<KottageFlow>)onEach:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action __attribute__((swift_name("onEach(_:action:)")));
-+ (id<KottageFlow>)runningFold:(id<KottageFlow>)receiver initial:(id _Nullable)initial operation:(id<KottageKotlinSuspendFunction2>)operation __attribute__((swift_name("runningFold(_:initial:operation:)")));
-+ (id<KottageFlow>)runningReduce:(id<KottageFlow>)receiver operation:(id<KottageKotlinSuspendFunction2>)operation __attribute__((swift_name("runningReduce(_:operation:)")));
-+ (id<KottageFlow>)scan:(id<KottageFlow>)receiver initial:(id _Nullable)initial operation:(id<KottageKotlinSuspendFunction2>)operation __attribute__((swift_name("scan(_:initial:operation:)")));
-+ (id<KottageFlow>)withIndex:(id<KottageFlow>)receiver __attribute__((swift_name("withIndex(_:)")));
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
++ (id<KottageReceiveChannel>)produce:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("produce(_:context:capacity:block:)")));
++ (id<KottageReceiveChannel>)produce:(id<KottageCoroutineScope>)receiver context:(id<KottageKotlinCoroutineContext>)context capacity:(int32_t)capacity start:(KottageCoroutineStart *)start onCompletion:(void (^ _Nullable)(KottageKotlinThrowable * _Nullable))onCompletion block:(id<KottageKotlinSuspendFunction1>)block __attribute__((swift_name("produce(_:context:capacity:start:onCompletion:block:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3628,35 +3712,9 @@ __attribute__((swift_name("ReduceKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("EmittersKt")))
-@interface KottageEmittersKt : KottageBase
-+ (id<KottageFlow>)onCompletion:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction2>)action __attribute__((swift_name("onCompletion(_:action:)")));
-+ (id<KottageFlow>)onEmpty:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action __attribute__((swift_name("onEmpty(_:action:)")));
-+ (id<KottageFlow>)onStart:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action __attribute__((swift_name("onStart(_:action:)")));
-+ (id<KottageFlow>)transform:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("transform(_:transform:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CollectionKt")))
-@interface KottageCollectionKt : KottageBase
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)toCollection:(id<KottageFlow>)receiver destination:(id)destination completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toCollection(_:destination:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)toList:(id<KottageFlow>)receiver destination:(NSMutableArray<id> *)destination completionHandler:(void (^)(NSArray<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toList(_:destination:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)toSet:(id<KottageFlow>)receiver destination:(KottageMutableSet<id> *)destination completionHandler:(void (^)(NSSet<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("toSet(_:destination:completionHandler:)")));
+__attribute__((swift_name("RunnableKt")))
+@interface KottageRunnableKt : KottageBase
++ (id<KottageRunnable>)RunnableBlock:(void (^)(void))block __attribute__((swift_name("Runnable(block:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3682,33 +3740,58 @@ __attribute__((swift_name("SelectUnbiasedKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("WhileSelectKt")))
-@interface KottageWhileSelectKt : KottageBase
+__attribute__((swift_name("SemaphoreKt")))
+@interface KottageSemaphoreKt : KottageBase
++ (id<KottageSemaphore>)SemaphorePermits:(int32_t)permits acquiredPermits:(int32_t)acquiredPermits __attribute__((swift_name("Semaphore(permits:acquiredPermits:)")));
 
 /**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)whileSelectBuilder:(void (^)(id<KottageSelectBuilder>))builder completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("whileSelect(builder:completionHandler:)")));
++ (void)withPermit:(id<KottageSemaphore>)receiver action:(id _Nullable (^)(void))action completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withPermit(_:action:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OnTimeoutKt")))
-@interface KottageOnTimeoutKt : KottageBase
+__attribute__((swift_name("ShareKt")))
+@interface KottageShareKt : KottageBase
++ (id<KottageSharedFlow>)asSharedFlow:(id<KottageMutableSharedFlow>)receiver __attribute__((swift_name("asSharedFlow(_:)")));
++ (id<KottageStateFlow>)asStateFlow:(id<KottageMutableStateFlow>)receiver __attribute__((swift_name("asStateFlow(_:)")));
++ (id<KottageSharedFlow>)onSubscription:(id<KottageSharedFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action __attribute__((swift_name("onSubscription(_:action:)")));
++ (id<KottageSharedFlow>)shareIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope started:(id<KottageSharingStarted>)started replay:(int32_t)replay __attribute__((swift_name("shareIn(_:scope:started:replay:)")));
 
 /**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)onTimeout:(id<KottageSelectBuilder>)receiver timeMillis:(int64_t)timeMillis block:(id<KottageKotlinSuspendFunction0>)block __attribute__((swift_name("onTimeout(_:timeMillis:block:)")));
++ (void)stateIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope completionHandler:(void (^)(id<KottageStateFlow> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("stateIn(_:scope:completionHandler:)")));
++ (id<KottageStateFlow>)stateIn:(id<KottageFlow>)receiver scope:(id<KottageCoroutineScope>)scope started:(id<KottageSharingStarted>)started initialValue:(id _Nullable)initialValue __attribute__((swift_name("stateIn(_:scope:started:initialValue:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SharedFlowKt")))
+@interface KottageSharedFlowKt : KottageBase
++ (id<KottageMutableSharedFlow>)MutableSharedFlowReplay:(int32_t)replay extraBufferCapacity:(int32_t)extraBufferCapacity onBufferOverflow:(KottageBufferOverflow *)onBufferOverflow __attribute__((swift_name("MutableSharedFlow(replay:extraBufferCapacity:onBufferOverflow:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("StateFlowKt")))
+@interface KottageStateFlowKt : KottageBase
++ (id<KottageMutableStateFlow>)MutableStateFlowValue:(id _Nullable)value __attribute__((swift_name("MutableStateFlow(value:)")));
++ (id _Nullable)getAndUpdate:(id<KottageMutableStateFlow>)receiver function:(id _Nullable (^)(id _Nullable))function __attribute__((swift_name("getAndUpdate(_:function:)")));
++ (void)update:(id<KottageMutableStateFlow>)receiver function:(id _Nullable (^)(id _Nullable))function __attribute__((swift_name("update(_:function:)")));
++ (id _Nullable)updateAndGet:(id<KottageMutableStateFlow>)receiver function:(id _Nullable (^)(id _Nullable))function __attribute__((swift_name("updateAndGet(_:function:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("SupervisorKt")))
+@interface KottageSupervisorKt : KottageBase
++ (id<KottageCompletableJob>)SupervisorJobParent:(id<KottageJob> _Nullable)parent __attribute__((swift_name("SupervisorJob(parent:)")));
 
 /**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)onTimeout:(id<KottageSelectBuilder>)receiver timeout:(int64_t)timeout block:(id<KottageKotlinSuspendFunction0>)block __attribute__((swift_name("onTimeout(_:timeout:block:)")));
++ (void)supervisorScopeBlock:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("supervisorScope(block:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3724,168 +3807,192 @@ __attribute__((swift_name("SynchronizedKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DispatchedContinuationKt")))
-@interface KottageDispatchedContinuationKt : KottageBase
-+ (void)resumeCancellableWith:(id<KottageKotlinContinuation>)receiver result:(id _Nullable)result onCancellation:(void (^ _Nullable)(KottageKotlinThrowable *))onCancellation __attribute__((swift_name("resumeCancellableWith(_:result:onCancellation:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("MutexKt")))
-@interface KottageMutexKt : KottageBase
-+ (id<KottageMutex>)MutexLocked:(BOOL)locked __attribute__((swift_name("Mutex(locked:)")));
+__attribute__((swift_name("TimeoutKt")))
+@interface KottageTimeoutKt : KottageBase
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)withLock:(id<KottageMutex>)receiver owner:(id _Nullable)owner action:(id _Nullable (^)(void))action completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withLock(_:owner:action:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("SemaphoreKt")))
-@interface KottageSemaphoreKt : KottageBase
-+ (id<KottageSemaphore>)SemaphorePermits:(int32_t)permits acquiredPermits:(int32_t)acquiredPermits __attribute__((swift_name("Semaphore(permits:acquiredPermits:)")));
++ (void)withTimeoutTimeMillis:(int64_t)timeMillis block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withTimeout(timeMillis:block:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)withPermit:(id<KottageSemaphore>)receiver action:(id _Nullable (^)(void))action completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withPermit(_:action:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonKt")))
-@interface KottageJsonKt : KottageBase
-+ (KottageJson *)JsonFrom:(KottageJson *)from builderAction:(void (^)(KottageJsonBuilder *))builderAction __attribute__((swift_name("Json(from:builderAction:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonElementKt")))
-@interface KottageJsonElementKt : KottageBase
-+ (KottageJsonPrimitive *)JsonPrimitiveValue:(KottageBoolean * _Nullable)value __attribute__((swift_name("JsonPrimitive(value:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-+ (KottageJsonNull *)JsonPrimitiveValue_:(KottageKotlinNothing * _Nullable)value __attribute__((swift_name("JsonPrimitive(value_:)")));
-+ (KottageJsonPrimitive *)JsonPrimitiveValue__:(id _Nullable)value __attribute__((swift_name("JsonPrimitive(value__:)")));
-+ (KottageJsonPrimitive *)JsonPrimitiveValue___:(NSString * _Nullable)value __attribute__((swift_name("JsonPrimitive(value___:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-+ (KottageJsonPrimitive *)JsonPrimitiveValue____:(uint8_t)value __attribute__((swift_name("JsonPrimitive(value____:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-+ (KottageJsonPrimitive *)JsonPrimitiveValue_____:(uint32_t)value __attribute__((swift_name("JsonPrimitive(value_____:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-+ (KottageJsonPrimitive *)JsonPrimitiveValue______:(uint64_t)value __attribute__((swift_name("JsonPrimitive(value______:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-+ (KottageJsonPrimitive *)JsonPrimitiveValue_______:(uint16_t)value __attribute__((swift_name("JsonPrimitive(value_______:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-+ (KottageJsonPrimitive *)JsonUnquotedLiteralValue:(NSString * _Nullable)value __attribute__((swift_name("JsonUnquotedLiteral(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("JsonElementBuildersKt")))
-@interface KottageJsonElementBuildersKt : KottageBase
-+ (NSArray<KottageJsonElement *> *)buildJsonArrayBuilderAction:(void (^)(KottageJsonArrayBuilder *))builderAction __attribute__((swift_name("buildJsonArray(builderAction:)")));
-+ (NSDictionary<NSString *, KottageJsonElement *> *)buildJsonObjectBuilderAction:(void (^)(KottageJsonObjectBuilder *))builderAction __attribute__((swift_name("buildJsonObject(builderAction:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KottageListValueKt")))
-@interface KottageKottageListValueKt : KottageBase
-+ (KottageKottageListValue<id> *)kottageListValueKey:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData __attribute__((swift_name("kottageListValue(key:value:metaData:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KottageListKt")))
-@interface KottageKottageListKt : KottageBase
++ (void)withTimeoutTimeout:(int64_t)timeout block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withTimeout(timeout:block:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)add:(id<KottageKottageList>)receiver key:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("add(_:key:value:metaData:completionHandler:)")));
++ (void)withTimeoutOrNullTimeMillis:(int64_t)timeMillis block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withTimeoutOrNull(timeMillis:block:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)addFirst:(id<KottageKottageList>)receiver key:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("addFirst(_:key:value:metaData:completionHandler:)")));
-
-/**
- * @note This method converts instances of NoSuchElementException, CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)insertAfter:(id<KottageKottageList>)receiver positionId:(NSString *)positionId key:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("insertAfter(_:positionId:key:value:metaData:completionHandler:)")));
-
-/**
- * @note This method converts instances of NoSuchElementException, CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)insertBefore:(id<KottageKottageList>)receiver positionId:(NSString *)positionId key:(NSString *)key value:(id)value metaData:(KottageKottageListMetaData * _Nullable)metaData completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("insertBefore(_:positionId:key:value:metaData:completionHandler:)")));
-
-/**
- * @note This method converts instances of NoSuchElementException, CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)update:(id<KottageKottageList>)receiver positionId:(NSString *)positionId key:(NSString *)key value:(id)value completionHandler:(void (^)(KottageKottageListEntry * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("update(_:positionId:key:value:completionHandler:)")));
++ (void)withTimeoutOrNullTimeout:(int64_t)timeout block:(id<KottageKotlinSuspendFunction1>)block completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("withTimeoutOrNull(timeout:block:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KottageStorageKt")))
-@interface KottageKottageStorageKt : KottageBase
+__attribute__((swift_name("TransformKt")))
+@interface KottageTransformKt : KottageBase
++ (id<KottageFlow>)filter:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("filter(_:predicate:)")));
++ (id<KottageFlow>)filterIsInstance:(id<KottageFlow>)receiver __attribute__((swift_name("filterIsInstance(_:)")));
++ (id<KottageFlow>)filterIsInstance:(id<KottageFlow>)receiver klass:(id<KottageKotlinKClass>)klass __attribute__((swift_name("filterIsInstance(_:klass:)")));
++ (id<KottageFlow>)filterNot:(id<KottageFlow>)receiver predicate:(id<KottageKotlinSuspendFunction1>)predicate __attribute__((swift_name("filterNot(_:predicate:)")));
++ (id<KottageFlow>)filterNotNull:(id<KottageFlow>)receiver __attribute__((swift_name("filterNotNull(_:)")));
++ (id<KottageFlow>)map:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("map(_:transform:)")));
++ (id<KottageFlow>)mapNotNull:(id<KottageFlow>)receiver transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("mapNotNull(_:transform:)")));
++ (id<KottageFlow>)onEach:(id<KottageFlow>)receiver action:(id<KottageKotlinSuspendFunction1>)action __attribute__((swift_name("onEach(_:action:)")));
++ (id<KottageFlow>)runningFold:(id<KottageFlow>)receiver initial:(id _Nullable)initial operation:(id<KottageKotlinSuspendFunction2>)operation __attribute__((swift_name("runningFold(_:initial:operation:)")));
++ (id<KottageFlow>)runningReduce:(id<KottageFlow>)receiver operation:(id<KottageKotlinSuspendFunction2>)operation __attribute__((swift_name("runningReduce(_:operation:)")));
++ (id<KottageFlow>)scan:(id<KottageFlow>)receiver initial:(id _Nullable)initial operation:(id<KottageKotlinSuspendFunction2>)operation __attribute__((swift_name("scan(_:initial:operation:)")));
++ (id<KottageFlow>)withIndex:(id<KottageFlow>)receiver __attribute__((swift_name("withIndex(_:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("WhileSelectKt")))
+@interface KottageWhileSelectKt : KottageBase
 
 /**
- * @note This method converts instances of NoSuchElementException, ClassCastException, SerializationException, CancellationException to errors.
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+ * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)get:(id<KottageKottageStorage>)receiver key:(NSString *)key completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("get(_:key:completionHandler:)")));
++ (void)whileSelectBuilder:(void (^)(id<KottageSelectBuilder>))builder completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("whileSelect(builder:completionHandler:)")));
+@end
 
-/**
- * @note This method converts instances of NoSuchElementException, CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-+ (void)getEntry:(id<KottageKottageStorage>)receiver key:(NSString *)key completionHandler:(void (^)(KottageKottageEntry<id> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getEntry(_:key:completionHandler:)")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("YieldKt")))
+@interface KottageYieldKt : KottageBase
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-+ (void)getEntryOrNull:(id<KottageKottageStorage>)receiver key:(NSString *)key completionHandler:(void (^)(KottageKottageEntry<id> * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getEntryOrNull(_:key:completionHandler:)")));
++ (void)yieldWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("yield(completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ZipKt")))
+@interface KottageZipKt : KottageBase
++ (id<KottageFlow>)combineFlows:(KottageKotlinArray<id<KottageFlow>> *)flows transform:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("combine(flows:transform:)")));
++ (id<KottageFlow>)combineFlows:(id)flows transform_:(id<KottageKotlinSuspendFunction1>)transform __attribute__((swift_name("combine(flows:transform_:)")));
 
 /**
- * @note This method converts instances of ClassCastException, SerializationException, CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
+ * @note annotations
+ *   kotlin.jvm.JvmName(name="flowCombine")
 */
-+ (void)getOrNull:(id<KottageKottageStorage>)receiver key:(NSString *)key completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getOrNull(_:key:completionHandler:)")));
-+ (id<KottageKotlinReadOnlyProperty>)nullableProperty:(id<KottageKottageStorage>)receiver key:(NSString * _Nullable)key expireTime:(id _Nullable)expireTime __attribute__((swift_name("nullableProperty(_:key:expireTime:)")));
-+ (id<KottageKotlinReadOnlyProperty>)property:(id<KottageKottageStorage>)receiver key:(NSString * _Nullable)key expireTime:(id _Nullable)expireTime defaultValue:(id (^)(void))defaultValue __attribute__((swift_name("property(_:key:expireTime:defaultValue:)")));
++ (id<KottageFlow>)combine:(id<KottageFlow>)receiver flow:(id<KottageFlow>)flow transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combine(_:flow:transform:)")));
++ (id<KottageFlow>)combineFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combine(flow:flow2:transform:)")));
++ (id<KottageFlow>)combineFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 transform:(id<KottageKotlinSuspendFunction3>)transform __attribute__((swift_name("combine(flow:flow2:flow3:transform:)")));
++ (id<KottageFlow>)combineFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 flow4:(id<KottageFlow>)flow4 transform:(id<KottageKotlinSuspendFunction4>)transform __attribute__((swift_name("combine(flow:flow2:flow3:flow4:transform:)")));
++ (id<KottageFlow>)combineFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 flow4:(id<KottageFlow>)flow4 flow5:(id<KottageFlow>)flow5 transform:(id<KottageKotlinSuspendFunction5>)transform __attribute__((swift_name("combine(flow:flow2:flow3:flow4:flow5:transform:)")));
++ (id<KottageFlow>)combineTransformFlows:(KottageKotlinArray<id<KottageFlow>> *)flows transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combineTransform(flows:transform:)")));
++ (id<KottageFlow>)combineTransformFlows:(id)flows transform_:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("combineTransform(flows:transform_:)")));
 
 /**
- * @note This method converts instances of ClassCastException, SerializationException, CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
+ * @note annotations
+ *   kotlin.jvm.JvmName(name="flowCombineTransform")
 */
-+ (void)put:(id<KottageKottageStorage>)receiver key:(NSString *)key value:(id)value expireTime:(id _Nullable)expireTime completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("put(_:key:value:expireTime:completionHandler:)")));
++ (id<KottageFlow>)combineTransform:(id<KottageFlow>)receiver flow:(id<KottageFlow>)flow transform:(id<KottageKotlinSuspendFunction3>)transform __attribute__((swift_name("combineTransform(_:flow:transform:)")));
++ (id<KottageFlow>)combineTransformFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 transform:(id<KottageKotlinSuspendFunction3>)transform __attribute__((swift_name("combineTransform(flow:flow2:transform:)")));
++ (id<KottageFlow>)combineTransformFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 transform:(id<KottageKotlinSuspendFunction4>)transform __attribute__((swift_name("combineTransform(flow:flow2:flow3:transform:)")));
++ (id<KottageFlow>)combineTransformFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 flow4:(id<KottageFlow>)flow4 transform:(id<KottageKotlinSuspendFunction5>)transform __attribute__((swift_name("combineTransform(flow:flow2:flow3:flow4:transform:)")));
++ (id<KottageFlow>)combineTransformFlow:(id<KottageFlow>)flow flow2:(id<KottageFlow>)flow2 flow3:(id<KottageFlow>)flow3 flow4:(id<KottageFlow>)flow4 flow5:(id<KottageFlow>)flow5 transform:(id<KottageKotlinSuspendFunction6>)transform __attribute__((swift_name("combineTransform(flow:flow2:flow3:flow4:flow5:transform:)")));
++ (id<KottageFlow>)zip:(id<KottageFlow>)receiver other:(id<KottageFlow>)other transform:(id<KottageKotlinSuspendFunction2>)transform __attribute__((swift_name("zip(_:other:transform:)")));
+@end
+
+__attribute__((swift_name("KotlinClassCastException")))
+@interface KottageKotlinClassCastException : KottageKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((swift_name("KotlinIllegalArgumentException")))
+@interface KottageKotlinIllegalArgumentException : KottageKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationException")))
+@interface KottageKotlinx_serialization_coreSerializationException : KottageKotlinIllegalArgumentException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((swift_name("KotlinKType")))
+@protocol KottageKotlinKType
+@required
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+@property (readonly) NSArray<KottageKotlinKTypeProjection *> *arguments __attribute__((swift_name("arguments")));
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+@property (readonly) id<KottageKotlinKClassifier> _Nullable classifier __attribute__((swift_name("classifier")));
+@property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface KottageKotlinEnumCompanion : KottageBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) KottageKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("KotlinIndexOutOfBoundsException")))
+@interface KottageKotlinIndexOutOfBoundsException : KottageKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((swift_name("KotlinReadOnlyProperty")))
+@protocol KottageKotlinReadOnlyProperty
+@required
+- (id _Nullable)getValueThisRef:(id _Nullable)thisRef property:(id<KottageKotlinKProperty>)property __attribute__((swift_name("getValue(thisRef:property:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinByteArray")))
+@interface KottageKotlinByteArray : KottageBase
++ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
++ (instancetype)arrayWithSize:(int32_t)size init:(KottageByte *(^)(KottageInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (KottageKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CoreContext")))
+@interface KottageCoreContext : KottageBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end
 
 __attribute__((swift_name("KotlinSequence")))
@@ -3911,12 +4018,30 @@ __attribute__((swift_name("KotlinSuspendFunction1")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface KottageKotlinEnumCompanion : KottageBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) KottageKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+__attribute__((swift_name("AtomicfuSynchronizedObject.LockState")))
+@interface KottageAtomicfuSynchronizedObjectLockState : KottageBase
+- (instancetype)initWithStatus:(KottageAtomicfuSynchronizedObjectStatus *)status nestedLocks:(int32_t)nestedLocks waiters:(int32_t)waiters ownerThreadId:(void * _Nullable)ownerThreadId mutex:(void * _Nullable)mutex __attribute__((swift_name("init(status:nestedLocks:waiters:ownerThreadId:mutex:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) void * _Nullable mutex __attribute__((swift_name("mutex")));
+@property (readonly) int32_t nestedLocks __attribute__((swift_name("nestedLocks")));
+@property (readonly) void * _Nullable ownerThreadId __attribute__((swift_name("ownerThreadId")));
+@property (readonly) KottageAtomicfuSynchronizedObjectStatus *status __attribute__((swift_name("status")));
+@property (readonly) int32_t waiters __attribute__((swift_name("waiters")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.9")
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinAtomicReference")))
+@interface KottageKotlinAtomicReference<T> : KottageBase
+- (instancetype)initWithValue:(T _Nullable)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
+- (T _Nullable)compareAndExchangeExpected:(T _Nullable)expected newValue:(T _Nullable)newValue __attribute__((swift_name("compareAndExchange(expected:newValue:)")));
+- (BOOL)compareAndSetExpected:(T _Nullable)expected newValue:(T _Nullable)newValue __attribute__((swift_name("compareAndSet(expected:newValue:)")));
+- (T _Nullable)getAndSetNewValue:(T _Nullable)newValue __attribute__((swift_name("getAndSet(newValue:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property T _Nullable value __attribute__((swift_name("value")));
 @end
 
 __attribute__((swift_name("KotlinSuspendFunction0")))
@@ -3938,33 +4063,6 @@ __attribute__((swift_name("KotlinUnit")))
 + (instancetype)unit __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) KottageKotlinUnit *shared __attribute__((swift_name("shared")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AtomicfuSynchronizedObject.LockState")))
-@interface KottageAtomicfuSynchronizedObjectLockState : KottageBase
-- (instancetype)initWithStatus:(KottageAtomicfuSynchronizedObjectStatus *)status nestedLocks:(int32_t)nestedLocks waiters:(int32_t)waiters ownerThreadId:(void * _Nullable)ownerThreadId mutex:(void * _Nullable)mutex __attribute__((swift_name("init(status:nestedLocks:waiters:ownerThreadId:mutex:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) void * _Nullable mutex __attribute__((swift_name("mutex")));
-@property (readonly) int32_t nestedLocks __attribute__((swift_name("nestedLocks")));
-@property (readonly) void * _Nullable ownerThreadId __attribute__((swift_name("ownerThreadId")));
-@property (readonly) KottageAtomicfuSynchronizedObjectStatus *status __attribute__((swift_name("status")));
-@property (readonly) int32_t waiters __attribute__((swift_name("waiters")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.DeprecatedSinceKotlin(warningSince="1.9")
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinAtomicReference")))
-@interface KottageKotlinAtomicReference<T> : KottageBase
-- (instancetype)initWithValue:(T _Nullable)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("Use kotlin.concurrent.AtomicReference instead.")));
-- (BOOL)compareAndSetExpected:(T _Nullable)expected newValue:(T _Nullable)newValue __attribute__((swift_name("compareAndSet(expected:newValue:)")));
-- (T _Nullable)compareAndSwapExpected:(T _Nullable)expected newValue:(T _Nullable)newValue __attribute__((swift_name("compareAndSwap(expected:newValue:)")));
-- (T _Nullable)getAndSetNewValue:(T _Nullable)newValue __attribute__((swift_name("getAndSet(newValue:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property T _Nullable value __attribute__((swift_name("value")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
@@ -4099,86 +4197,6 @@ __attribute__((swift_name("KotlinNothing")))
 @interface KottageKotlinNothing : KottageBase
 @end
 
-__attribute__((swift_name("KotlinClassCastException")))
-@interface KottageKotlinClassCastException : KottageKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-__attribute__((swift_name("KotlinIllegalArgumentException")))
-@interface KottageKotlinIllegalArgumentException : KottageKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializationException")))
-@interface KottageKotlinx_serialization_coreSerializationException : KottageKotlinIllegalArgumentException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("KotlinKType")))
-@protocol KottageKotlinKType
-@required
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.1")
-*/
-@property (readonly) NSArray<KottageKotlinKTypeProjection *> *arguments __attribute__((swift_name("arguments")));
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.1")
-*/
-@property (readonly) id<KottageKotlinKClassifier> _Nullable classifier __attribute__((swift_name("classifier")));
-@property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
-@end
-
-__attribute__((swift_name("KotlinIndexOutOfBoundsException")))
-@interface KottageKotlinIndexOutOfBoundsException : KottageKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithCause:(KottageKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-__attribute__((swift_name("KotlinReadOnlyProperty")))
-@protocol KottageKotlinReadOnlyProperty
-@required
-- (id _Nullable)getValueThisRef:(id _Nullable)thisRef property:(id<KottageKotlinKProperty>)property __attribute__((swift_name("getValue(thisRef:property:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("CoreContext")))
-@interface KottageCoreContext : KottageBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinByteArray")))
-@interface KottageKotlinByteArray : KottageBase
-+ (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
-+ (instancetype)arrayWithSize:(int32_t)size init:(KottageByte *(^)(KottageInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (int8_t)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (KottageKotlinByteIterator *)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(int8_t)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
-@end
-
 __attribute__((swift_name("KotlinIterator")))
 @protocol KottageKotlinIterator
 @required
@@ -4264,17 +4282,6 @@ __attribute__((swift_name("KotlinSuspendFunction3")))
 - (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 p3:(id _Nullable)p3 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:p3:completionHandler:)")));
 @end
 
-__attribute__((swift_name("KotlinSuspendFunction5")))
-@protocol KottageKotlinSuspendFunction5 <KottageKotlinFunction>
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 p3:(id _Nullable)p3 p4:(id _Nullable)p4 p5:(id _Nullable)p5 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:p3:p4:p5:completionHandler:)")));
-@end
-
 __attribute__((swift_name("KotlinSuspendFunction4")))
 @protocol KottageKotlinSuspendFunction4 <KottageKotlinFunction>
 @required
@@ -4286,6 +4293,17 @@ __attribute__((swift_name("KotlinSuspendFunction4")))
 - (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 p3:(id _Nullable)p3 p4:(id _Nullable)p4 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:p3:p4:completionHandler:)")));
 @end
 
+__attribute__((swift_name("KotlinSuspendFunction5")))
+@protocol KottageKotlinSuspendFunction5 <KottageKotlinFunction>
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 p3:(id _Nullable)p3 p4:(id _Nullable)p4 p5:(id _Nullable)p5 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:p3:p4:p5:completionHandler:)")));
+@end
+
 __attribute__((swift_name("KotlinSuspendFunction6")))
 @protocol KottageKotlinSuspendFunction6 <KottageKotlinFunction>
 @required
@@ -4295,50 +4313,6 @@ __attribute__((swift_name("KotlinSuspendFunction6")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 p3:(id _Nullable)p3 p4:(id _Nullable)p4 p5:(id _Nullable)p5 p6:(id _Nullable)p6 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:p3:p4:p5:p6:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("AtomicfuSynchronizedObject.Status")))
-@interface KottageAtomicfuSynchronizedObjectStatus : KottageKotlinEnum<KottageAtomicfuSynchronizedObjectStatus *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) KottageAtomicfuSynchronizedObjectStatus *unlocked __attribute__((swift_name("unlocked")));
-@property (class, readonly) KottageAtomicfuSynchronizedObjectStatus *thin __attribute__((swift_name("thin")));
-@property (class, readonly) KottageAtomicfuSynchronizedObjectStatus *fat __attribute__((swift_name("fat")));
-+ (KottageKotlinArray<KottageAtomicfuSynchronizedObjectStatus *> *)values __attribute__((swift_name("values()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
-@protocol KottageKotlinx_serialization_coreSerializersModuleCollector
-@required
-- (void)contextualKClass:(id<KottageKotlinKClass>)kClass provider:(id<KottageKotlinx_serialization_coreKSerializer> (^)(NSArray<id<KottageKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
-- (void)contextualKClass:(id<KottageKotlinKClass>)kClass serializer:(id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
-- (void)polymorphicBaseClass:(id<KottageKotlinKClass>)baseClass actualClass:(id<KottageKotlinKClass>)actualClass actualSerializer:(id<KottageKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
-- (void)polymorphicDefaultBaseClass:(id<KottageKotlinKClass>)baseClass defaultDeserializerProvider:(id<KottageKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)"))) __attribute__((deprecated("Deprecated in favor of function with more precise name: polymorphicDefaultDeserializer")));
-- (void)polymorphicDefaultDeserializerBaseClass:(id<KottageKotlinKClass>)baseClass defaultDeserializerProvider:(id<KottageKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
-- (void)polymorphicDefaultSerializerBaseClass:(id<KottageKotlinKClass>)baseClass defaultSerializerProvider:(id<KottageKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
-@end
-
-__attribute__((swift_name("KotlinAnnotation")))
-@protocol KottageKotlinAnnotation
-@required
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-__attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
-@interface KottageKotlinx_serialization_coreSerialKind : KottageBase
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
 @end
 
 
@@ -4377,6 +4351,51 @@ __attribute__((swift_name("KotlinByteIterator")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (KottageByte *)next __attribute__((swift_name("next()")));
 - (int8_t)nextByte __attribute__((swift_name("nextByte()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AtomicfuSynchronizedObject.Status")))
+@interface KottageAtomicfuSynchronizedObjectStatus : KottageKotlinEnum<KottageAtomicfuSynchronizedObjectStatus *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) KottageAtomicfuSynchronizedObjectStatus *unlocked __attribute__((swift_name("unlocked")));
+@property (class, readonly) KottageAtomicfuSynchronizedObjectStatus *thin __attribute__((swift_name("thin")));
+@property (class, readonly) KottageAtomicfuSynchronizedObjectStatus *fat __attribute__((swift_name("fat")));
++ (KottageKotlinArray<KottageAtomicfuSynchronizedObjectStatus *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<KottageAtomicfuSynchronizedObjectStatus *> *entries __attribute__((swift_name("entries")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
+@protocol KottageKotlinx_serialization_coreSerializersModuleCollector
+@required
+- (void)contextualKClass:(id<KottageKotlinKClass>)kClass provider:(id<KottageKotlinx_serialization_coreKSerializer> (^)(NSArray<id<KottageKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
+- (void)contextualKClass:(id<KottageKotlinKClass>)kClass serializer:(id<KottageKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
+- (void)polymorphicBaseClass:(id<KottageKotlinKClass>)baseClass actualClass:(id<KottageKotlinKClass>)actualClass actualSerializer:(id<KottageKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
+- (void)polymorphicDefaultBaseClass:(id<KottageKotlinKClass>)baseClass defaultDeserializerProvider:(id<KottageKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)"))) __attribute__((deprecated("Deprecated in favor of function with more precise name: polymorphicDefaultDeserializer")));
+- (void)polymorphicDefaultDeserializerBaseClass:(id<KottageKotlinKClass>)baseClass defaultDeserializerProvider:(id<KottageKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
+- (void)polymorphicDefaultSerializerBaseClass:(id<KottageKotlinKClass>)baseClass defaultSerializerProvider:(id<KottageKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
+@end
+
+__attribute__((swift_name("KotlinAnnotation")))
+@protocol KottageKotlinAnnotation
+@required
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((swift_name("Kotlinx_serialization_coreSerialKind")))
+@interface KottageKotlinx_serialization_coreSerialKind : KottageBase
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @end
 
 
